@@ -4,7 +4,7 @@ var skills = [
     id: 'work-report-01', name: '工作汇报 skill · 全流程生成', scene: '工作汇报', style: '商务', language: '中文', price: 9.9, isFree: false,
     previewDesc: '给 agent 喂的 PPT skill，让 AI 按专业工作流生成汇报',
     recommendedAgent: 'Codex', gradient: '#2563eb',
-    previewImages: ['/images/promotion-member.png', '/images/promotion-invite.png'],
+    previewImages: ['/images/skills/work-report-01.png', '/images/skills/work-report-free.png'],
     includes: { layouts: 10, styles: 8, charts: 13 },
     suitableFor: ['季度汇报', '年度总结', '述职报告', '项目汇报'],
     usageSteps: [
@@ -22,7 +22,7 @@ var skills = [
     id: 'work-report-free', name: '基础工作汇报 skill', scene: '工作汇报', style: '商务', language: '中文', price: 0, isFree: true,
     previewDesc: '免费导流品：基础 skill，让 agent 生成汇报 PPT',
     recommendedAgent: '豆包', gradient: '#16a34a',
-    previewImages: ['/images/promotion-free.png'],
+    previewImages: ['/images/skills/work-report-free.png'],
     includes: { layouts: 3, styles: 2, charts: 5 },
     suitableFor: ['周报', '月报', '简报'],
     usageSteps: [
@@ -39,7 +39,7 @@ var skills = [
     id: 'defense-01', name: '科研答辩 skill · 清爽专业风', scene: '答辩', style: '答辩', language: '中文', price: 9.9, isFree: false,
     previewDesc: '科研答辩 skill，让 agent 生成不撞款答辩 PPT',
     recommendedAgent: 'Codex', gradient: '#7c3aed',
-    previewImages: ['/images/promotion-community.png'],
+    previewImages: ['/images/skills/defense-01.png'],
     includes: { layouts: 8, styles: 5, charts: 10 },
     suitableFor: ['毕业答辩', '开题报告', '中期检查', '论文答辩'],
     usageSteps: [
@@ -57,7 +57,7 @@ var skills = [
     id: 'defense-free', name: '基础答辩 skill', scene: '答辩', style: '答辩', language: '中文', price: 0, isFree: true,
     previewDesc: '免费导流品：基础答辩 skill',
     recommendedAgent: '豆包', gradient: '#0891b2',
-    previewImages: ['/images/promotion-free.png'],
+    previewImages: ['/images/skills/work-report-free.png'],
     includes: { layouts: 3, styles: 2, charts: 4 },
     suitableFor: ['课程答辩', '简单汇报'],
     usageSteps: [
@@ -72,7 +72,7 @@ var skills = [
     id: 'academic-01', name: '学术论文 skill · 英文', scene: '学术研究', style: '学术', language: '英文', price: 9.9, isFree: false,
     previewDesc: '学术 PPT skill，含 slide patterns + content guidelines',
     recommendedAgent: 'Codex', gradient: '#ea580c',
-    previewImages: ['/images/promotion-sale.png'],
+    previewImages: ['/images/skills/academic-01.png'],
     includes: { layouts: 6, styles: 4, charts: 8 },
     suitableFor: ['学术报告', '会议演讲', '论文展示'],
     usageSteps: [
@@ -89,7 +89,7 @@ var skills = [
     id: 'thesis-defense-01', name: '论文答辩 skill · 可编辑 PPTX', scene: '答辩', style: '答辩', language: '中文', price: 19.9, isFree: false,
     previewDesc: 'Codex/Claude skill 生成可编辑论文答辩 PPTX',
     recommendedAgent: 'Codex', gradient: '#be185d',
-    previewImages: ['/images/promotion-invite.png'],
+    previewImages: ['/images/skills/thesis-defense-01.png'],
     includes: { layouts: 12, styles: 6, charts: 15 },
     suitableFor: ['论文答辩', '学位答辩', '毕业答辩'],
     usageSteps: [
@@ -106,7 +106,7 @@ var skills = [
     id: 'corporate-01', name: '日企商务 skill', scene: '商务展示', style: '日企', language: '英文', price: 9.9, isFree: false,
     previewDesc: '日企风格 PPT skill，商务正式',
     recommendedAgent: 'WorkBuddy', gradient: '#475569',
-    previewImages: ['/images/promotion-member.png'],
+    previewImages: ['/images/skills/corporate-01.png'],
     includes: { layouts: 5, styles: 3, charts: 6 },
     suitableFor: ['商务提案', '企业展示', '正式汇报'],
     usageSteps: [
@@ -121,7 +121,7 @@ var skills = [
     id: 'corporate-deck-01', name: '商务汇报 Deck skill', scene: '工作汇报', style: '商务', language: '英文', price: 9.9, isFree: false,
     previewDesc: '企业商务 deck 生成 skill',
     recommendedAgent: 'WorkBuddy', gradient: '#1e40af',
-    previewImages: ['/images/promotion-sale.png'],
+    previewImages: ['/images/skills/academic-01.png'],
     includes: { layouts: 7, styles: 4, charts: 9 },
     suitableFor: ['商务汇报', '企业展示', '投资者报告'],
     usageSteps: [

@@ -1,4 +1,4 @@
-// pages/detail/detail.js · V2 详情页（预览图+包含内容+适用场景+使用步骤+评价+相关推荐+分享+收藏）
+// pages/detail/detail.js · V2 支付联调（调云函数下单+wx.requestVirtualPayment）
 var skillsData = require('../../data/skills.js');
 
 Page({
@@ -67,11 +67,56 @@ Page({
   },
 
   requestPayment: function() {
-    wx.showToast({ title: '支付功能联调中', icon: 'none' });
     var self = this;
-    setTimeout(function() {
-      self.unlockSkill();
-    }, 1500);
+    var skill = this.data.skill;
+    var amount = Math.round(skill.price * 100);
+
+    wx.showLoading({ title: '正在下单...' });
+
+    wx.cloud.callFunction({
+      name: 'payment',
+      data: {
+        action: 'createOrder',
+        data: {
+          mode: 'short_series_goods',
+          amount: amount,
+          attach: skill.id,
+          productId: skill.id
+        }
+      },
+      success: function(res) {
+        wx.hideLoading();
+        var result = res.result;
+        if (result && result.errno === 0) {
+          self.callVirtualPayment(result, amount);
+        } else {
+          wx.showToast({ title: '下单失败：' + (result ? result.errMsg : '未知错误'), icon: 'none' });
+        }
+      },
+      fail: function(err) {
+        wx.hideLoading();
+        wx.showToast({ title: '云函数调用失败，使用模拟支付', icon: 'none' });
+        setTimeout(function() { self.unlockSkill(); }, 1500);
+      }
+    });
+  },
+
+  callVirtualPayment: function(orderData, amount) {
+    var self = this;
+    wx.requestVirtualPayment({
+      mode: 'short_series_goods',
+      offerId: orderData.offerId || '1450602455',
+      buyQuantity: 1,
+      env: 0,
+      currencyType: 'CNY',
+      outTradeNo: orderData.outTradeNo,
+      success: function() {
+        self.unlockSkill();
+      },
+      fail: function() {
+        wx.showToast({ title: '支付取消', icon: 'none' });
+      }
+    });
   },
 
   unlockSkill: function() {

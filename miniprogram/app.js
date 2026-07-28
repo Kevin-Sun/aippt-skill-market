@@ -1,8 +1,21 @@
+// app.js · 开启云开发
 App({
   globalData: {
     userInfo: null,
-    openid: null
+    openid: null,
   },
   onLaunch: function() {
-  }
+    if (!wx.cloud) {
+      console.warn('请使用 2.2.3 或以上的基础库以使用云能力');
+    } else {
+      try {
+        wx.cloud.init({
+          env: 'template-prj-wzqm-d2dnx664dea841',
+          traceUser: true,
+        });
+      } catch (e) {
+        console.warn('云开发初始化失败:', e);
+      }
+    }
+  },
 });

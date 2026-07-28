@@ -33,5 +33,5 @@
   "sitemapLocation": "sitemap.json",
   "requiredPrivateInfos": [],
   "permission": {},
-  "cloud": false
+  "cloud": true
 }
