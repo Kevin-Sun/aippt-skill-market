@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="title">{{title}}</text>
+  <text class="desc">{{desc}}</text>
+  <view class="join-btn" bindtap="onJoinTap">加入社群</view>
+</view>

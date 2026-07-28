@@ -1,14 +1,5 @@
-// pages/index/index.js · 清新 UI + skill 定位 + 推荐 agent
-var skills = [
-  { id: 'work-report-01', name: '工作汇报 skill · 全流程生成', scene: '工作汇报', style: '商务', language: '中文', price: 9.9, isFree: false, previewDesc: '给 agent 喂的 PPT skill，让 AI 按专业工作流生成汇报', recommendedAgent: 'Codex', gradient: '#2563eb' },
-  { id: 'work-report-free', name: '基础工作汇报 skill', scene: '工作汇报', style: '商务', language: '中文', price: 0, isFree: true, previewDesc: '免费导流品：基础 skill，让 agent 生成汇报 PPT', recommendedAgent: '豆包', gradient: '#16a34a' },
-  { id: 'defense-01', name: '科研答辩 skill · 清爽专业风', scene: '答辩', style: '答辩', language: '中文', price: 9.9, isFree: false, previewDesc: '科研答辩 skill，让 agent 生成不撞款答辩 PPT', recommendedAgent: 'Codex', gradient: '#7c3aed' },
-  { id: 'defense-free', name: '基础答辩 skill', scene: '答辩', style: '答辩', language: '中文', price: 0, isFree: true, previewDesc: '免费导流品：基础答辩 skill', recommendedAgent: '豆包', gradient: '#0891b2' },
-  { id: 'academic-01', name: '学术论文 skill · 英文', scene: '学术研究', style: '学术', language: '英文', price: 9.9, isFree: false, previewDesc: '学术 PPT skill，含 slide patterns + content guidelines', recommendedAgent: 'Codex', gradient: '#ea580c' },
-  { id: 'thesis-defense-01', name: '论文答辩 skill · 可编辑 PPTX', scene: '答辩', style: '答辩', language: '中文', price: 19.9, isFree: false, previewDesc: 'Codex/Claude skill 生成可编辑论文答辩 PPTX', recommendedAgent: 'Codex', gradient: '#be185d' },
-  { id: 'corporate-01', name: '日企商务 skill', scene: '商务展示', style: '日企', language: '英文', price: 9.9, isFree: false, previewDesc: '日企风格 PPT skill，商务正式', recommendedAgent: 'WorkBuddy', gradient: '#475569' },
-  { id: 'corporate-deck-01', name: '商务汇报 Deck skill', scene: '工作汇报', style: '商务', language: '英文', price: 9.9, isFree: false, previewDesc: '企业商务 deck 生成 skill', recommendedAgent: 'WorkBuddy', gradient: '#1e40af' },
-];
+// pages/index/index.js · V2 首页（用 data/skills.js + 搜索 + 免费 skill）
+var skillsData = require('../../data/skills.js');
 
 Page({
   data: {
@@ -28,8 +19,7 @@ Page({
   },
 
   loadSkills: function() {
-    var scene = this.data.currentScene;
-    var list = scene === '全部' ? skills : skills.filter(function(s) { return s.scene === scene; });
+    var list = skillsData.getSkillsByScene(this.data.currentScene);
     this.setData({ skills: list });
   },
 
@@ -60,10 +50,12 @@ Page({
   },
 
   onSearchSubmit: function() {
-    if (this.data.searchValue) {
-      var scene = this.data.searchValue;
-      this.setData({ currentScene: scene, searchValue: '' });
-      this.loadSkills();
-    }
+    var q = this.data.searchValue;
+    if (!q) { this.loadSkills(); return; }
+    var all = skillsData.skills;
+    var filtered = all.filter(function(s) {
+      return s.name.indexOf(q) >= 0 || s.previewDesc.indexOf(q) >= 0 || s.scene.indexOf(q) >= 0;
+    });
+    this.setData({ skills: filtered });
   },
 });

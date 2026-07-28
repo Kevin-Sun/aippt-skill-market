@@ -1,6 +1,13 @@
-<!--pages/detail/detail.wxml · skill 详情 + 推荐 agent + 清新 UI-->
+<!--pages/detail/detail.wxml · V2 详情页（预览图+包含内容+适用场景+使用步骤+评价+相关推荐+分享+收藏）-->
 <view class="page-container" wx:if="{{skill}}">
-  <!-- skill 信息 -->
+  <!-- 预览图轮播 -->
+  <swiper class="preview-swiper" indicator-dots circular autoplay bindchange="onPreviewChange">
+    <swiper-item wx:for="{{skill.previewImages}}" wx:key="*this" bindtap="onPreviewTap">
+      <image class="preview-image" src="{{item}}" mode="aspectFill" />
+    </swiper-item>
+  </swiper>
+
+  <!-- 标题+描述+标签 -->
   <view class="skill-header">
     <text class="skill-title">{{skill.name}}</text>
     <text class="skill-desc">{{skill.previewDesc}}</text>
@@ -10,52 +17,142 @@
       <text class="tag-lang">{{skill.language}}</text>
       <text class="tag-recommend" wx:if="{{skill.recommendedAgent}}">推荐 {{skill.recommendedAgent}}</text>
     </view>
+    <view class="skill-stats">
+      <text class="stat-item">⭐ {{skill.rating}}</text>
+      <text class="stat-item">已售 {{skill.salesCount}}</text>
+    </view>
   </view>
 
   <!-- 价格区 -->
   <view class="price-section">
-    <text class="price-label">价格</text>
     <text class="price-value" wx:if="{{skill.isFree}}">免费</text>
     <text class="price-value" wx:else>¥{{skill.price}}</text>
+    <text class="price-action" bindtap="onTryUseTap" wx:if="{{skill.isFree}}">试用</text>
+    <text class="price-action" bindtap="onTryUseTap" wx:else>先看效果</text>
   </view>
 
-  <!-- 获取方式 -->
-  <view class="agents-section">
+  <!-- 包含内容 -->
+  <view class="section">
+    <text class="section-title">包含内容</text>
+    <view class="includes-grid">
+      <view class="include-item">
+        <text class="include-num">{{skill.includes.layouts}}</text>
+        <text class="include-label">种版式</text>
+      </view>
+      <view class="include-item">
+        <text class="include-num">{{skill.includes.styles}}</text>
+        <text class="include-label">种风格</text>
+      </view>
+      <view class="include-item">
+        <text class="include-num">{{skill.includes.charts}}</text>
+        <text class="include-label">种图表</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 适用场景 -->
+  <view class="section">
+    <text class="section-title">适用场景</text>
+    <view class="suitable-list">
+      <text class="suitable-tag" wx:for="{{skill.suitableFor}}" wx:key="*this">{{item}}</text>
+    </view>
+  </view>
+
+  <!-- 使用步骤 -->
+  <view class="section">
+    <text class="section-title">使用步骤</text>
+    <view class="steps-list">
+      <view class="step-item" wx:for="{{skill.usageSteps}}" wx:key="step">
+        <view class="step-num">{{item.step}}</view>
+        <view class="step-content">
+          <text class="step-title">{{item.title}}</text>
+          <text class="step-desc">{{item.desc}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 三 agent 获取方式 -->
+  <view class="section">
     <text class="section-title">三 agent 获取方式</text>
-    
     <view class="agent-card" bindtap="onCopyCodex">
-      <view class="agent-icon agent-icon-codex">C</view>
+      <view class="agent-icon agent-codex">C</view>
       <view class="agent-info">
         <text class="agent-name">Codex</text>
-        <text class="agent-desc">复制 AGENTS.md 片段到项目</text>
-        <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'Codex'}}">推荐</text>
+        <text class="agent-desc">复制 AGENTS.md 片段</text>
       </view>
-      <view class="agent-copy-btn">复制</view>
+      <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'Codex'}}">推荐</text>
+      <view class="copy-btn">复制</view>
     </view>
-
     <view class="agent-card" bindtap="onCopyDoubao">
-      <view class="agent-icon agent-icon-doubao">豆</view>
+      <view class="agent-icon agent-doubao">豆</view>
       <view class="agent-info">
         <text class="agent-name">豆包智能体</text>
-        <text class="agent-desc">复制 System Prompt 到豆包智能体</text>
-        <text class="agent-badge" wx:if="{{skill.recommendedAgent === '豆包'}}">推荐</text>
+        <text class="agent-desc">复制 System Prompt</text>
       </view>
-      <view class="agent-copy-btn">复制</view>
+      <text class="agent-badge" wx:if="{{skill.recommendedAgent === '豆包'}}">推荐</text>
+      <view class="copy-btn">复制</view>
     </view>
-
     <view class="agent-card" bindtap="onCopyWorkBuddy">
-      <view class="agent-icon agent-icon-wb">W</view>
+      <view class="agent-icon agent-wb">W</view>
       <view class="agent-info">
         <text class="agent-name">WorkBuddy</text>
-        <text class="agent-desc">复制技能包到 WorkBuddy 企业后台</text>
-        <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'WorkBuddy'}}">推荐</text>
+        <text class="agent-desc">复制技能包内容</text>
       </view>
-      <view class="agent-copy-btn">复制</view>
+      <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'WorkBuddy'}}">推荐</text>
+      <view class="copy-btn">复制</view>
     </view>
   </view>
 
-  <!-- 底部操作 -->
+  <!-- 评价区 -->
+  <view class="section" bindtap="onReviewTap">
+    <view class="section-header">
+      <text class="section-title">用户评价</text>
+      <text class="section-more">查看全部 →</text>
+    </view>
+    <view class="rating-row">
+      <text class="rating-num">{{skill.rating}}</text>
+      <text class="rating-stars">★★★★★</text>
+      <text class="rating-count">{{skill.reviews.length}}条评价</text>
+    </view>
+    <view class="review-item" wx:for="{{skill.reviews}}" wx:key="*this" wx:if="{{index < 2}}">
+      <view class="review-header">
+        <text class="review-user">{{item.user}}</text>
+        <text class="review-stars">{{['','★','★★','★★★','★★★★','★★★★★'][item.rating]}}</text>
+      </view>
+      <text class="review-text">{{item.text}}</text>
+      <text class="review-date">{{item.date}}</text>
+    </view>
+    <view class="empty-reviews" wx:if="{{skill.reviews.length === 0}}">
+      <text>暂无评价，成为第一个评价的人</text>
+    </view>
+  </view>
+
+  <!-- 相关推荐 -->
+  <view class="section" wx:if="{{relatedSkills.length > 0}}">
+    <text class="section-title">相关推荐</text>
+    <view class="related-list">
+      <view class="related-card" wx:for="{{relatedSkills}}" wx:key="id" data-id="{{item.id}}" bindtap="onRelatedTap">
+        <view class="related-header" style="background: {{item.gradient}};">
+          <text class="related-style">{{item.style}}</text>
+        </view>
+        <view class="related-body">
+          <text class="related-name">{{item.name}}</text>
+          <text class="related-price" wx:if="{{item.isFree}}">免费</text>
+          <text class="related-price" wx:else>¥{{item.price}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部操作栏 -->
   <view class="bottom-bar">
+    <view class="bottom-icon-btn" bindtap="onShareTap">
+      <text class="bottom-icon">分享</text>
+    </view>
+    <view class="bottom-icon-btn" bindtap="onFavoriteTap">
+      <text class="bottom-icon {{isFavorited ? 'favorited' : ''}}">{{isFavorited ? '已收藏' : '收藏'}}</text>
+    </view>
     <view class="buy-btn {{isPurchased ? 'purchased' : ''}}" bindtap="onBuyTap">
       <text>{{isPurchased ? '已解锁' : (skill.isFree ? '免费解锁' : '购买解锁 ¥' + skill.price)}}</text>
     </view>

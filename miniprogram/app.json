@@ -4,6 +4,11 @@
     "pages/detail/detail",
     "pages/preview/preview",
     "pages/promotion/promotion",
+    "pages/promotion-detail/promotion-detail",
+    "pages/member/member",
+    "pages/community/community",
+    "pages/orders/orders",
+    "pages/reviews/reviews",
     "pages/mine/mine",
     "pages/login/login"
   ],
@@ -12,18 +17,9 @@
     "selectedColor": "#2563eb",
     "backgroundColor": "#ffffff",
     "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "skill市场"
-      },
-      {
-        "pagePath": "pages/promotion/promotion",
-        "text": "活动"
-      },
-      {
-        "pagePath": "pages/mine/mine",
-        "text": "我的"
-      }
+      { "pagePath": "pages/index/index", "text": "skill市场" },
+      { "pagePath": "pages/promotion/promotion", "text": "活动" },
+      { "pagePath": "pages/mine/mine", "text": "我的" }
     ]
   },
   "window": {

@@ -1,28 +1,27 @@
-// pages/detail/detail.js · skill 详情 + 推荐 agent
-var skills = {
-  'work-report-01': { name: '工作汇报 skill · 全流程生成', scene: '工作汇报', style: '商务', language: '中文', price: 9.9, isFree: false, previewDesc: '给 agent 喂的 PPT skill，让 AI 按专业工作流生成汇报', recommendedAgent: 'Codex', agents: ['Codex', '豆包', 'WorkBuddy'] },
-  'work-report-free': { name: '基础工作汇报 skill', scene: '工作汇报', style: '商务', language: '中文', price: 0, isFree: true, previewDesc: '免费导流品：基础 skill', recommendedAgent: '豆包', agents: ['Codex', '豆包'] },
-  'defense-01': { name: '科研答辩 skill · 清爽专业风', scene: '答辩', style: '答辩', language: '中文', price: 9.9, isFree: false, previewDesc: '科研答辩 skill，让 agent 生成不撞款答辩 PPT', recommendedAgent: 'Codex', agents: ['Codex', '豆包', 'WorkBuddy'] },
-  'defense-free': { name: '基础答辩 skill', scene: '答辩', style: '答辩', language: '中文', price: 0, isFree: true, previewDesc: '免费导流品：基础答辩 skill', recommendedAgent: '豆包', agents: ['Codex', '豆包'] },
-  'academic-01': { name: '学术论文 skill · 英文', scene: '学术研究', style: '学术', language: '英文', price: 9.9, isFree: false, previewDesc: '学术 PPT skill', recommendedAgent: 'Codex', agents: ['Codex', '豆包'] },
-  'thesis-defense-01': { name: '论文答辩 skill · 可编辑 PPTX', scene: '答辩', style: '答辩', language: '中文', price: 19.9, isFree: false, previewDesc: 'Codex/Claude skill 生成可编辑论文答辩 PPTX', recommendedAgent: 'Codex', agents: ['Codex', 'WorkBuddy'] },
-  'corporate-01': { name: '日企商务 skill', scene: '商务展示', style: '日企', language: '英文', price: 9.9, isFree: false, previewDesc: '日企风格 PPT skill', recommendedAgent: 'WorkBuddy', agents: ['Codex', '豆包', 'WorkBuddy'] },
-  'corporate-deck-01': { name: '商务汇报 Deck skill', scene: '工作汇报', style: '商务', language: '英文', price: 9.9, isFree: false, previewDesc: '企业商务 deck 生成 skill', recommendedAgent: 'WorkBuddy', agents: ['Codex', '豆包', 'WorkBuddy'] },
-};
+// pages/detail/detail.js · V2 详情页（预览图+包含内容+适用场景+使用步骤+评价+相关推荐+分享+收藏）
+var skillsData = require('../../data/skills.js');
 
 Page({
   data: {
     skill: null,
     isPurchased: false,
     isLoggedIn: false,
+    isFavorited: false,
+    relatedSkills: [],
+    currentPreview: 0,
   },
 
   onLoad: function(options) {
     var skillId = options.id;
-    var skill = skills[skillId] || null;
-    this.setData({ skill: skill });
+    var skill = skillsData.getSkillById(skillId);
+    var related = skillsData.getRelatedSkills(skillId);
+    this.setData({
+      skill: skill,
+      relatedSkills: related || []
+    });
     this.checkLogin();
     this.checkPurchased(skillId);
+    this.checkFavorite(skillId);
   },
 
   checkLogin: function() {
@@ -39,12 +38,20 @@ Page({
     } catch (e) {}
   },
 
-  onLoginTap: function() {
-    wx.navigateTo({ url: '/pages/login/login' });
+  checkFavorite: function(skillId) {
+    try {
+      var favorites = wx.getStorageSync('favorites') || [];
+      this.setData({ isFavorited: favorites.indexOf(skillId) >= 0 });
+    } catch (e) {}
+  },
+
+  onPreviewChange: function(e) {
+    this.setData({ currentPreview: e.detail.current });
   },
 
   onPreviewTap: function() {
-    wx.navigateTo({ url: '/pages/preview/preview?id=' + (this.data.skill ? this.data.skill.id : '') });
+    var images = this.data.skill.previewImages || [];
+    wx.previewImage({ urls: images, current: images[this.data.currentPreview] || images[0] });
   },
 
   onBuyTap: function() {
@@ -55,8 +62,16 @@ Page({
     if (this.data.skill && this.data.skill.isFree) {
       this.unlockSkill();
     } else {
-      wx.showToast({ title: '支付功能开发中', icon: 'none' });
+      this.requestPayment();
     }
+  },
+
+  requestPayment: function() {
+    wx.showToast({ title: '支付功能联调中', icon: 'none' });
+    var self = this;
+    setTimeout(function() {
+      self.unlockSkill();
+    }, 1500);
   },
 
   unlockSkill: function() {
@@ -69,15 +84,63 @@ Page({
     } catch (e) {}
   },
 
+  onFavoriteTap: function() {
+    try {
+      var favorites = wx.getStorageSync('favorites') || [];
+      var skillId = this.data.skill.id;
+      var idx = favorites.indexOf(skillId);
+      if (idx >= 0) {
+        favorites.splice(idx, 1);
+        this.setData({ isFavorited: false });
+        wx.showToast({ title: '已取消收藏', icon: 'none' });
+      } else {
+        favorites.push(skillId);
+        this.setData({ isFavorited: true });
+        wx.showToast({ title: '已收藏', icon: 'success' });
+      }
+      wx.setStorageSync('favorites', favorites);
+    } catch (e) {}
+  },
+
+  onShareTap: function() {
+    wx.showShareMenu({ withShareTicket: true });
+  },
+
+  onShareAppMessage: function() {
+    var skill = this.data.skill;
+    return {
+      title: skill.name + ' · AI智作PPT',
+      path: '/pages/detail/detail?id=' + skill.id,
+      imageUrl: skill.previewImages ? skill.previewImages[0] : ''
+    };
+  },
+
+  onTryUseTap: function() {
+    wx.navigateTo({ url: '/pages/preview/preview?id=' + this.data.skill.id });
+  },
+
   onCopyCodex: function() {
-    wx.setClipboardData({ data: 'Codex AGENTS.md 片段（完整版请到小程序获取）' });
+    var content = '你是专业 PPT 生成助手。当用户要求生成 PPT 时按以下流程：\n1. 需求调研\n2. 大纲策划（5-10页）\n3. 内容填充（每页一个核心观点）\n4. 风格统一（主色#2563eb）\n排版：每页不超过50字\n格式：HTML（16:9）';
+    wx.setClipboardData({ data: content, success: function() { wx.showToast({ title: 'Codex skill 已复制', icon: 'success' }); } });
   },
 
   onCopyDoubao: function() {
-    wx.setClipboardData({ data: '豆包智能体 System Prompt（完整版请到小程序获取）' });
+    var content = '你是一个专业 PPT 生成助手。当用户要求生成 PPT 时按以下流程：\n1. 需求调研\n2. 大纲策划\n3. 内容填充\n4. 风格统一\n配色：主色#2563eb\n排版：每页不超过50字\n格式：HTML';
+    wx.setClipboardData({ data: content, success: function() { wx.showToast({ title: '豆包 skill 已复制', icon: 'success' }); } });
   },
 
   onCopyWorkBuddy: function() {
-    wx.setClipboardData({ data: 'WorkBuddy 技能包内容（完整版请到小程序获取）' });
+    var content = '{"name":"PPT Skill","systemPrompt":"你是专业PPT生成助手","triggers":["做PPT","生成PPT"]}';
+    wx.setClipboardData({ data: content, success: function() { wx.showToast({ title: 'WorkBuddy skill 已复制', icon: 'success' }); } });
+  },
+
+  onRelatedTap: function(e) {
+    var skillId = e.currentTarget.dataset.id;
+    wx.navigateTo({ url: '/pages/detail/detail?id=' + skillId });
+  },
+
+  onReviewTap: function() {
+    var skillId = this.data.skill.id;
+    wx.navigateTo({ url: '/pages/reviews/reviews?id=' + skillId });
   },
 });

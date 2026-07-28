@@ -1,0 +1,25 @@
+<!--pages/orders/orders.wxml-->
+<view class="container">
+  <view class="tab-bar">
+    <text class="tab {{tab === 'purchased' ? 'active' : ''}}" data-tab="purchased" bindtap="onTabTap">已购</text>
+    <text class="tab {{tab === 'favorites' ? 'active' : ''}}" data-tab="favorites" bindtap="onTabTap">收藏</text>
+    <text class="tab {{tab === 'orders' ? 'active' : ''}}" data-tab="orders" bindtap="onTabTap">订单</text>
+  </view>
+  <view class="content" wx:if="{{tab === 'purchased'}}">
+    <view class="empty" wx:if="{{purchased.length === 0}}"><text>暂无已购 skill</text></view>
+    <view class="item" wx:for="{{purchased}}" wx:key="*this">
+      <text class="item-name">{{item}}</text>
+      <text class="item-status">已解锁</text>
+    </view>
+  </view>
+  <view class="content" wx:if="{{tab === 'favorites'}}">
+    <view class="empty" wx:if="{{favorites.length === 0}}"><text>暂无收藏</text></view>
+    <view class="item" wx:for="{{favorites}}" wx:key="*this">
+      <text class="item-name">{{item}}</text>
+      <text class="item-status">已收藏</text>
+    </view>
+  </view>
+  <view class="content" wx:if="{{tab === 'orders'}}">
+    <view class="empty"><text>暂无订单记录</text></view>
+  </view>
+</view>

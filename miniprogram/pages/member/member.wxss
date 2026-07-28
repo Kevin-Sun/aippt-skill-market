@@ -1,0 +1,28 @@
+/* member.wxss */
+.page-container { padding: 0 0 120rpx; background: #f0f2f5; min-height: 100vh; }
+.header { padding: 48rpx 32rpx 24rpx; background: #fff; }
+.header-title { display: block; font-size: 48rpx; font-weight: 700; color: #1a1a2e; }
+.header-subtitle { display: block; font-size: 28rpx; color: #5c6370; margin-top: 8rpx; }
+
+.tier-list { padding: 24rpx 32rpx; }
+.tier-card { background: #fff; border-radius: 16rpx; padding: 32rpx; margin-bottom: 24rpx; border: 2rpx solid #e5e7eb; position: relative; }
+.tier-card.recommended { border-color: #2563eb; border-width: 4rpx; box-shadow: 0 8rpx 24rpx rgba(37,99,235,0.15); }
+.tier-badge { position: absolute; top: -12rpx; right: 24rpx; background: #16a34a; color: #fff; padding: 4rpx 16rpx; border-radius: 8rpx; font-size: 22rpx; font-weight: 700; }
+.tier-name { display: block; font-size: 32rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 12rpx; }
+.tier-price-row { display: flex; align-items: baseline; margin-bottom: 24rpx; }
+.tier-price { font-size: 56rpx; font-weight: 800; color: #dc2626; }
+.tier-period { font-size: 28rpx; color: #5c6370; margin-left: 8rpx; }
+.tier-features { margin-bottom: 24rpx; }
+.feature-item { display: block; font-size: 26rpx; color: #16a34a; padding: 4rpx 0; }
+.tier-cta { text-align: center; background: #2563eb; color: #fff; padding: 20rpx 0; border-radius: 12rpx; font-size: 32rpx; font-weight: 700; }
+
+.compare-table { padding: 32rpx; background: #fff; margin-top: 16rpx; }
+.table-title { display: block; font-size: 34rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 24rpx; }
+.table-row { display: flex; padding: 16rpx 0; border-bottom: 2rpx solid #f0f2f5; }
+.table-header { font-weight: 700; color: #1a1a2e; }
+.table-cell { flex: 1; text-align: center; font-size: 24rpx; color: #5c6370; }
+.table-cell.highlight { color: #2563eb; font-weight: 700; }
+
+.community-section { display: flex; justify-content: space-between; align-items: center; padding: 32rpx; background: #fff; margin-top: 16rpx; }
+.community-title { font-size: 32rpx; font-weight: 700; color: #1a1a2e; }
+.community-desc { font-size: 26rpx; color: #5c6370; }

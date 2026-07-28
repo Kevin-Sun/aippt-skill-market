@@ -1,0 +1,26 @@
+<!--pages/reviews/reviews.wxml-->
+<view class="container">
+  <view class="submit-section">
+    <text class="section-title">写评价</text>
+    <view class="rating-stars">
+      <text class="star {{rating >= 1 ? 'active' : ''}}" data-r="1" bindtap="onRatingTap">★</text>
+      <text class="star {{rating >= 2 ? 'active' : ''}}" data-r="2" bindtap="onRatingTap">★</text>
+      <text class="star {{rating >= 3 ? 'active' : ''}}" data-r="3" bindtap="onRatingTap">★</text>
+      <text class="star {{rating >= 4 ? 'active' : ''}}" data-r="4" bindtap="onRatingTap">★</text>
+      <text class="star {{rating >= 5 ? 'active' : ''}}" data-r="5" bindtap="onRatingTap">★</text>
+    </view>
+    <textarea class="review-input" placeholder="说说你的使用体验..." bindinput="onTextInput" value="{{text}}" />
+    <view class="submit-btn" bindtap="onSubmit">提交评价</view>
+  </view>
+  <view class="list-section">
+    <text class="section-title">用户评价（{{reviews.length}}）</text>
+    <view class="review-item" wx:for="{{reviews}}" wx:key="*this">
+      <view class="review-header">
+        <text class="review-user">{{item.user}}</text>
+        <text class="review-stars">{{['','★','★★','★★★','★★★★','★★★★★'][item.rating]}}</text>
+      </view>
+      <text class="review-text">{{item.text}}</text>
+      <text class="review-date">{{item.date}}</text>
+    </view>
+  </view>
+</view>

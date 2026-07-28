@@ -1,0 +1,4 @@
+.container { padding: 64rpx 32rpx; text-align: center; background: #f0f2f5; min-height: 100vh; }
+.title { display: block; font-size: 48rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 16rpx; }
+.desc { display: block; font-size: 28rpx; color: #5c6370; margin-bottom: 48rpx; }
+.join-btn { display: inline-block; background: #2563eb; color: #fff; padding: 24rpx 64rpx; border-radius: 12rpx; font-size: 34rpx; font-weight: 700; }
