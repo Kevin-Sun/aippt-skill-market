@@ -1,0 +1,39 @@
+<!--pages/mine/mine.wxml-->
+<view class="container">
+  <!-- 用户信息 -->
+  <view class="user-section">
+    <view class="avatar" wx:if="{{isLoggedIn}}">{{userInfo.nickName[0] || 'U'}}</view>
+    <view class="avatar" wx:else>?</view>
+    <view class="user-info">
+      <text class="nick" wx:if="{{isLoggedIn}}">{{userInfo.nickName || '用户'}}</text>
+      <text class="nick" wx:else bindtap="onLoginTap">点击登录</text>
+      <text class="level">会员等级：{{memberLevel === 'free' ? '免费' : memberLevel}}</text>
+    </view>
+  </view>
+
+  <!-- 会员升级 -->
+  <view class="member-section" bindtap="onMemberTap">
+    <text class="section-title">会员体系</text>
+    <view class="member-cards">
+      <view class="member-card"><text>¥2.9</text><text>单 skill</text></view>
+      <view class="member-card"><text>¥9.9</text><text>一类 skill</text></view>
+      <view class="member-card"><text>¥19.9</text><text>月度会员</text></view>
+      <view class="member-card premium"><text>¥99.9</text><text>年度+定制</text></view>
+    </view>
+  </view>
+
+  <!-- 已购 skill -->
+  <view class="purchased-section">
+    <text class="section-title">已购 skill（{{purchasedSkills.length}}）</text>
+    <view class="empty" wx:if="{{purchasedSkills.length === 0}}">
+      <text>暂无已购 skill</text>
+    </view>
+  </view>
+
+  <!-- 社群 -->
+  <view class="community-section" bindtap="onCommunityTap">
+    <text class="section-title">agent+办公/学业社群</text>
+    <text class="community-desc">知识星球 299 年费 · 每日更新</text>
+    <text class="community-arrow">→</text>
+  </view>
+</view>

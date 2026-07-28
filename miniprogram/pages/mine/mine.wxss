@@ -1,0 +1,57 @@
+/* mine.wxss · 清新 UI */
+.container { padding: 0; background: #f0f2f5; min-height: 100vh; }
+
+.user-section {
+  display: flex;
+  align-items: center;
+  padding: 48rpx 32rpx;
+  background: #ffffff;
+  border-bottom: 2rpx solid #e5e7eb;
+}
+.avatar {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 50%;
+  background: #2563eb;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.user-info { margin-left: 24rpx; }
+.nick { font-size: 34rpx; font-weight: 600; color: #1a1a2e; display: block; }
+.level { font-size: 26rpx; color: #5c6370; display: block; margin-top: 8rpx; }
+
+.member-section { padding: 32rpx; background: #ffffff; margin-top: 16rpx; border-bottom: 2rpx solid #e5e7eb; }
+.section-title { font-size: 34rpx; font-weight: 700; color: #1a1a2e; display: block; margin-bottom: 24rpx; }
+.member-cards { display: flex; flex-wrap: wrap; }
+.member-cards > view + view { margin-left: 16rpx; }
+.member-card {
+  flex: 1;
+  min-width: 160rpx;
+  padding: 24rpx 16rpx;
+  background: #f0f2f5;
+  border-radius: 12rpx;
+  text-align: center;
+  border: 2rpx solid #e5e7eb;
+}
+.member-card text { display: block; }
+.member-card text:first-child { font-size: 36rpx; font-weight: 800; color: #dc2626; }
+.member-card text:last-child { font-size: 24rpx; color: #5c6370; margin-top: 8rpx; }
+.member-card.premium { background: #2563eb; border-color: #1d4ed8; }
+.member-card.premium text { color: #ffffff; }
+
+.purchased-section { padding: 32rpx; background: #ffffff; margin-top: 16rpx; border-bottom: 2rpx solid #e5e7eb; }
+.empty { text-align: center; padding: 48rpx 0; color: #9ca3af; font-size: 28rpx; }
+
+.community-section {
+  display: flex;
+  align-items: center;
+  padding: 32rpx;
+  background: #ffffff;
+  margin-top: 16rpx;
+}
+.community-desc { flex: 1; font-size: 30rpx; color: #1a1a2e; margin-left: 16rpx; }
+.community-arrow { font-size: 40rpx; color: #9ca3af; }

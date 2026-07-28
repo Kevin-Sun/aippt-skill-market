@@ -1,0 +1,3 @@
+interface:
+  display_name: "Paper Figure PPTX"
+  short_description: "Reconstruct academic figures into pixel-faithful editable PPTX slides"

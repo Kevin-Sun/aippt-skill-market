@@ -1,0 +1,8 @@
+node_modules/
+miniprogram/miniprogram_npm/
+raw-materials/github/
+*.log
+.DS_Store
+private.*.key
+.env
+tests/screenshot*.png

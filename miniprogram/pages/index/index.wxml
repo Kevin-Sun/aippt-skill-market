@@ -1,0 +1,60 @@
+<!--pages/index/index.wxml · 清新 UI + skill 定位 + 推荐 agent-->
+<view class="page-container">
+  <!-- 导航栏 -->
+  <view class="nav-bar">
+    <text class="nav-logo">AI智作PPT</text>
+    <view class="nav-login-btn" bindtap="onLoginTap" wx:if="{{!isLoggedIn}}">登录</view>
+    <view class="nav-user" wx:else>已登录</view>
+  </view>
+
+  <!-- 标题区 -->
+  <view class="hero-section">
+    <text class="hero-title">PPT Skill 市场</text>
+    <text class="hero-subtitle">给 AI agent 喂 skill，生成不撞款的 PPT</text>
+  </view>
+
+  <!-- 搜索框 -->
+  <view class="search-bar">
+    <input class="search-input" placeholder="搜索 skill..." bindinput="onSearchInput" value="{{searchValue}}" bindconfirm="onSearchSubmit" />
+    <view class="search-submit-btn" bindtap="onSearchSubmit">
+      <text class="search-icon">🔍</text>
+    </view>
+  </view>
+
+  <!-- 场景筛选 -->
+  <scroll-view scroll-x class="scene-bar">
+    <view
+      wx:for="{{scenes}}"
+      wx:key="*this"
+      class="scene-tag {{currentScene === item ? 'active' : ''}}"
+      data-scene="{{item}}"
+      bindtap="onSceneTap"
+    >{{item}}</view>
+  </scroll-view>
+
+  <!-- skill 列表 -->
+  <view class="skill-list">
+    <view
+      wx:for="{{skills}}"
+      wx:key="id"
+      class="skill-card"
+      data-id="{{item.id}}"
+      bindtap="onSkillTap"
+    >
+      <view class="skill-card-header" style="background: {{item.gradient}};">
+        <text class="skill-style-tag">{{item.style}}</text>
+        <text class="skill-recommend" wx:if="{{item.recommendedAgent}}">推荐 {{item.recommendedAgent}}</text>
+      </view>
+      <view class="skill-card-body">
+        <text class="skill-name">{{item.name}}</text>
+        <text class="skill-desc">{{item.previewDesc}}</text>
+        <view class="skill-meta">
+          <text class="skill-scene">{{item.scene}}</text>
+          <text class="skill-lang">{{item.language}}</text>
+          <text class="skill-price" wx:if="{{item.isFree}}">免费</text>
+          <text class="skill-price" wx:else>¥{{item.price}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

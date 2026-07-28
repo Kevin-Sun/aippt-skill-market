@@ -1,0 +1,888 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (9).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "封面页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 5"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "目录页_四项目录",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 5"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 6"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 7"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 8"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 9"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 10"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 11"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 12"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 13"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 14"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "副标题页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "内容页_1",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 84"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 85"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 83"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 86"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 95"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 92"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 96"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 99"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 105"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 108"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 109"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 110"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "内容页_1",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 56"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 58"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 103"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 104"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 11"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "内容页_1",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 28"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 29"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 30"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 31"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "副标题页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "内容页_2",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 8"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 217"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 33"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 36"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 39"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 42"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 55"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 58"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 119"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 62"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 64"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 89"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "内容页_2",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "表格 53"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 65"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 68"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 69"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 70"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 71"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 72"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 73"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 74"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 75"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 78"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 80"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "内容页_2",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 20"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 26"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 46"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 48"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 81"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 86"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 7"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "副标题页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "内容页_3",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 7"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 15"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 18"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 19"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 22"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "内容页_3",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "罐形 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "罐形 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "罐形 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "罐形 27"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 30"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 31"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 36"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 38"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 41"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "内容页_3",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 45"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 53"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 61"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "副标题页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "内容页_4",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "手杖形箭头 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "手杖形箭头 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "手杖形箭头 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "手杖形箭头 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "内容页_4",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 85"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 84"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 83"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直线连接符 78"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 27"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "五边形 29"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 30"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 34"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 40"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 91"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 92"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 93"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 90"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "内容页_4",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "L 形 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 55"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "L 形 68"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "L 形 71"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "L 形 72"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "三角形 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "三角形 73"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "三角形 74"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "三角形 75"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 76"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 79"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 81"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "封面页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 5"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [
+    "+mn-ea",
+    "Microsoft YaHei",
+    "微软雅黑"
+  ],
+  "error": null,
+  "layoutNames": [
+    "内容页_1",
+    "内容页_2",
+    "内容页_3",
+    "内容页_4",
+    "副标题页",
+    "封面页",
+    "目录页_四项目录"
+  ],
+  "slideCount": 19,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

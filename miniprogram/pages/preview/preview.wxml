@@ -1,0 +1,6 @@
+<!--pages/preview/preview.wxml-->
+<view class="container">
+  <view>预览区域</view>
+  <button bindtap="onRender">渲染预览</button>
+  <text wx:if="{{renderReady}}">渲染完成</text>
+</view>

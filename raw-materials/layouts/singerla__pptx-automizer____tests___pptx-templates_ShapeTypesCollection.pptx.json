@@ -1,0 +1,70 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/ShapeTypesCollection.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "Table"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Image"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Line (Arrow)"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "VecorShape (Box with arrow)"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Pictogram"
+        },
+        {
+          "type": "None",
+          "name": "SmartArt (Diagram)"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "Chart"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfield"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "SVG Image"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "VecorShape (Rectangle)"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfield (Native)"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Image filled rectangle"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

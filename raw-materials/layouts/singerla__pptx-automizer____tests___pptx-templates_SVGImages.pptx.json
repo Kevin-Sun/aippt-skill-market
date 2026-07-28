@@ -1,0 +1,34 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SVGImages.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "Leaf"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Cart"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Heart"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

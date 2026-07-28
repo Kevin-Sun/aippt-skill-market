@@ -1,0 +1,753 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (74).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "标题和内容",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 18"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 30"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 39"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 40"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 41"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 42"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 87"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 88"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 89"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 38"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "isḻíḑé"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "íŝ1îdé"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "ïṥ1ídê"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "ïS1íḍé"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "iŝliḍe"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îṡ1ïḓe"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "íṡlîḍê"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "iṡlïde"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "î$líďe"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "iŝļíḍê"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "î$lïdé"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "îSḷïdê"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "îśḷiḋe"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "ísļiḋe"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "ïsľiďe"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 24"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 121"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 125"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "îṡlïde"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 13"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "îSļiḑe"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "iṥ1íḓê"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "îśľiḑe"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "îṩľîďe"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "ïsḻîḓe"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "îSḷíḍê"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "î$ļîḑê"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "í$líḑé"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 47"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 49"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 50"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 51"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 52"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 53"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 54"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 55"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 18"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 11"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 13"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 38"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 16"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 8"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "203864"
+  ],
+  "fonts": [
+    "思源宋体 Heavy",
+    "思源黑体 CN Heavy",
+    "思源黑体 CN Light",
+    "思源黑体 CN Medium",
+    "思源黑体 CN Normal",
+    "思源黑体 CN Regular"
+  ],
+  "error": null,
+  "layoutNames": [
+    "标题和内容",
+    "标题幻灯片",
+    "空白"
+  ],
+  "slideCount": 21,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

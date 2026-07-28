@@ -1,0 +1,76 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/NestedTables.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "NestedTable1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "NestedTable2"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "NestedTable3"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "NestedTable3"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "NestedTable3"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Nur Titel"
+  ],
+  "slideCount": 4,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

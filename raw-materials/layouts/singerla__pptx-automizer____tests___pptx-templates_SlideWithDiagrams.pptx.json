@@ -1,0 +1,48 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithDiagrams.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "None",
+          "name": "MatrixDiagram"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titel und Inhalt",
+      "shapes": [
+        {
+          "type": "None",
+          "name": "MatrixDiagramStackedVenn"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Leer",
+      "shapes": [
+        {
+          "type": "None",
+          "name": "SmartArt (Diagram)"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Leer",
+    "Titel und Inhalt",
+    "Titelfolie"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

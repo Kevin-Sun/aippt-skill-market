@@ -1,0 +1,37 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithMedia.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "audio"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titel und Inhalt",
+      "shapes": [
+        {
+          "type": "MEDIA (16)",
+          "name": "video"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titel und Inhalt",
+    "Titelfolie"
+  ],
+  "slideCount": 2,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

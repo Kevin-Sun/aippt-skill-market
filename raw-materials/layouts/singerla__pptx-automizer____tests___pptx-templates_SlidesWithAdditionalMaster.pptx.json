@@ -1,0 +1,83 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlidesWithAdditionalMaster.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "1_Titelfolie green text",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Untertitel 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Datumsplatzhalter 3"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Fußzeilenplatzhalter 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Foliennummernplatzhalter 5"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Smiley 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Datumsplatzhalter 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Fußzeilenplatzhalter 5"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Foliennummernplatzhalter 6"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Smiley 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "1_Titelfolie green text",
+    "Nur Titel"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

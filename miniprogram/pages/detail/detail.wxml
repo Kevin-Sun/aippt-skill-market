@@ -1,0 +1,63 @@
+<!--pages/detail/detail.wxml · skill 详情 + 推荐 agent + 清新 UI-->
+<view class="page-container" wx:if="{{skill}}">
+  <!-- skill 信息 -->
+  <view class="skill-header">
+    <text class="skill-title">{{skill.name}}</text>
+    <text class="skill-desc">{{skill.previewDesc}}</text>
+    <view class="skill-tags">
+      <text class="tag-scene">{{skill.scene}}</text>
+      <text class="tag-style">{{skill.style}}</text>
+      <text class="tag-lang">{{skill.language}}</text>
+      <text class="tag-recommend" wx:if="{{skill.recommendedAgent}}">推荐 {{skill.recommendedAgent}}</text>
+    </view>
+  </view>
+
+  <!-- 价格区 -->
+  <view class="price-section">
+    <text class="price-label">价格</text>
+    <text class="price-value" wx:if="{{skill.isFree}}">免费</text>
+    <text class="price-value" wx:else>¥{{skill.price}}</text>
+  </view>
+
+  <!-- 获取方式 -->
+  <view class="agents-section">
+    <text class="section-title">三 agent 获取方式</text>
+    
+    <view class="agent-card" bindtap="onCopyCodex">
+      <view class="agent-icon agent-icon-codex">C</view>
+      <view class="agent-info">
+        <text class="agent-name">Codex</text>
+        <text class="agent-desc">复制 AGENTS.md 片段到项目</text>
+        <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'Codex'}}">推荐</text>
+      </view>
+      <view class="agent-copy-btn">复制</view>
+    </view>
+
+    <view class="agent-card" bindtap="onCopyDoubao">
+      <view class="agent-icon agent-icon-doubao">豆</view>
+      <view class="agent-info">
+        <text class="agent-name">豆包智能体</text>
+        <text class="agent-desc">复制 System Prompt 到豆包智能体</text>
+        <text class="agent-badge" wx:if="{{skill.recommendedAgent === '豆包'}}">推荐</text>
+      </view>
+      <view class="agent-copy-btn">复制</view>
+    </view>
+
+    <view class="agent-card" bindtap="onCopyWorkBuddy">
+      <view class="agent-icon agent-icon-wb">W</view>
+      <view class="agent-info">
+        <text class="agent-name">WorkBuddy</text>
+        <text class="agent-desc">复制技能包到 WorkBuddy 企业后台</text>
+        <text class="agent-badge" wx:if="{{skill.recommendedAgent === 'WorkBuddy'}}">推荐</text>
+      </view>
+      <view class="agent-copy-btn">复制</view>
+    </view>
+  </view>
+
+  <!-- 底部操作 -->
+  <view class="bottom-bar">
+    <view class="buy-btn {{isPurchased ? 'purchased' : ''}}" bindtap="onBuyTap">
+      <text>{{isPurchased ? '已解锁' : (skill.isFree ? '免费解锁' : '购买解锁 ¥' + skill.price)}}</text>
+    </view>
+  </view>
+</view>

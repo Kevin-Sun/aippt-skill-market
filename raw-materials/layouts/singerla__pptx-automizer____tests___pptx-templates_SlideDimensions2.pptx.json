@@ -1,0 +1,32 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideDimensions2.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Title Slide",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextShape 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextShape 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [
+    "Arial"
+  ],
+  "error": null,
+  "layoutNames": [
+    "Title Slide"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

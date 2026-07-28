@@ -1,0 +1,942 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (22).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "首页",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 84"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 84"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "开心到停不下来的歌 You Don't Know Me (feat. Brodie Barclay)"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "目录页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "AutoShape 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 14"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "AutoShape 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "AutoShape 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 29"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 30"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 24"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "过度页1",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 58"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 71"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 51"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 50"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 49"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 55"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 56"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 38"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 35"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 36"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "过度页1",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "1_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 23"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "1_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 52"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 55"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 58"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 61"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "1_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 23"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 25"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "1_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 27"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 26"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "过度页1",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "2_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 94"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 95"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 97"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 96"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "2_内页-1",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "千图PPT彼岸天：ID 8661124库_文本框 23"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 26"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "2_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 18"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 20"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "2_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 57"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 56"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 55"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 58"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "过度页1",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 13"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 16"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "layout": "3_内页-1",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "千图PPT彼岸天：ID 8661124库_任意多边形 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 19"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 17"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 18"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "layout": "3_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 27"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 28"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 29"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "layout": "3_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 41"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 44"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 47"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 50"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "layout": "3_内页-1",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 39"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 38"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 37"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "千图PPT彼岸天：ID 8661124库_组合 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "layout": "首页",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 84"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 84"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "FFFFFF"
+  ],
+  "fonts": [
+    "微软雅黑"
+  ],
+  "error": null,
+  "layoutNames": [
+    "1_内页-1",
+    "2_内页-1",
+    "3_内页-1",
+    "内页-1",
+    "目录页",
+    "过度页1",
+    "首页"
+  ],
+  "slideCount": 24,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

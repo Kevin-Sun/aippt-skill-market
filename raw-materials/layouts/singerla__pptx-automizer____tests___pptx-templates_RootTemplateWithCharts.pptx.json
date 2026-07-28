@@ -1,0 +1,52 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/RootTemplateWithCharts.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Untertitel 2"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Untertitel 2"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "Diagramm 5"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "Diagramm 4"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 2,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

@@ -1,0 +1,529 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/zouchenzhen__thesis-defense-pptx-skill/examples/templates/zhengzhou-university-midterm-blank-template.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "封面目录页",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 43"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 44"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 45"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 174"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 48"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 91"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 47"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 146"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 46"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "teacher-reading-a-book-sitting-behind-his-desk_42916"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "封面目录页",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 78"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 79"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 69"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 28"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 49"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 20"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 23"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 28"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 14"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 20"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 21"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 23"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 11"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 12"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 20"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 21"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 23"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 24"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 25"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 27"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "右箭头 10"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "封面目录页",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 101"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 45"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 174"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 48"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 91"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 47"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 146"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 46"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "teacher-reading-a-book-sitting-behind-his-desk_42916"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "内容页",
+    "封面目录页"
+  ],
+  "slideCount": 10,
+  "source": "zouchenzhen__thesis-defense-pptx-skill",
+  "license": "Apache",
+  "category": "thesis-defense"
+}

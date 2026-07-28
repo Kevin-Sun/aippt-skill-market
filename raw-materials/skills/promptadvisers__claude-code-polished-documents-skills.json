@@ -1,0 +1,19 @@
+{
+  "id": "promptadvisers__claude-code-polished-documents-skills",
+  "source": "promptadvisers__claude-code-polished-documents-skills",
+  "stars": 12,
+  "license": "MIT",
+  "licenseVerified": true,
+  "category": "doc-skills",
+  "promptsExtracted": 19,
+  "readmeExtracted": 1,
+  "layoutsFound": 0,
+  "layoutsParsed": 0,
+  "palettesExtracted": 0,
+  "fontsExtracted": 0,
+  "brandStyleHits": 0,
+  "usable": true,
+  "licenseOk": true,
+  "hasContent": true,
+  "cleanedAt": ""
+}

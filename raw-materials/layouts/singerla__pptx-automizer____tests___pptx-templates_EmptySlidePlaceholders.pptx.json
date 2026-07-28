@@ -1,0 +1,99 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/EmptySlidePlaceholders.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Abschnitts-\nüberschrift",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Textplatzhalter 5"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Fußzeilenplatzhalter 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rechteck 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Datumsplatzhalter 10"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Foliennummernplatzhalter 11"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Datumsplatzhalter 6"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Fußzeilenplatzhalter 7"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Foliennummernplatzhalter 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "@TitleNoPlaceholder"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "@BodyNoPlaceholder"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Abschnitts-\nüberschrift",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 16"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Textplatzhalter 17"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Fußzeilenplatzhalter 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Datumsplatzhalter 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Foliennummernplatzhalter 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Abschnitts-\nüberschrift",
+    "Nur Titel"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

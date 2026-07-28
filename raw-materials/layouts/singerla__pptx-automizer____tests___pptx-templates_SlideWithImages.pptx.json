@@ -1,0 +1,68 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithImages.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "Grafik 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 1"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 1"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "imageJPG"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 5"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "imagePNG"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "imageSVG"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 8"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "imagePNGduotone"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 2,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

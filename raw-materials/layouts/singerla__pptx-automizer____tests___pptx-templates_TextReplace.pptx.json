@@ -1,0 +1,44 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/TextReplace.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "replaceText"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "setText"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "replaceTextBullet1"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "00B050"
+  ],
+  "fonts": [
+    "Courier New"
+  ],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 2,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

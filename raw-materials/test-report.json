@@ -1,0 +1,17 @@
+{
+  "testedAt": "2026-07-27T16:16:02Z",
+  "realTested": 4374,
+  "pass": 4259,
+  "warn": 115,
+  "fail": 0,
+  "coverage": "5/10",
+  "prompts": 2099,
+  "layouts":      151,
+  "layoutsUsable": 50,
+  "layoutsParsed": 151,
+  "palettes": 102,
+  "typography":        5,
+  "skillsUsable": 15,
+  "brandStyleHits": 0,
+  "fontIssues": 5
+}

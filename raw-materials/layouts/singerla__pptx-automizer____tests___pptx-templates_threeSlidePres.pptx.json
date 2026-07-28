@@ -1,0 +1,59 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/threeSlidePres.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "TITLE",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;54;p13"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;55;p13"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "TITLE_AND_BODY",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;60;p14"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;61;p14"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "TITLE_AND_BODY",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;66;p15"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;67;p15"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "TITLE",
+    "TITLE_AND_BODY"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

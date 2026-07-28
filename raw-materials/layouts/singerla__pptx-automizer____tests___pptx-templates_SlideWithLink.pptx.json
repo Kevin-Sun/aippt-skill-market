@@ -1,0 +1,44 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithLink.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "ExternalLink"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "LinkToSlide"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "TableWithLink"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 2,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

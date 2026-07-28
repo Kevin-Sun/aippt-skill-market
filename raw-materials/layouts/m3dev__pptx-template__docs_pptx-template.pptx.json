@@ -1,0 +1,154 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/m3dev__pptx-template/docs/pptx-template.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "タイトルとコンテンツ",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 15"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 17"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 18"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 25"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "タイトルとコンテンツ",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 15"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 17"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 18"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 25"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 20"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 21"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 23"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直線矢印コネクタ 24"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [
+    "Consolas"
+  ],
+  "error": null,
+  "layoutNames": [
+    "タイトルとコンテンツ"
+  ],
+  "slideCount": 2,
+  "source": "m3dev__pptx-template",
+  "license": "Apache",
+  "category": "pptx-template"
+}

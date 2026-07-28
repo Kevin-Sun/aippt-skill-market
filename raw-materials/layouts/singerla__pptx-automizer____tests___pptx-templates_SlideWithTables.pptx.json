@@ -1,0 +1,78 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithTables.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "TableDefault"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "TableWithHeader"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "TableWithLabels"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "LabelsVertical"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "LabelsHorizontal"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "TableWithEmptyCells"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "TableWithFormattedCells"
+        },
+        {
+          "type": "TABLE (19)",
+          "name": "EmptyTable"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Nur Titel"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

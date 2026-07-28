@@ -1,0 +1,1721 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (52).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 24"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 20"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 30"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 34"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 30"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 12"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 14"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 17"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 20"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 22"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 23"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 25"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 70"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 71"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 72"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 73"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 26"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 14"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 28"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 35"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-11-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-12-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-13-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-15-连接符-Line"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-16-组合-Group"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-17-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-18-文本框-TextBox"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-19-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-20-文本框-TextBox"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-21-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-22-文本框-TextBox"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-23-自由图形-Freeform"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "1_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 5"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 22"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 24"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 25"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 28"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îsḷîḓè"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 32"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 34"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îsḷîḓè"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 48"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 49"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 51"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 52"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "educational-graphic_42927"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "educational-graphic_42927"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "1_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-5-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-7-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-8-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-9-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-10-连接符-Line"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-11-自由图形-Freeform"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-12-自由图形-Freeform"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-14-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-15-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-16-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-17-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-18-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-19-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-20-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-21-文本框-TextBox"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-32-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-33-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-34-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-35-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-36-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-37-圆角矩形-RoundedRectangle"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "1_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-5-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-6-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-7-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-8-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-9-自选图形-Mixed"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-10-自选图形-Mixed"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-11-自选图形-Mixed"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-12-自由图形-Freeform"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-13-自由图形-Freeform"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-14-自选图形-Mixed"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-15-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-16-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-17-矩形-Rectangle"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "2_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 16"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 17"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 22"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 34"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 7"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "2_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-椭圆-Oval"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-椭圆-Oval"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-椭圆-Oval"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-5-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-6-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-7-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-8-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-9-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-10-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-11-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-12-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-14-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-15-矩形-Rectangle"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "2_内容与标题",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-1-自由图形-Freeform"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-2-自由图形-Freeform"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-椭圆-Oval"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-弧形-Arc"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-5-弧形-Arc"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-6-椭圆-Oval"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-18-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-19-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-35-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-36-椭圆-Oval"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-37-自由图形-Freeform"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "3_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-3-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-矩形-Rectangle"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-5-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-6-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-7-组合-Group"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "3_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-12-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-13-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-14-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-15-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-16-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-17-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-18-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-19-文本框-TextBox"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "3_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-4-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-5-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-6-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-7-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-8-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-9-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-10-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-11-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-12-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-13-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-14-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-15-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-16-自选图形-Round2SameRectangle"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-17-组合-Group"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "3_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-30-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-30-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-11-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-12-连接符-Line"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-13-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-14-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-15-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-16-文本框-TextBox"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-31-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-32-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-33-圆角矩形-RoundedRectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-34-矩形-Rectangle"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "layout": "4_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-2-文本框-TextBox"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-4-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-5-文本框-TextBox"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-6-连接符-Line"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-7-自由图形-Freeform"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "layout": "4_内容与标题",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "张-1-图片-Picture"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-7-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-矩形-Rectangle"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-3-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-4-组合-Group"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-5-组合-Group"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-6-矩形-Rectangle"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-8-连接符-Line"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "张-9-连接符-Line"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-10-组合-Group"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-11-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-12-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-13-矩形-Rectangle"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "layout": "4_内容与标题",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "张-1-组合-Group"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-2-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-4-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-5-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-6-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-7-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-8-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-9-文本框-TextBox"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "ïŝļïḋè"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îSļîḑè"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îŝļîḑé"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "îṥḻiḋê"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "ïŝlíḍé"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "îṩḷîḑé"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "iṣļîďè"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "layout": "4_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-1-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-3-矩形-Rectangle"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-14-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-15-文本框-TextBox"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "PA-Chart 8"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "layout": "4_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-11-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-12-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-13-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-14-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-15-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-16-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-17-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-18-连接符-Line"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-19-矩形-Rectangle"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "张-20-矩形-Rectangle"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "layout": "图片与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "等腰三角形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "graduation-cap-circular-button_21195"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "layout": "5_内容与标题",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-1-自由图形-Freeform"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-2-自由图形-Freeform"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "张-3-组合-Group"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-14-文本框-TextBox"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "张-15-文本框-TextBox"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-16-自由图形-Freeform"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "张-17-自由图形-Freeform"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "layout": "5_内容与标题",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 29"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 31"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 65"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 51"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 52"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 53"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "文本框 54"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "文本框 55"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "文本框 56"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "layout": "5_内容与标题",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "图表 35"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 37"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 39"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 46"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 16"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 26"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "layout": "5_内容与标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 18"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 19"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "图表 20"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 36"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "layout": "5_内容与标题",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "图表 16"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 23"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 24"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形: 圆角 26"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 27"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 28"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 30"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 24"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "图片 20"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 28"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 34"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "44546A"
+  ],
+  "fonts": [
+    "思源黑体 CN Medium"
+  ],
+  "error": null,
+  "layoutNames": [
+    "1_内容与标题",
+    "2_内容与标题",
+    "3_内容与标题",
+    "4_内容与标题",
+    "5_内容与标题",
+    "内容与标题",
+    "图片与标题",
+    "空白"
+  ],
+  "slideCount": 31,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

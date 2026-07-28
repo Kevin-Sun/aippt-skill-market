@@ -1,0 +1,94 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/m3dev__pptx-template/test/data2/in.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "タイトルとコンテンツ",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "タイトル 1"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 12"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "タイトルとコンテンツ",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "タイトル 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "正方形/長方形 12"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 16"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "テキスト ボックス 17"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 6"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 7"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 8"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "グラフ 9"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "FF0000"
+  ],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "タイトルとコンテンツ"
+  ],
+  "slideCount": 2,
+  "source": "m3dev__pptx-template",
+  "license": "Apache",
+  "category": "pptx-template"
+}

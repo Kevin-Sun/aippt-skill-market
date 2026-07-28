@@ -1,0 +1,38 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/ChartWithExternalData.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Diapositiva de título",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "Conector recto 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "CuadroTexto 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectángulo 2"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "Gráfico 7"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Diapositiva de título"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

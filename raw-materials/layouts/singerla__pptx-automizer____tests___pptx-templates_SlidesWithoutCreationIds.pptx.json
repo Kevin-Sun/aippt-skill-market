@@ -1,0 +1,68 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlidesWithoutCreationIds.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "1_Titelfolie green text",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Untertitel 2"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "NoTextBody"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie orange text",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Untertitel 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Smiley 3"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Smiley 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "1_Titelfolie green text",
+    "Nur Titel",
+    "Titelfolie orange text"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

@@ -1,0 +1,38 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideWithNotes.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Cloud"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Arrow"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Star"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Drum"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

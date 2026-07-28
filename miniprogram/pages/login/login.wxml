@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="logo">AI智作PPT模版社</view>
+  <view class="desc">登录后解锁全部 skill · 预览 · 购买 · 三 agent 打通</view>
+
+  <checkbox-group bindchange="onAgreeChange">
+    <label class="agree">
+      <checkbox value="agree" />
+      <text>我已阅读并同意《用户协议》和《隐私政策》</text>
+    </label>
+  </checkbox-group>
+
+  <button class="login-btn" bindtap="onLoginTap">微信一键登录</button>
+</view>

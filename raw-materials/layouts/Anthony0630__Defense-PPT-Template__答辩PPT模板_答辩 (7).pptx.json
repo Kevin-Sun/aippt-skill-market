@@ -1,0 +1,485 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (7).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "封面页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "目录页_四项目录",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 4"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 5"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 6"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 7"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 8"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 9"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 10"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 17"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 21"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 29"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 4"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 21"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 29"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "剪去单角的矩形 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 15"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 17"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "内容页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 16"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 17"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 30"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 32"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "梯形 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "三角形 34"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 35"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 36"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 37"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 40"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 42"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 44"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "封面页",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 2"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 3"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "FFFFFF"
+  ],
+  "fonts": [
+    "Microsoft YaHei",
+    "微软雅黑"
+  ],
+  "error": null,
+  "layoutNames": [
+    "内容页",
+    "封面页",
+    "目录页_四项目录"
+  ],
+  "slideCount": 11,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

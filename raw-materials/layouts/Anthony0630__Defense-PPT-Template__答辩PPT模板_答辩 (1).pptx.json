@@ -1,0 +1,2755 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (1).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 11"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Joel Hanson - Traveling Light"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 217"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 34"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 220"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 217"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 63"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 220"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 217"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 69"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 220"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 217"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 75"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 220"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 217"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_矩形 81"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "PA_组合 220"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 98"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 1"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_椭圆 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_文本框 7"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "PA_同心圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "空心弧 15"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "PA_图片 22"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 3"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Picture 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 9"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 16"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 19"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 20"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 7"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 9"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 11"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 13"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 16"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 17"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 18"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 23"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "Group 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 9"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 18"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 38"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符​​ 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形​​ 9"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符​​ 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形​​ 13"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符​​ 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形​​ 17"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 7"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_椭圆 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_文本框 7"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "PA_同心圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "空心弧 15"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "PA_图片 22"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 17"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 39"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 40"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 41"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 42"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 43"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 58"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 68"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 69"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 70"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 4"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 132"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 133"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 134"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 135"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 136"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 137"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 138"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 139"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 140"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 141"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 252"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 18"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 24"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 75"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 76"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 77"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 78"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 79"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 54"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 55"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 56"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 57"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 58"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 59"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 60"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 61"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 62"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 11"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "Chart 8"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "图表 1"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "图表 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 30"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 31"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 34"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 35"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 36"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 37"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 23"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 28"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 29"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 30"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 31"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 32"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 11"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "右箭头 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "右箭头 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "圆角矩形 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "WordArt 79"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 80"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 15"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "图表 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_椭圆 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_文本框 7"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "PA_同心圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "空心弧 15"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "PA_图片 22"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 3"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 12"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 13"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 14"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 15"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Line 16"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 17"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 18"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 19"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 20"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 22"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 25"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 26"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 27"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 29"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 30"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 31"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 34"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 35"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Box 36"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 37"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 38"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 69"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 71"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 72"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 73"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 74"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 76"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 77"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 78"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 79"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 21"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 31"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 40"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 49"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 57"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 19"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 20"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 21"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 22"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 23"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 24"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 25"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 26"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 27"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 58"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 59"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 60"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 61"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 62"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 67"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 22"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3339"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3340"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3341"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3342"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3343"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3344"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3345"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3346"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3347"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3348"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3349"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3350"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3351"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3352"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3353"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3356"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3357"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3358"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3359"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3360"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3361"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3362"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3363"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Shape 3364"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 3365"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 3366"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 3367"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 3368"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Shape 3369"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 113"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 114"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 115"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 116"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 117"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 49"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 54"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 58"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 62"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 20"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 28"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 31"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 34"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 37"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 45"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 48"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 51"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 57"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 42"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 62"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_椭圆 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_文本框 7"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "PA_同心圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "空心弧 15"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "PA_图片 22"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 37"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 39"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Donut 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 32"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 34"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 35"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 41"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 44"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Arrow Connector 5"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Arrow Connector 75"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 76"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 79"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Arrow Connector 82"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Elbow Connector 84"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 31"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 8"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Arrow Connector 48"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 11"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 60"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 63"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 66"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 69"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 81"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 84"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 87"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 90"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 9"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 4"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 2"
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 5"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 27"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 29"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 30"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 31"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 12"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 20"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 31"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 36"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 40"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 43"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 51"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 17"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 19"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 20"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 21"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 22"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 23"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 24"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 25"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 27"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 28"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 29"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 34"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 35"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 44"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 46"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 49"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 50"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 51"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 52"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 53"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 54"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 55"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 56"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 57"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 58"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 59"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 60"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 143"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 144"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 39"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 306"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 313"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 63"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 69"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 55"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 56"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 57"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 58"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "Straight Connector 60"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 21"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 19"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 19"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 66"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 70"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 72"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 73"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 74"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 76"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 77"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 79"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 80"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 139"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 34"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_椭圆 6"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_文本框 7"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "PA_同心圆 8"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 11"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "PA_直接连接符 12"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "空心弧 15"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "PA_图片 22"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 45"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 34"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 35"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 38"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 41"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 43"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 47"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 50"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 52"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 61"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 25"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 28"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 17"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 22"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 27"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 45"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 51"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 52"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 53"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 54"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 42"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 48"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 51"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 57"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 62"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 64"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 66"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 68"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rounded Rectangle 70"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 71"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 72"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 73"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Rectangle 74"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 34"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 97"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 100"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 105"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 32"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Text Placeholder 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 108"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 83"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Block Arc 85"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 1"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 142"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 149"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 34"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "Freeform 116"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "layout": "仅标题",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "标题 1"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "Chart 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 34"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 35"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 36"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 38"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 39"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 41"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 43"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 47"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Oval 50"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 51"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 52"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "layout": "空白",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 3"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组 11"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "26A6CF",
+    "47ABB9",
+    "4D4D4D",
+    "7F7F7F",
+    "9B9B9B",
+    "C19851",
+    "E55948",
+    "FFFFFF"
+  ],
+  "fonts": [
+    "+mn-ea",
+    "+mn-lt",
+    "Arial Unicode MS",
+    "Source Sans Pro",
+    "微软雅黑",
+    "方正兰亭黑简体"
+  ],
+  "error": null,
+  "layoutNames": [
+    "仅标题",
+    "空白"
+  ],
+  "slideCount": 35,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

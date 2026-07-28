@@ -1,0 +1,38 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/twoTextElementPres.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "TITLE",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;54;p13"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Google Shape;55;p13"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Google Shape;56;p13"
+        },
+        {
+          "type": "PICTURE (13)",
+          "name": "Google Shape;57;p13"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "TITLE"
+  ],
+  "slideCount": 1,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

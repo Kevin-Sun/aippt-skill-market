@@ -1,0 +1,40 @@
+/* Design Tokens - 单一事实源，颜色/字号/间距/圆角/阴影 */
+page {
+  /* 品牌色 */
+  --color-primary: #07c160;
+  --color-primary-light: #e8f8ef;
+  --color-danger: #e64340;
+  --color-warning: #ff976a;
+
+  /* 中性色 */
+  --color-bg: #f5f5f5;
+  --color-surface: #ffffff;
+  --color-text: #333333;
+  --color-text-secondary: #666666;
+  --color-text-placeholder: #999999;
+  --color-border: #eaeaea;
+
+  /* 字号阶梯 */
+  --font-size-xs: 20rpx;
+  --font-size-sm: 24rpx;
+  --font-size-md: 28rpx;
+  --font-size-lg: 32rpx;
+  --font-size-xl: 36rpx;
+  --font-size-xxl: 44rpx;
+
+  /* 间距 */
+  --space-xs: 8rpx;
+  --space-sm: 16rpx;
+  --space-md: 24rpx;
+  --space-lg: 32rpx;
+  --space-xl: 48rpx;
+
+  /* 圆角 */
+  --radius-sm: 8rpx;
+  --radius-md: 12rpx;
+  --radius-lg: 16rpx;
+  --radius-full: 999rpx;
+
+  /* 阴影 */
+  --shadow-card: 0 4rpx 16rpx rgba(0, 0, 0, 0.08);
+}

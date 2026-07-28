@@ -1,0 +1,56 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/ChartScatter.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "Scatter"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "ScatterPoint"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "ScatterPointImages"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "Titelfolie",
+      "shapes": [
+        {
+          "type": "CHART (3)",
+          "name": "ScatterPointLabel"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Titelfolie"
+  ],
+  "slideCount": 4,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

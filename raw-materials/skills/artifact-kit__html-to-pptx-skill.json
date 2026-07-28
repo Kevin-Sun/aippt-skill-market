@@ -1,0 +1,19 @@
+{
+  "id": "artifact-kit__html-to-pptx-skill",
+  "source": "artifact-kit__html-to-pptx-skill",
+  "stars": 8,
+  "license": "MIT",
+  "licenseVerified": true,
+  "category": "html-to-pptx",
+  "promptsExtracted": 16,
+  "readmeExtracted": 1,
+  "layoutsFound": 0,
+  "layoutsParsed": 0,
+  "palettesExtracted": 0,
+  "fontsExtracted": 0,
+  "brandStyleHits": 0,
+  "usable": true,
+  "licenseOk": true,
+  "hasContent": true,
+  "cleanedAt": ""
+}

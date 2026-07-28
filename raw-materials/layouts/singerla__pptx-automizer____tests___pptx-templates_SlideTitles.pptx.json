@@ -1,0 +1,50 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/SlideTitles.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 4"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "Titel 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 5"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "Nur Titel",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "Textfeld 5"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "Nur Titel"
+  ],
+  "slideCount": 3,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}

@@ -1,0 +1,742 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/Anthony0630__Defense-PPT-Template/答辩PPT模板/答辩 (99).pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "标题幻灯片",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 5"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 6"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 15"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "1_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 13"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 22"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 31"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 47"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 4"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 7"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 8"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        },
+        {
+          "type": "CHART (3)",
+          "name": "图表 10"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 15"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 59"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 91"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 94"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 97"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 100"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 103"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 109"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 114"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 120"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 7"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 5"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 3"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 8"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 6"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 4"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 9"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 10"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 85"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 86"
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "弧形 33"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 34"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 35"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 38"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 43"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 57"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 26"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 27"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 28"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 29"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 30"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 31"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 32"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 45"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 46"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 47"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 48"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 49"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 50"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 51"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 52"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 53"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 54"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 55"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 62"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 63"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 64"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 65"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 66"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 67"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 68"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 69"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 70"
+        },
+        {
+          "type": "FREEFORM (5)",
+          "name": "任意多边形 71"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 72"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 75"
+        },
+        {
+          "type": "LINE (9)",
+          "name": "直接连接符 79"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "上箭头 80"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "上箭头 81"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "上箭头 82"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 224"
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Teardrop 50"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Teardrop 51"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Teardrop 52"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "Teardrop 53"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 54"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 61"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 64"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "Group 67"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "GROUP (6)",
+          "name": "组合 10"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "GROUP (6)",
+          "name": "组合 26"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "椭圆 59"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "TextBox 45"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "layout": "4_标题幻灯片",
+      "shapes": [
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "文本占位符 1"
+        },
+        {
+          "type": "PLACEHOLDER (14)",
+          "name": "灯片编号占位符 2"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 61"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "layout": "2_标题幻灯片",
+      "shapes": [
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 16"
+        },
+        {
+          "type": "TEXT_BOX (17)",
+          "name": "文本框 1"
+        },
+        {
+          "type": "AUTO_SHAPE (1)",
+          "name": "矩形 2"
+        }
+      ]
+    }
+  ],
+  "palettes": [
+    "00506C",
+    "3592BE",
+    "92D050",
+    "C00000"
+  ],
+  "fonts": [
+    "+mj-ea",
+    "+mn-ea",
+    "微软雅黑"
+  ],
+  "error": null,
+  "layoutNames": [
+    "1_标题幻灯片",
+    "2_标题幻灯片",
+    "4_标题幻灯片",
+    "标题幻灯片"
+  ],
+  "slideCount": 21,
+  "source": "Anthony0630__Defense-PPT-Template",
+  "license": "unknown",
+  "category": "defense-ppt"
+}

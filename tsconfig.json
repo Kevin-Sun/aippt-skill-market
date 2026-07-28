@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "outDir": "miniprogram",
+    "rootDir": "miniprogram",
+    "lib": [
+      "ES2018"
+    ],
+    "types": [
+      "miniprogram-api-typings"
+    ],
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "include": [
+    "miniprogram/types.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "miniprogram/miniprogram_npm"
+  ]
+}

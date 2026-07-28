@@ -1,0 +1,58 @@
+{
+  "file": "/Users/sunkai/ops-dashboard/docs/aippt-skill-market/raw-materials/github/singerla__pptx-automizer/__tests__/pptx-templates/GS_Tables_Merged.pptx",
+  "parsed": true,
+  "slides": [
+    {
+      "index": 0,
+      "layout": "TITLE",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "Google Shape;54;p13"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "layout": "MAIN_POINT",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "Google Shape;59;p14"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "layout": "BLANK",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "Google Shape;64;p15"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "layout": "BLANK",
+      "shapes": [
+        {
+          "type": "TABLE (19)",
+          "name": "Google Shape;69;p16"
+        }
+      ]
+    }
+  ],
+  "palettes": [],
+  "fonts": [],
+  "error": null,
+  "layoutNames": [
+    "BLANK",
+    "MAIN_POINT",
+    "TITLE"
+  ],
+  "slideCount": 4,
+  "source": "singerla__pptx-automizer",
+  "license": "MIT",
+  "category": "pptx-automizer"
+}
