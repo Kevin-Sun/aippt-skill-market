@@ -3,12 +3,13 @@
     "pages/index/index",
     "pages/detail/detail",
     "pages/preview/preview",
+    "pages/promotion/promotion",
     "pages/mine/mine",
     "pages/login/login"
   ],
   "tabBar": {
     "color": "#999999",
-    "selectedColor": "#1890ff",
+    "selectedColor": "#2563eb",
     "backgroundColor": "#ffffff",
     "list": [
       {
@@ -16,8 +17,8 @@
         "text": "skill市场"
       },
       {
-        "pagePath": "pages/preview/preview",
-        "text": "预览"
+        "pagePath": "pages/promotion/promotion",
+        "text": "活动"
       },
       {
         "pagePath": "pages/mine/mine",
@@ -29,7 +30,7 @@
     "navigationBarBackgroundColor": "#ffffff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "AI智作PPT模版社",
-    "backgroundColor": "#f5f5f5",
+    "backgroundColor": "#f0f2f5",
     "backgroundTextStyle": "dark"
   },
   "style": "v2",

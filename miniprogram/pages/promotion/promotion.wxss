@@ -1,0 +1,74 @@
+/* pages/promotion/promotion.wxss · 清新 UI */
+.page-container {
+  min-height: 100vh;
+  background: #f0f2f5;
+  padding-bottom: 120rpx;
+}
+
+.header {
+  padding: 48rpx 32rpx 24rpx;
+  background: #ffffff;
+  border-bottom: 2rpx solid #e5e7eb;
+}
+.header-title {
+  display: block;
+  font-size: 48rpx;
+  font-weight: 700;
+  color: #1a1a2e;
+  letter-spacing: -1px;
+}
+.header-subtitle {
+  display: block;
+  font-size: 28rpx;
+  color: #5c6370;
+  margin-top: 8rpx;
+}
+
+.banner-list {
+  padding: 24rpx 32rpx;
+}
+.banner-card {
+  background: #ffffff;
+  border-radius: 16rpx;
+  margin-bottom: 24rpx;
+  overflow: hidden;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.08);
+  border: 2rpx solid #e5e7eb;
+}
+.banner-image {
+  width: 100%;
+  height: 320rpx;
+  display: block;
+}
+.banner-info {
+  padding: 28rpx;
+}
+.banner-title {
+  display: block;
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 8rpx;
+}
+.banner-desc {
+  display: block;
+  font-size: 26rpx;
+  color: #5c6370;
+  line-height: 1.5;
+  margin-bottom: 20rpx;
+}
+.banner-action {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.action-text {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #2563eb;
+}
+.action-arrow {
+  font-size: 32rpx;
+  color: #2563eb;
+  margin-left: 8rpx;
+}

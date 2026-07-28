@@ -1,0 +1,28 @@
+<!--pages/promotion/promotion.wxml-->
+<view class="page-container">
+  <view class="header">
+    <text class="header-title">活动中心</text>
+    <text class="header-subtitle">福利 · 会员 · 社群</text>
+  </view>
+
+  <view class="banner-list">
+    <view
+      wx:for="{{banners}}"
+      wx:key="id"
+      class="banner-card"
+      data-id="{{item.id}}"
+      data-type="{{item.type}}"
+      bindtap="onBannerTap"
+    >
+      <image class="banner-image" src="{{item.image}}" mode="aspectFill" />
+      <view class="banner-info">
+        <text class="banner-title">{{item.title}}</text>
+        <text class="banner-desc">{{item.desc}}</text>
+        <view class="banner-action">
+          <text class="action-text">{{item.action}}</text>
+          <text class="action-arrow">→</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
