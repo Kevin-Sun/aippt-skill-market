@@ -4,7 +4,7 @@ var skills = [
     id: 'work-report-01', name: '工作汇报 skill · 全流程生成', scene: '工作汇报', style: '商务', language: '中文', price: 9.9, isFree: false,
     previewDesc: '给 agent 喂的 PPT skill，让 AI 按专业工作流生成汇报',
     recommendedAgent: 'Codex', gradient: '#2563eb',
-    previewImages: ['/images/skills/work-report-01.png', '/images/skills/work-report-free.png'],
+    previewImages: ['/images/skills/work-report-01.png', '/images/skills/work-report-01-v2.png', '/images/skills/work-report-01-v3.png', '/images/skills/work-report-01-v4.png'],
     includes: { layouts: 10, styles: 8, charts: 13 },
     suitableFor: ['季度汇报', '年度总结', '述职报告', '项目汇报'],
     usageSteps: [
