@@ -131,3 +131,54 @@ esac
 
 log "${B}=== 抓取完成，日志：$LOG ===${X}"
 echo "抓取完成。详见 $LOG"
+
+# === V5 扩展搜索（≥1200 个 PPT skill）===
+echo ""
+echo "=== V5: 扩展搜索高星 PPT skill repo ==="
+
+NEW_REPOS=(
+  "op7418/guizang-ppt-skill"
+  "lewislulu/html-ppt-skill"
+  "chuspeeism/dashi-ppt-skill"
+  "op7418/NanoBanana-PPT-Skills"
+  "ningzimu/codex-ppt-skill"
+  "ningzimu/image-to-editable-ppt-skill"
+  "JuneYaooo/gpt-image2-ppt-skills"
+  "irenerachel/visual-style-ppt-skill"
+  "thePlannerIvan/planners-ppt-hell"
+  "Ronnie2025/codex-ppt-skill"
+  "gnipbao/knowledge-cat-ppt-skill"
+  "zuiho-kai/huawei-style-ppt-skill"
+  "WayneZhon/KingDee-PPT-Skill"
+  "Mr-Q526/PPTMaker-skill"
+  "dososo/blcaptain-ppt-skill"
+  "GordenSun/GordenSuperPPTSkills"
+  "Noi1r/powerpoint-skill"
+  "fivetaku/claude-office-skills"
+  "ToseaAI/awesome-html-slide-skills"
+  "yoshifujidesign/3d-html-slide-skill"
+  "mucsbr/ppt-agent-workflow-san"
+  "StyleAIPro/Nice-Deck"
+  "martin-scot-ai/ppt-studio"
+  "GarfieldJ/jjt"
+  "JZCreative/Fudan-University-PPT-skill"
+  "Timo2026/union-ad-minimalist"
+  "Timo2026/union-ad-gradient"
+  "Whopus/yome-skill-ppt"
+  "Shimonimposed141/powerpoint-skill"
+  "vsaraceni/powerpoint-skill"
+)
+
+for repo in "${NEW_REPOS[@]}"; do
+  dir_name=$(echo "$repo" | tr '/' '__')
+  target="$GH_DIR/${dir_name}"
+  if [ -d "$target" ]; then
+    echo "  skip $repo (already exists)"
+    continue
+  fi
+  echo "  cloning $repo..."
+  git clone --depth 1 "https://github.com/${repo}.git" "$target" 2>/dev/null && echo "    ✓ cloned" || echo "    ✗ failed"
+done
+
+echo ""
+echo "=== V5 扩展完成 ==="
