@@ -1,10 +1,13 @@
-/* orders.wxss */
-.container { background: #f0f2f5; min-height: 100vh; padding: 0 0 120rpx; }
-.tab-bar { display: flex; background: #fff; padding: 16rpx 32rpx; border-bottom: 2rpx solid #e5e7eb; }
-.tab { flex: 1; text-align: center; padding: 12rpx 0; font-size: 28rpx; color: #5c6370; }
-.tab.active { color: #2563eb; font-weight: 700; border-bottom: 4rpx solid #2563eb; }
-.content { padding: 24rpx 32rpx; }
-.empty { text-align: center; padding: 64rpx 0; color: #9ca3af; font-size: 28rpx; }
-.item { display: flex; justify-content: space-between; align-items: center; padding: 24rpx; background: #fff; border-radius: 12rpx; margin-bottom: 16rpx; border: 2rpx solid #e5e7eb; }
-.item-name { font-size: 28rpx; font-weight: 600; color: #1a1a2e; }
-.item-status { font-size: 24rpx; color: #16a34a; }
+.page-container { min-height: 100vh; background: #F7F6F3; padding-bottom: 120rpx; }
+.tab-bar { display: flex; background: #fff; border-bottom: 2rpx solid #EAEAEA; }
+.tab-item { flex: 1; text-align: center; padding: 24rpx 0; font-size: 28rpx; color: #5c6370; border-bottom: 4rpx solid transparent; }
+.tab-item.active { color: #2563eb; border-bottom-color: #2563eb; font-weight: 700; }
+.order-card { background: #fff; margin: 16rpx 32rpx; padding: 28rpx; border-radius: 16rpx; border: 2rpx solid #EAEAEA; display: flex; justify-content: space-between; align-items: center; }
+.order-info { flex: 1; }
+.order-name { font-size: 30rpx; font-weight: 600; color: #1a1a2e; }
+.order-amount { font-size: 32rpx; font-weight: 700; color: #dc2626; margin-left: 16rpx; }
+.order-meta { text-align: right; }
+.order-date { display: block; font-size: 22rpx; color: #9ca3af; }
+.order-status { font-size: 24rpx; color: #5c6370; }
+.order-status.done { color: #16a34a; font-weight: 600; }
+.empty { text-align: center; padding: 80rpx 0; color: #9ca3af; font-size: 28rpx; }

@@ -1,25 +1,47 @@
-<!--pages/orders/orders.wxml-->
-<view class="container">
+<!--pages/orders/orders.wxml · P0: 渲染 orders 数组-->
+<view class="page-container">
   <view class="tab-bar">
-    <text class="tab {{tab === 'purchased' ? 'active' : ''}}" data-tab="purchased" bindtap="onTabTap">已购</text>
-    <text class="tab {{tab === 'favorites' ? 'active' : ''}}" data-tab="favorites" bindtap="onTabTap">收藏</text>
-    <text class="tab {{tab === 'orders' ? 'active' : ''}}" data-tab="orders" bindtap="onTabTap">订单</text>
+    <view class="tab-item {{tab === 'purchased' ? 'active' : ''}}" data-tab="purchased" bindtap="onTabTap">已购 ({{purchased.length}})</view>
+    <view class="tab-item {{tab === 'favorites' ? 'active' : ''}}" data-tab="favorites" bindtap="onTabTap">收藏 ({{favorites.length}})</view>
+    <view class="tab-item {{tab === 'orders' ? 'active' : ''}}" data-tab="orders" bindtap="onTabTap">订单 ({{orders.length}})</view>
   </view>
-  <view class="content" wx:if="{{tab === 'purchased'}}">
-    <view class="empty" wx:if="{{purchased.length === 0}}"><text>暂无已购 skill</text></view>
-    <view class="item" wx:for="{{purchased}}" wx:key="*this">
-      <text class="item-name">{{item}}</text>
-      <text class="item-status">已解锁</text>
+
+  <!-- 已购 -->
+  <view wx:if="{{tab === 'purchased'}}">
+    <view wx:if="{{purchased.length > 0}}">
+      <view class="order-card" wx:for="{{purchased}}" wx:key="*this">
+        <text class="order-name">{{item}}</text>
+        <text class="order-status done">已解锁</text>
+      </view>
     </view>
+    <view class="empty" wx:else><text>暂无已购 skill</text></view>
   </view>
-  <view class="content" wx:if="{{tab === 'favorites'}}">
-    <view class="empty" wx:if="{{favorites.length === 0}}"><text>暂无收藏</text></view>
-    <view class="item" wx:for="{{favorites}}" wx:key="*this">
-      <text class="item-name">{{item}}</text>
-      <text class="item-status">已收藏</text>
+
+  <!-- 收藏 -->
+  <view wx:if="{{tab === 'favorites'}}">
+    <view wx:if="{{favorites.length > 0}}">
+      <view class="order-card" wx:for="{{favorites}}" wx:key="*this">
+        <text class="order-name">{{item}}</text>
+        <text class="order-status">已收藏</text>
+      </view>
     </view>
+    <view class="empty" wx:else><text>暂无收藏</text></view>
   </view>
-  <view class="content" wx:if="{{tab === 'orders'}}">
-    <view class="empty"><text>暂无订单记录</text></view>
+
+  <!-- 订单 -->
+  <view wx:if="{{tab === 'orders'}}">
+    <view wx:if="{{orders.length > 0}}">
+      <view class="order-card" wx:for="{{orders}}" wx:key="id">
+        <view class="order-info">
+          <text class="order-name">{{item.skillName || item.tierName}}</text>
+          <text class="order-amount">¥{{item.amount / 100}}</text>
+        </view>
+        <view class="order-meta">
+          <text class="order-date">{{item.createdAt}}</text>
+          <text class="order-status done">{{item.status}}</text>
+        </view>
+      </view>
+    </view>
+    <view class="empty" wx:else><text>暂无订单记录</text></view>
   </view>
 </view>

@@ -7,14 +7,12 @@ var HINTS_BY_SCENE = {
   '答辩': '试试：毕业答辩、开题报告、论文展示',
   '学术研究': '试试：学术会议、论文展示、研究汇报',
   '商务展示': '试试：商业计划书、营销提案、产品发布',
-  '个人求职': '试试：求职简历、面试展示、自我介绍',
-  '教育培训': '试试：课件制作、培训资料、课程展示',
-};
+  };
 
 Page({
   data: {
     skills: [],
-    scenes: ['全部', '工作汇报', '答辩', '学术研究', '商务展示', '个人求职', '教育培训'],
+    scenes: ['全部', '工作汇报', '答辩', '学术研究', '商务展示'],
     currentScene: '全部',
     isLoggedIn: false,
     searchValue: '',
@@ -65,11 +63,15 @@ Page({
   },
 
   onFreeTap: function() {
+    var scene = this.data.currentScene;
     var free = skillsData.getFreeSkills();
+    if (scene !== '全部') {
+      free = free.filter(function(s) { return s.scene === scene; });
+    }
     if (free.length > 0) {
       wx.navigateTo({ url: '/pages/detail/detail?id=' + free[0].id });
     } else {
-      wx.showToast({ title: '暂无免费 skill', icon: 'none' });
+      wx.showToast({ title: '当前场景暂无免费 skill', icon: 'none' });
     }
   },
 });
