@@ -1,0 +1,4952 @@
+[
+  {
+    "id": "skill_151",
+    "name": "PPT Master",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.8,
+    "salesCount": 4611,
+    "estimated": true,
+    "previewDesc": "X 上公认最强 PPT Skill，可导出可编辑版本、AI 配图、Agent 内置浏览器标记编辑",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_152",
+    "name": "歸藏 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.9,
+    "salesCount": 4880,
+    "estimated": true,
+    "previewDesc": "歸藏大佬出品 PPT Skill，瑞士风审美无敌，自带快捷键，适合线下分享",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_153",
+    "name": "Paidax PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3290,
+    "estimated": true,
+    "previewDesc": "X 博主 Paidax(@xin_pai88825) 挖到的 PPT Skill，支持超多风格一键切换，20+维度自由修改布局/图文/图表/配色，可导出可编辑原生PPT。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_154",
+    "name": "麦肯锡风格 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "精准还原麦肯锡咨询风格，图表表达专业，适合咨询公司级汇报",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_155",
+    "name": "Claude Cowork",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 2924,
+    "estimated": true,
+    "previewDesc": "AI PPT 新秀，文字是文字图是图，完全可编辑，非模型生成图片",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_156",
+    "name": "Claude Design PPT",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "用 Claude Design 建 Design System 再导入 PDF 生成 PPT 初稿，可迭代改版",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_157",
+    "name": "baoyu-design",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.8,
+    "salesCount": 4611,
+    "estimated": true,
+    "previewDesc": "宝玉本地 Agent Skill，Cursor/Claude Code 可用，产出 HTML 演示稿/线框图/原型",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 7,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_158",
+    "name": "Board Presentation Mode",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.7,
+    "salesCount": 312,
+    "estimated": true,
+    "previewDesc": "Claude 内置功能，构建麦肯锡收费3万的同款 slide 结构",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_159",
+    "name": "Codex Image2 PPT",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2437,
+    "estimated": true,
+    "previewDesc": "Codex+Image2+Presentations 插件组合，十分钟创建精美PPT，多风格可选",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_160",
+    "name": "NotebookLM Briefing",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "基于 NotebookLM 生成简报式 PPT，适合研究汇报与内容速览",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_161",
+    "name": "Slides AI",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 92,
+    "estimated": true,
+    "previewDesc": "写消息即得 slide deck，团队快速产出演示文稿的在线工具",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 8,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_162",
+    "name": "Emaze",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 89,
+    "estimated": true,
+    "previewDesc": "云端演示文稿制作工具，8000万+ 演示文稿在此创建",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 7,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_163",
+    "name": "Templafy",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.7,
+    "salesCount": 348,
+    "estimated": true,
+    "previewDesc": "企业级 AI 演示工具，不止生成 slides 更擅长持续精修",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_164",
+    "name": "Flowith",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 91,
+    "estimated": true,
+    "previewDesc": "AI 做 PPT 比较评测中的参赛工具，支持多模型协作生成",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 5,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_165",
+    "name": "Genspark",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 91,
+    "estimated": true,
+    "previewDesc": "AI 演示生成工具，与 Gamma/Felo 同类竞品",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_166",
+    "name": "Felo",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 91,
+    "estimated": true,
+    "previewDesc": "AI 搜索+演示生成一体化工具",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 6,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_167",
+    "name": "Goover",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 91,
+    "estimated": true,
+    "previewDesc": "AI PPT 生成工具，韩语圈讨论较多",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_168",
+    "name": "22-slide Pitch Deck",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.7,
+    "salesCount": 330,
+    "estimated": true,
+    "previewDesc": "4分钟生成22页 pitch deck，PowerPoint 打开元素全可编辑",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 5,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_169",
+    "name": "hugohe PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "3.1万 star 天花板级 PPT Skill，元素全可编辑，自带音色克隆与旁白生成",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_170",
+    "name": "张咋啦 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "2.3万 star，主观审美最佳完成度极高，HTML 格式呈现",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_171",
+    "name": "花叔 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "1.9万 star，审美极佳，可输出可编辑 PPTX 格式",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_172",
+    "name": "Lewis PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "6500 star，功能设计贴心，自带计时器与逐字稿组件",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_173",
+    "name": "宝玉 NPC PPT",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "2.2万 star，NPC 风格偏可爱，纯图片形式呈现",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_174",
+    "name": "乔木 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.6,
+    "salesCount": 80,
+    "estimated": true,
+    "previewDesc": "5400 star，纯图片卡片输出，侧重内容初步呈现",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 7,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_175",
+    "name": "PPT Skill 网页版",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.6,
+    "salesCount": 85,
+    "estimated": true,
+    "previewDesc": "网页版 PPT Skill，可改可演示，无需本地环境",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_176",
+    "name": "团队开源 PPT Skill",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.8,
+    "salesCount": 814,
+    "estimated": true,
+    "previewDesc": "团队开源 PPT Skill，测评效果优秀，PPT 场景优质 skill",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 6,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_177",
+    "name": "一姐 Codex Image2",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 2038,
+    "estimated": true,
+    "previewDesc": "一姐视频同款，Codex+Image2 做 PPT，挨个测试高 star skill",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 6,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_178",
+    "name": "Nano Banana PPT",
+    "source": "X",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "中文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.8,
+    "salesCount": 4611,
+    "estimated": true,
+    "previewDesc": "Nano Banana 模型生成图片格式 PPT，AI 绘图驱动版式",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 7,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_179",
+    "name": "Ppt Presentation Template",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1316,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_180",
+    "name": "Savant Brand Identity Pitch Deck Presentation",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1029,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 7,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_181",
+    "name": "Pitch Deck Design Business Presentation",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3419,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 7,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_182",
+    "name": "VORA The Science of Peak Performance",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.8,
+    "salesCount": 4583,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 5,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_183",
+    "name": "NOMAD KEYNOTE",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3271,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 7,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_184",
+    "name": "Company Profile",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.8,
+    "salesCount": 4601,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 6,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_185",
+    "name": "MRG Annual Report 2020",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.8,
+    "salesCount": 4631,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 5,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_186",
+    "name": "Insight Presentation Grid System for InDesign",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2314,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 8,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_187",
+    "name": "investicionnaja prezentacija Pitch Deck SaaS",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.8,
+    "salesCount": 961,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 5,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_188",
+    "name": "Solva Air Airline Brand Identity Pitch Deck",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 1791,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 8,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_189",
+    "name": "dizajn prezentacij dlja biznesa stroitelstva tendera",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 3988,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_190",
+    "name": "Sales Pitch Deck Company Profile USA",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.9,
+    "salesCount": 1146,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 5,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_191",
+    "name": "Expedia Vacation Deprivation Report",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 3108,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_192",
+    "name": "dizajn prezentacij developera stroitelstva konsaltinga",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1288,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 7,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_193",
+    "name": "portfolio graficheskij dizajner",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.7,
+    "salesCount": 4127,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 5,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_194",
+    "name": "Clarimol AI Driven Drug Discovery Platform",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 4288,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 5,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_195",
+    "name": "Pet Insurance Pitch Deck Presentation Design",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1408,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_196",
+    "name": "The deck Presentation prezentacija Pitch deck",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3437,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 7,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_197",
+    "name": "Karera AI Visual Identity Pitch Deck",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2418,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_198",
+    "name": "Clean and simple PowerPoint presentation",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2767,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 5,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_199",
+    "name": "The Alchemy of Balance Keynote Presentation",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.1,
+    "salesCount": 1786,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_200",
+    "name": "PresentationIllustration dizajn prezentacii",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2797,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 4,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_201",
+    "name": "Madrid en Cifras 2020",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "双语",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1677,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 8,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_202",
+    "name": "Aureon Realty Corporate Presentation Design",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.1,
+    "salesCount": 1876,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_203",
+    "name": "Pitch Deck Design for battery energy storage startup",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 1833,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 5,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_204",
+    "name": "Portfolio Selected Works",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.8,
+    "salesCount": 978,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 6,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_205",
+    "name": "portfolio dizajnera prezentacij IT stroitelstvo REPORT",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.9,
+    "salesCount": 1154,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 7,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_206",
+    "name": "Sales deck Industrial software presentation design SaaS",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3322,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_207",
+    "name": "Editorial Infographics",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 3065,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 7,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_208",
+    "name": "investicionnaja prezentacija Investment Presentation",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3491,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_209",
+    "name": "Furniture Presentation 3D Product visualization",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2651,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 6,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_210",
+    "name": "Green guide for Warsaw Brochure",
+    "source": "Behance",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "Codex",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1324,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_211",
+    "name": "Pitch Deck Branding for Reach Insights",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.4,
+    "salesCount": 2897,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 4,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_212",
+    "name": "prezentacija presentation dizajn",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "双语",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3846,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 6,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_213",
+    "name": "Investor Pitch Deck Design for a DeFi Startup",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3430,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 7,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_214",
+    "name": "Presentation",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.7,
+    "salesCount": 4115,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 4,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_215",
+    "name": "Google IO 2024",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2256,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 8,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_216",
+    "name": "Minimal Presentation Template",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1107,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_217",
+    "name": "Hong Kong Design Centre Annual Report 2023 24 Design",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.7,
+    "salesCount": 4178,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 6,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_218",
+    "name": "Brand Identity Pitch Deck Design for Verde Vista",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.8,
+    "salesCount": 4387,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_219",
+    "name": "AI Startup Brand Identity Webflow Website Typesafe",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2491,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#42275a",
+      "#734b6d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_220",
+    "name": "BETTER MILK BRAND IDENTITY",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.1,
+    "salesCount": 1991,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 7,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_221",
+    "name": "2026 Portfolio",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1684,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_222",
+    "name": "Pitch Deck Presentation for Genesis",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3794,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_223",
+    "name": "Infographic Compilation",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "双语",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.7,
+    "salesCount": 4242,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 6,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_224",
+    "name": "prezentacija logistika vystuplenie na forume",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3404,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_225",
+    "name": "HideCam Product Launch Full Visual Package",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3694,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 7,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_226",
+    "name": "Footy Nations Visual Identity",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.7,
+    "salesCount": 4224,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_227",
+    "name": "Pitch Deck Presentation Design for Organic Food Brand",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1562,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 5,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_228",
+    "name": "Linkinsa Branding Presentation",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2276,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，中式典雅风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 6,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_229",
+    "name": "Brand Identity Presentation Design for Bitgrid",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.9,
+    "salesCount": 1322,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 6,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_230",
+    "name": "Yuno PowerPoint template for a fintech platform",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3531,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 5,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_231",
+    "name": "Sales deck keynote template for Cardboard Spaceship",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2530,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 5,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_232",
+    "name": "Franchise Strategy Pitch Deck Design F B",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.2,
+    "salesCount": 2268,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 7,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_233",
+    "name": "Vietcombank Annual Report 2023 From 0 to 1",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3550,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 7,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_234",
+    "name": "Coordinal Modern Branding Pitch Deck",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "双语",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1086,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 6,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_235",
+    "name": "invest prezentacija dlja startapa Presentation Design",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3404,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 8,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_236",
+    "name": "Brand Presentation prezentacija dlja brenda",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 1986,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#2193b0",
+      "#6dd5ed"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 8,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_237",
+    "name": "My Portfolio 2026",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3261,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 7,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_238",
+    "name": "Sales Deck for Pixel Punch",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.8,
+    "salesCount": 894,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 5,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_239",
+    "name": "infographic vol1",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3859,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_240",
+    "name": "Agro Seven",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1218,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 6,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_241",
+    "name": "Marlie Bedside Table Editorial Product Visualization",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3428,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_242",
+    "name": "Chit Chart",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1486,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 7,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_243",
+    "name": "Visual Identity Presentation for Sinesubs",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1487,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 10,
+      "layouts": 6,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_244",
+    "name": "EV Charging Station Project Proposal Presentation",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.2,
+    "salesCount": 2311,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 5,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_245",
+    "name": "Color Driven Minimalist Pitch Deck",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "双语",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2376,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 7,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_246",
+    "name": "They Feed FIlm Pitch Deck",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2529,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 4,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_247",
+    "name": "FIND X7 SERIES TECH CONFERENCE",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.4,
+    "salesCount": 2912,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 8,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_248",
+    "name": "Brand Portfolio Presentation Template",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2580,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 5,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_249",
+    "name": "Yinson Sustainability Report 2017 Editorial Design",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "科技极简",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3572,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_250",
+    "name": "Premium Pitch Deck for a Wedding Agency",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.0,
+    "salesCount": 1730,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_251",
+    "name": "Pitch Deck Presentation Design for AI Longevity App",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 2861,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 6,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_252",
+    "name": "Mantis Lemon l Free Canva Presentation Template",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 4294,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 6,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_253",
+    "name": "Portfolio Application Design Website Design UIUX",
+    "source": "Behance",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.8,
+    "salesCount": 942,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 8,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_254",
+    "name": "Sales deck system for a real estate developer",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3750,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_255",
+    "name": "Cerro Tusa Infographics and illustration",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3907,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 7,
+      "layouts": 7,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_256",
+    "name": "Presentation design Video production studio",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "双语",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.0,
+    "salesCount": 1463,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 5,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_257",
+    "name": "Chair Presentation 3D Render",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1370,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_258",
+    "name": "The Circle Data visualizations",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.8,
+    "salesCount": 4431,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#0f2027",
+      "#2c5364"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_259",
+    "name": "Tech Startup Deck Presentation Template",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.6,
+    "salesCount": 3710,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_260",
+    "name": "Visual and Presentation Design for KOKUBO",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 3991,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 5,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_261",
+    "name": "Sustainify Multipurpose Presentation Template",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 1996,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_262",
+    "name": "Corporate Professional PowerPoint Design",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.1,
+    "salesCount": 1969,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 8,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_263",
+    "name": "Brand identity pitch deck design for Soma",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 3000,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 7,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_264",
+    "name": "THE ULTIMATE PET SITTER BUSINESS KIT",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.3,
+    "salesCount": 2732,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 7,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_265",
+    "name": "ZDM Annual Report",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.4,
+    "salesCount": 2867,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 8,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_266",
+    "name": "Executive Strategic Business Presentation",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 2888,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_267",
+    "name": "Investor Pitch Deck for AI startup SaaS",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "双语",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1157,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 4,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_268",
+    "name": "FANTASE Luxury Boutique Yachting Full Brand System",
+    "source": "Behance",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.2,
+    "salesCount": 2388,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 7,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_269",
+    "name": "Foundry Capabilities Deck Template",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 1745,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 5,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_270",
+    "name": "ARTISAN AI MARKETING AUTOMATION SAAS DESIGN",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2465,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 8,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_271",
+    "name": "Hajj 2026 Infographic Campaign for M Hajj",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 3.9,
+    "salesCount": 1217,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 8,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_272",
+    "name": "VENTO Market Coffee Grab Go",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.8,
+    "salesCount": 4353,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_273",
+    "name": "Rahhal Tracking Delivery Mobile App Presentation",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1545,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_274",
+    "name": "Obra por brujeria Esquematica Typo 2 Longinotti",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.1,
+    "salesCount": 2036,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 5,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_275",
+    "name": "Pitch Deck Design PowerPoint Presentation",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1202,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 8,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_276",
+    "name": "Presentation Design Business Pitch Deck",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 4071,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 15,
+      "layouts": 6,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_277",
+    "name": "Pitch Deck Design for Orbitoshift Crypto",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.5,
+    "salesCount": 3493,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 4,
+      "colorSchemes": 11
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_278",
+    "name": "FREE Bar Chart Presentation",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "双语",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.5,
+    "salesCount": 3230,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_279",
+    "name": "Flux auto keynote presentation",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 2866,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 8,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_280",
+    "name": "Cairo Business Plaza",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.3,
+    "salesCount": 2833,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_281",
+    "name": "Integrated Report 2023 24 TATA Projects",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1693,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 17,
+      "layouts": 6,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_282",
+    "name": "Business Presentation Template",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.1,
+    "salesCount": 2012,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 5,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_283",
+    "name": "Sales Deck Presentation",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.6,
+    "salesCount": 3788,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 4,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_284",
+    "name": "Fitness App Pitch Deck",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 4213,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 4,
+      "colorSchemes": 9
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_285",
+    "name": "Portfolio book 2021",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.2,
+    "salesCount": 2289,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：portfolio presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 12,
+      "layouts": 7,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_286",
+    "name": "Sales Pitch Deck for SaaS Presentation Design",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.0,
+    "salesCount": 1570,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：sales deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 4,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_287",
+    "name": "Infographic Arabic Design",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1571,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：infographic 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 16,
+      "layouts": 6,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_288",
+    "name": "Pitch Deck Presentation Template",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1243,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：marketing deck 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 6,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_289",
+    "name": "New product presentation Martini product identity",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "双语",
+    "recommendedAgent": "Claude",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.6,
+    "salesCount": 3882,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：product presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 4,
+      "colorSchemes": 5
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_290",
+    "name": "APEX Aerospace Mission Control UI",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.8,
+    "salesCount": 943,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：data visualization 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 14,
+      "layouts": 8,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_291",
+    "name": "dizajn prezentacii Presentation design",
+    "source": "Behance",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "language": "英文",
+    "recommendedAgent": "Claude",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1362,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：ppt 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#11998e",
+      "#38ef7d"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_292",
+    "name": "The Rebel Presentation Kit Canva Template",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.0,
+    "salesCount": 1462,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：presentation 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 6,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_293",
+    "name": "Metaphoric Cards Illustration Card Deck Design",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 3026,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：pitch deck 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 8,
+      "layouts": 7,
+      "colorSchemes": 6
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_294",
+    "name": "Drop Shipping",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 4.6,
+    "salesCount": 3736,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：powerpoint 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 7,
+      "colorSchemes": 12
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_295",
+    "name": "Volvo Tech Films",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.2,
+    "salesCount": 2437,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：keynote 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 11,
+      "layouts": 7,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_296",
+    "name": "Start Up Presentation Template",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "英文",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.4,
+    "salesCount": 3107,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：business presentation 场景，创意活泼风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 6,
+      "layouts": 4,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_297",
+    "name": "Metinvest Annual Report",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 9.9,
+    "isFree": false,
+    "rating": 4.0,
+    "salesCount": 1496,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：annual report 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 13,
+      "layouts": 6,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_298",
+    "name": "FinStream B2B Fintech Pitch Deck Design",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 0.0,
+    "isFree": true,
+    "rating": 4.2,
+    "salesCount": 2356,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：corporate deck 场景，科技极简风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 9,
+      "layouts": 8,
+      "colorSchemes": 7
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_299",
+    "name": "VALE Investor Pitch Deck",
+    "source": "Behance",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "language": "英文",
+    "recommendedAgent": "WorkBuddy",
+    "price": 19.9,
+    "isFree": false,
+    "rating": 3.9,
+    "salesCount": 1164,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：startup pitch 场景，商务简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#667eea",
+      "#764ba2"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 4,
+      "colorSchemes": 10
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  },
+  {
+    "id": "skill_300",
+    "name": "prezentacija dlja stroitelnoj kompanii gradstroi",
+    "source": "Behance",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "language": "双语",
+    "recommendedAgent": "豆包",
+    "price": 2.9,
+    "isFree": false,
+    "rating": 4.7,
+    "salesCount": 4229,
+    "estimated": true,
+    "previewDesc": "Behance 精选演示设计：brand presentation 场景，日系简约风格，专业设计师原创 PPT 模板，版式精致可编辑。",
+    "gradient": [
+      "#f12711",
+      "#f5af19"
+    ],
+    "previewImages": [],
+    "includes": {
+      "templates": 18,
+      "layouts": 7,
+      "colorSchemes": 8
+    },
+    "steps": [
+      "描述你的演示需求或上传素材",
+      "选择视觉风格与版式",
+      "AI 逐页生成幻灯片并预览",
+      "导出为 HTML / PPTX 等可编辑格式"
+    ],
+    "reviews": [],
+    "status": "published"
+  }
+]

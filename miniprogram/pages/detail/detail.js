@@ -1,5 +1,5 @@
 // pages/detail/detail.js · V2 支付联调（调云函数下单+wx.requestVirtualPayment）
-var skillsData = require('../../data/skills.js');
+var skillsService = require('../../data/skills-service.js');
 
 Page({
   data: {
@@ -15,8 +15,8 @@ Page({
 
   onLoad: function(options) {
     var skillId = options.id;
-    var skill = skillsData.getSkillById(skillId);
-    var related = skillsData.getRelatedSkills(skillId);
+    var skill = skillsService.getById(skillId);
+    var related = skillsService.getRelated(skillId);
     this.setData({
       skill: skill,
       relatedSkills: related || []
