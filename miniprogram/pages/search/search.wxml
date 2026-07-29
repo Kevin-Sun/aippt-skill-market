@@ -1,0 +1,111 @@
+<!--pages/search/search.wxml · V5: 搜索详情页（一行一个+筛选器+排序+无限滚动）-->
+<view class="page-container">
+  <!-- 搜索框 -->
+  <view class="search-bar">
+    <input class="search-input" placeholder="搜索 skill..." bindinput="onSearchInput" value="{{searchQuery}}" bindconfirm="onSearchSubmit" />
+    <view class="search-btn" bindtap="onSearchSubmit">搜索</view>
+  </view>
+
+  <!-- 结果统计 + 筛选/排序 -->
+  <view class="filter-bar">
+    <text class="result-count">共 {{total}} 个结果</text>
+    <view class="filter-actions">
+      <text class="sort-btn" bindtap="onToggleFilter">{{sortBy}} ▾</text>
+    </view>
+  </view>
+
+  <!-- 筛选面板 -->
+  <view class="filter-panel" wx:if="{{showFilterPanel}}">
+    <view class="filter-row">
+      <text class="filter-label">场景</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{sceneFilter === item ? 'active' : ''}}" wx:for="{{scenes}}" wx:key="*this" data-val="{{item}}" bindtap="onSceneTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="filter-row">
+      <text class="filter-label">风格</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{styleFilter === item ? 'active' : ''}}" wx:for="{{styles}}" wx:key="*this" data-val="{{item}}" bindtap="onStyleTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="filter-row">
+      <text class="filter-label">语言</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{langFilter === item ? 'active' : ''}}" wx:for="{{langs}}" wx:key="*this" data-val="{{item}}" bindtap="onLangTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="filter-row">
+      <text class="filter-label">Agent</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{agentFilter === item ? 'active' : ''}}" wx:for="{{agents}}" wx:key="*this" data-val="{{item}}" bindtap="onAgentTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="filter-row">
+      <text class="filter-label">价格</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{priceFilter === item ? 'active' : ''}}" wx:for="{{prices}}" wx:key="*this" data-val="{{item}}" bindtap="onPriceTap">{{item}}</text>
+      </view>
+    </view>
+    <view class="filter-row">
+      <text class="filter-label">排序</text>
+      <view class="filter-tags">
+        <text class="filter-tag {{sortBy === item ? 'active' : ''}}" wx:for="{{sortOptions}}" wx:key="*this" data-val="{{item}}" bindtap="onSortTap">{{item}}</text>
+      </view>
+    </view>
+    <!-- P0-2: 重置按钮 -->
+    <view class="reset-btn" bindtap="onResetFilter">重置筛选</view>
+  </view>
+
+  <!-- 空状态推荐 -->
+  <view class="empty-state" wx:if="{{showEmpty}}">
+    <text class="empty-title">没有找到匹配的 skill</text>
+    <text class="empty-desc">试试调整筛选条件，或看看推荐</text>
+    <view class="recommended-section" wx:if="{{recommendedSkills.length > 0}}">
+      <text class="recommended-title">你可能喜欢</text>
+      <view class="recommended-item" wx:for="{{recommendedSkills}}" wx:key="id" data-id="{{item.id}}" bindtap="onRecommendedTap">
+        <text class="recommended-name">{{item.name}}</text>
+        <text class="recommended-price">{{item.isFree ? '免费' : '¥' + item.price}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- skill 列表（一行一个） -->
+  <view class="skill-list" wx:if="{{skills.length > 0}}">
+    <view class="skill-item" wx:for="{{skills}}" wx:key="id" data-id="{{item.id}}" bindtap="onSkillTap">
+      <view class="skill-item-image" style="background: {{item.gradient || 'linear-gradient(135deg, #2563eb, #3b82f6)'}};">
+        <text class="skill-item-style">{{item.style}}</text>
+      </view>
+      <view class="skill-item-body">
+        <text class="skill-item-name">{{item.name}}</text>
+        <text class="skill-item-desc">{{item.previewDesc}}</text>
+        <view class="skill-item-tags">
+          <text class="tag-scene">{{item.scene}}</text>
+          <text class="tag-lang">{{item.language}}</text>
+          <text class="tag-agent" wx:if="{{item.recommendedAgent}}">{{item.recommendedAgent}}</text>
+        </view>
+        <view class="skill-item-footer">
+          <text class="skill-item-rating">{{item.rating >= 1 ? '★' : '☆'}}{{item.rating >= 2 ? '★' : '☆'}}{{item.rating >= 3 ? '★' : '☆'}}{{item.rating >= 4 ? '★' : '☆'}}{{item.rating >= 5 ? '★' : '☆'}} {{item.rating}}</text>
+          <!-- P0-4: 付费/免费标签区分 -->
+          <text class="skill-item-price {{item.isFree ? 'free' : 'paid'}}">{{item.isFree ? '免费' : '¥' + item.price}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 加载更多 -->
+  <view class="loading-more" wx:if="{{loading}}">
+    <text>加载中...</text>
+  </view>
+  <view class="no-more" wx:if="{{!hasMore && skills.length > 0}}">
+    <text>没有更多了</text>
+  </view>
+
+  <!-- P0-8: 会员引导卡片 -->
+  <view class="member-guide-card" wx:if="{{showMemberCard}}" bindtap="onMemberTap">
+    <view class="member-guide-left">
+      <text class="member-guide-title">开通会员 · 全库 1200+ skill 免费用</text>
+      <text class="member-guide-desc">月费 19.9 起 · 年度 99.9 更值</text>
+    </view>
+    <view class="member-guide-action">开通</view>
+  </view>
+</view>

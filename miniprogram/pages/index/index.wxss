@@ -84,3 +84,9 @@
 .skill-scene { font-size: 22rpx; color: #2563eb; background: #dbeafe; padding: 4rpx 12rpx; border-radius: 999rpx; font-weight: 600; }
 .skill-lang { font-size: 22rpx; color: #5c6370; background: #F7F6F3; padding: 4rpx 12rpx; border-radius: 999rpx; }
 .skill-price { font-size: 28rpx; font-weight: 800; color: #dc2626; margin-left: auto; }
+
+.view-more-btn { text-align: center; padding: 32rpx 0; margin: 0 48rpx; background: #2563eb; border-radius: 999rpx; color: #fff; font-size: 28rpx; font-weight: 700; }
+.view-all-search { text-align: center; padding: 24rpx 0; margin: 0 48rpx; color: #2563eb; font-size: 26rpx; font-weight: 600; }
+.loading-more { text-align: center; padding: 24rpx 0; color: #9ca3af; font-size: 26rpx; }
+.skill-price.free { color: #16a34a; }
+.skill-price.paid { color: #dc2626; }

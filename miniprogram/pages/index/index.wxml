@@ -1,4 +1,4 @@
-<!--pages/index/index.wxml · V3.1 对齐两列 + 色彩碰撞 + 潮流感-->
+<!--pages/index/index.wxml · V5: 无限下拉+查看更多-->
 <view class="page-container">
   <view class="nav-bar">
     <text class="nav-logo">AI智作PPT</text>
@@ -7,7 +7,7 @@
   </view>
   <view class="hero-section">
     <text class="hero-title">PPT Skill 市场</text>
-    <text class="hero-subtitle">给 AI agent 喂 skill，生成不撞款的 PPT</text>
+    <text class="hero-subtitle">1200+ skill · 给 AI agent 喂 skill</text>
   </view>
   <view class="search-bar">
     <input class="search-input" placeholder="{{searchHint}}" bindinput="onSearchInput" value="{{searchValue}}" bindconfirm="onSearchSubmit" />
@@ -45,11 +45,23 @@
           <view class="skill-meta">
             <text class="skill-scene">{{item.scene}}</text>
             <text class="skill-lang">{{item.language}}</text>
-            <text class="skill-price" wx:if="{{item.isFree}}">免费</text>
-            <text class="skill-price" wx:else>¥{{item.price}}</text>
+            <text class="skill-price {{item.isFree ? 'free' : 'paid'}}" wx:if="{{item.isFree}}">免费</text>
+            <text class="skill-price paid" wx:else>¥{{item.price}}</text>
           </view>
         </view>
       </view>
     </view>
+  </view>
+  <!-- 加载中 -->
+  <view class="loading-more" wx:if="{{loading}}">
+    <text>加载中...</text>
+  </view>
+  <!-- 搜索结果：查看全部 -->
+  <view class="view-all-search" wx:if="{{showSearchResults && searchResultsCount > 0}}" bindtap="onViewAllSearchTap">
+    <text>查看全部 {{searchResultsCount}} 个搜索结果 →</text>
+  </view>
+  <!-- 查看更多 -->
+  <view class="view-more-btn" wx:if="{{showViewMore}}" bindtap="onViewMoreTap">
+    <text>查看更多 →</text>
   </view>
 </view>
