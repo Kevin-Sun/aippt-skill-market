@@ -9,6 +9,8 @@ Page({
     isFavorited: false,
     relatedSkills: [],
     currentPreview: 0,
+    retryCount: 0,
+    purchasedAt: '',
   },
 
   onLoad: function(options) {
@@ -95,8 +97,20 @@ Page({
       },
       fail: function(err) {
         wx.hideLoading();
-        wx.showToast({ title: '云函数调用失败，使用模拟支付', icon: 'none' });
-        setTimeout(function() { self.unlockSkill(); }, 1500);
+        wx.showModal({
+          title: '支付失败',
+          content: '网络错误或云函数未部署，是否重试？',
+          confirmText: '重试',
+          cancelText: '取消',
+          success: function(modalRes) {
+            if (modalRes.confirm) {
+              self.setData({ retryCount: (self.data.retryCount || 0) + 1 });
+              if (self.data.retryCount <= 3) { self.requestPayment(); }
+              else { wx.showToast({ title: '重试次数过多', icon: 'none' }); }
+            }
+            else { wx.showToast({ title: '已取消', icon: 'none' }); }
+          }
+        });
       }
     });
   },
@@ -121,10 +135,24 @@ Page({
 
   unlockSkill: function() {
     try {
+      var skill = this.data.skill;
       var purchased = wx.getStorageSync('purchasedSkills') || [];
-      if (this.data.skill) purchased.push(this.data.skill.id);
+      if (purchased.indexOf(skill.id) < 0) purchased.push(skill.id);
       wx.setStorageSync('purchasedSkills', purchased);
-      this.setData({ isPurchased: true });
+      // P0-4: 写 orderRecords
+      var order = {
+        id: 'skill_' + skill.id + '_' + Date.now(),
+        type: 'skill',
+        skillId: skill.id,
+        skillName: skill.name,
+        amount: Math.round(Number(skill.price) * 100),
+        status: '已完成',
+        createdAt: new Date().toISOString(),
+      };
+      var records = wx.getStorageSync('orderRecords') || [];
+      records.unshift(order);
+      wx.setStorageSync('orderRecords', records);
+      this.setData({ isPurchased: true, purchasedAt: order.createdAt });
       wx.showToast({ title: '解锁成功', icon: 'success' });
     } catch (e) {}
   },
@@ -181,7 +209,7 @@ Page({
 
   onRelatedTap: function(e) {
     var skillId = e.currentTarget.dataset.id;
-    wx.navigateTo({ url: '/pages/detail/detail?id=' + skillId });
+    wx.redirectTo({ url: '/pages/detail/detail?id=' + skillId });
   },
 
   onReviewTap: function() {

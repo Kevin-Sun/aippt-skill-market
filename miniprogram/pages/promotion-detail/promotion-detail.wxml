@@ -1,44 +1,93 @@
-<!--pages/promotion-detail/promotion-detail.wxml-->
-<view class="page-container" wx:if="{{activity}}">
-  <image class="activity-banner" src="{{activity.banner}}" mode="aspectFill" />
+<!--pages/promotion-detail/promotion-detail.wxml · V3.2 装修-->
+<view class="page-container">
+  <!-- 活动头图 -->
+  <image class="hero-image" src="{{activity.image}}" mode="aspectFill" />
+  
+  <!-- 活动标题区 -->
   <view class="activity-header">
     <text class="activity-title">{{activity.title}}</text>
-    <view class="countdown-box">
-      <text class="countdown-label">倒计时</text>
-      <text class="countdown-time">{{countdown}}</text>
+    <view class="activity-meta">
+      <text class="meta-tag meta-hot" wx:if="{{activity.isHot}}">热门</text>
+      <text class="meta-tag meta-time">剩余 {{activity.daysLeft}} 天</text>
+      <text class="meta-tag meta-count">{{activity.participants}} 人参与</text>
     </view>
+    <text class="activity-desc">{{activity.description}}</text>
   </view>
+
+  <!-- 活动规则 -->
   <view class="section">
     <text class="section-title">活动规则</text>
-    <view class="rule-item" wx:for="{{activity.rules}}" wx:key="*this">
-      <text class="rule-text">{{item}}</text>
-    </view>
-  </view>
-  <view class="section">
-    <text class="section-title">参与流程</text>
-    <view class="step-item" wx:for="{{activity.steps}}" wx:key="step">
-      <view class="step-num">{{item.step}}</view>
-      <view class="step-content">
-        <text class="step-title">{{item.title}}</text>
-        <text class="step-desc">{{item.desc}}</text>
+    <view class="rule-list">
+      <view class="rule-item" wx:for="{{activity.rules}}" wx:key="*this">
+        <image class="rule-icon" src="/images/icons/check.png" mode="aspectFit" />
+        <text class="rule-text">{{item}}</text>
       </view>
     </view>
   </view>
-  <view class="section" wx:if="{{activity.inviteRecords.length > 0}}">
+
+  <!-- 参与流程 -->
+  <view class="section">
+    <text class="section-title">参与流程</text>
+    <view class="steps-list">
+      <view class="step-item" wx:for="{{activity.steps}}" wx:key="num">
+        <view class="step-num-circle">{{item.num}}</view>
+        <view class="step-content">
+          <text class="step-title">{{item.title}}</text>
+          <text class="step-desc">{{item.desc}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 邀请记录 -->
+  <view class="section">
     <text class="section-title">我的邀请记录</text>
-    <view class="invite-item" wx:for="{{activity.inviteRecords}}" wx:key="*this">
-      <text class="invite-name">{{item.name}}</text>
-      <text class="invite-status">{{item.status}}</text>
+    <view class="invite-stats">
+      <view class="invite-stat">
+        <text class="invite-num">{{inviteCount}}</text>
+        <text class="invite-label">已邀请</text>
+      </view>
+      <view class="invite-stat">
+        <text class="invite-num">{{rewardCount}}</text>
+        <text class="invite-label">已获得</text>
+      </view>
+      <view class="invite-stat">
+        <text class="invite-num">{{pendingCount}}</text>
+        <text class="invite-label">待结算</text>
+      </view>
+    </view>
+    <view class="invite-list" wx:if="{{inviteList.length > 0}}">
+      <view class="invite-item" wx:for="{{inviteList}}" wx:key="id">
+        <text class="invite-name">{{item.name}}</text>
+        <text class="invite-status {{item.status === '已完成' ? 'status-done' : 'status-pending'}}">{{item.status}}</text>
+        <text class="invite-reward" wx:if="{{item.reward}}">+{{item.reward}}</text>
+      </view>
+    </view>
+    <view class="empty-state" wx:else>
+      <text class="empty-text">还没有邀请记录</text>
+      <text class="empty-hint">分享活动给好友，一起领奖励</text>
     </view>
   </view>
-  <view class="section" wx:if="{{activity.rewards.length > 0}}">
+
+  <!-- 奖励展示 -->
+  <view class="section">
     <text class="section-title">奖励展示</text>
-    <view class="reward-item" wx:for="{{activity.rewards}}" wx:key="*this">
-      <text class="reward-name">{{item.name}}</text>
-      <text class="reward-status">{{item.status}}</text>
+    <view class="reward-grid">
+      <view class="reward-card" wx:for="{{activity.rewards}}" wx:key="level">
+        <image class="reward-icon" src="/images/icons/gift.png" mode="aspectFit" />
+        <text class="reward-level">{{item.level}}</text>
+        <text class="reward-name">{{item.name}}</text>
+        <text class="reward-condition">{{item.condition}}</text>
+      </view>
     </view>
   </view>
+
+  <!-- 底部操作栏 -->
   <view class="bottom-bar">
-    <view class="cta-btn" bindtap="onInviteTap">立即邀请</view>
+    <view class="share-btn" bindtap="onShareTap">
+      <image class="bottom-icon" src="/images/icons/chat.png" mode="aspectFit" />
+      <text class="bottom-text">分享</text>
+    </view>
+    <view class="join-btn" bindtap="onJoinTap">立即参与</view>
   </view>
 </view>

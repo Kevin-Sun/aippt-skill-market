@@ -1,31 +1,96 @@
-<!--pages/mine/mine.wxml · V2 我的页-->
-<view class="container">
-  <view class="user-section">
-    <view class="avatar" wx:if="{{isLoggedIn}}">{{userInfo.nickName[0] || 'U'}}</view>
-    <view class="avatar" wx:else>?</view>
-    <view class="user-info">
-      <text class="nick" wx:if="{{isLoggedIn}}">{{userInfo.nickName || '用户'}}</text>
-      <text class="nick" wx:else bindtap="onLoginTap">点击登录</text>
-      <text class="level">会员：{{memberLevel === 'free' ? '免费用户' : memberLevel}}</text>
+<!--pages/mine/mine.wxml · P2: 会员权益一级入口外露-->
+<view class="page-container">
+  <view class="user-card {{isMember ? 'vip-card' : ''}}">
+    <view class="user-row">
+      <view class="user-avatar {{isMember ? 'vip-avatar' : ''}}">{{isLoggedIn ? userName.substring(0,1) : '?'}}</view>
+      <view class="user-info">
+        <view class="user-name-row">
+          <text class="user-name">{{isLoggedIn ? userName : '未登录'}}</text>
+          <view class="vip-badge" wx:if="{{isMember}}">
+            <image class="vip-icon" src="/images/icons/crown.png" mode="aspectFit" />
+            <text class="vip-text">VIP</text>
+          </view>
+        </view>
+        <text class="user-tag" wx:if="{{isLoggedIn && isMember}}">尊贵会员</text>
+        <text class="user-tag" wx:elif="{{isLoggedIn}}">普通用户</text>
+        <text class="user-tag" wx:else>点击登录</text>
+      </view>
     </view>
   </view>
-  <view class="menu-section">
-    <view class="menu-item" bindtap="onMemberTap">
-      <text class="menu-text">会员中心</text>
-      <text class="menu-arrow">→</text>
+
+  <!-- P2-1: 会员权益一级入口卡片（直接外露，不点一次） -->
+  <view class="member-card {{isMember ? 'member-active' : ''}}" bindtap="onMemberTap">
+    <view class="member-card-left">
+      <image class="member-card-icon" src="/images/icons/crown.png" mode="aspectFit" />
+      <view class="member-card-info">
+        <text class="member-card-title" wx:if="{{isMember}}">{{memberLevelText}} · 到期 {{memberExpiry}}</text>
+        <text class="member-card-title" wx:else>开通会员 · 全库 skill</text>
+        <text class="member-card-desc" wx:if="{{isMember}}">全库 skill + 预览导出 + 定制调优</text>
+        <text class="member-card-desc" wx:else>月费 19.9 起 · 年度 99.9 更值</text>
+      </view>
     </view>
+    <view class="member-card-right">
+      <text class="member-card-action" wx:if="{{isMember}}">续费</text>
+      <text class="member-card-action" wx:else>开通</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
+    </view>
+  </view>
+
+  <view class="stats-row">
+    <view class="stat-item">
+      <text class="stat-num">{{purchasedCount}}</text>
+      <text class="stat-label">已购</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{favoriteCount}}</text>
+      <text class="stat-label">收藏</text>
+    </view>
+    <view class="stat-item">
+      <text class="stat-num">{{memberLevelText}}</text>
+      <text class="stat-label">等级</text>
+    </view>
+  </view>
+
+  <view class="menu-group">
+    <text class="menu-group-title">账户</text>
     <view class="menu-item" bindtap="onOrdersTap">
-      <text class="menu-text">已购/收藏/订单</text>
-      <text class="menu-badge">{{purchasedCount + favoriteCount}}</text>
-      <text class="menu-arrow">→</text>
+      <image class="menu-icon-img" src="/images/icons/box.png" mode="aspectFit" />
+      <text class="menu-text">我的订单</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
     </view>
+    <view class="menu-item" bindtap="onFavoritesTap">
+      <image class="menu-icon-img" src="/images/icons/heart.png" mode="aspectFit" />
+      <text class="menu-text">我的收藏</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
+    </view>
+  </view>
+
+  <view class="menu-group">
+    <text class="menu-group-title">服务</text>
     <view class="menu-item" bindtap="onCommunityTap">
-      <text class="menu-text">知识星球社群</text>
-      <text class="menu-arrow">→</text>
+      <image class="menu-icon-img" src="/images/icons/chat.png" mode="aspectFit" />
+      <text class="menu-text">WorkBuddy 社群</text>
+      <text class="menu-badge">299/年</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
     </view>
-    <view class="menu-item" bindtap="onContactTap">
+    <view class="menu-item" bindtap="onPromotionTap">
+      <image class="menu-icon-img" src="/images/icons/gift.png" mode="aspectFit" />
+      <text class="menu-text">活动中心</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
+    </view>
+  </view>
+
+  <view class="menu-group">
+    <text class="menu-group-title">支持</text>
+    <view class="menu-item" bindtap="onSupportTap">
+      <image class="menu-icon-img" src="/images/icons/bell.png" mode="aspectFit" />
       <text class="menu-text">联系客服</text>
-      <text class="menu-arrow">→</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
+    </view>
+    <view class="menu-item" bindtap="onAboutTap">
+      <image class="menu-icon-img" src="/images/icons/info.png" mode="aspectFit" />
+      <text class="menu-text">关于我们</text>
+      <image class="menu-arrow-img" src="/images/icons/arrow-right.png" mode="aspectFit" />
     </view>
   </view>
 </view>

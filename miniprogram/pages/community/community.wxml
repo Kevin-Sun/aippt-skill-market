@@ -1,5 +1,71 @@
-<view class="container">
-  <text class="title">{{title}}</text>
-  <text class="desc">{{desc}}</text>
-  <view class="join-btn" bindtap="onJoinTap">加入社群</view>
+<!--pages/community/community.wxml · P12: WorkBuddy 办公效率社群装修-->
+<view class="page-container">
+  <!-- 头部：logo + 定位 -->
+  <view class="header-section">
+    <view class="logo-circle">
+      <text class="logo-text">WB</text>
+    </view>
+    <text class="community-title">{{title}}</text>
+    <text class="community-slogan">{{slogan}}</text>
+    <view class="tag-row">
+      <text class="community-tag" wx:for="{{tags}}" wx:key="*this">{{item}}</text>
+    </view>
+    <view class="member-count">
+      <text>{{memberCount}} 人已加入</text>
+    </view>
+  </view>
+
+  <!-- 权益列表 -->
+  <view class="section">
+    <text class="section-title">会员权益</text>
+    <view class="benefits-grid">
+      <view class="benefit-item" wx:for="{{benefits}}" wx:key="title">
+        <image class="benefit-icon" src="{{item.icon}}" mode="aspectFit" />
+        <text class="benefit-title">{{item.title}}</text>
+        <text class="benefit-desc">{{item.desc}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 运营记录 -->
+  <view class="section">
+    <text class="section-title">星球运营记录</text>
+    <view class="operations-list">
+      <view class="operation-item" wx:for="{{operations}}" wx:key="title">
+        <view class="operation-date">
+          <text class="op-date">{{item.date}}</text>
+          <text class="op-time">{{item.time}}</text>
+        </view>
+        <view class="operation-content">
+          <text class="op-tag op-tag-{{item.tag}}">{{item.tag}}</text>
+          <text class="op-title">{{item.title}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 会员评价 -->
+  <view class="section">
+    <text class="section-title">会员评价</text>
+    <view class="reviews-list">
+      <view class="review-item" wx:for="{{reviews}}" wx:key="user">
+        <image class="review-avatar" src="{{item.avatar}}" mode="aspectFit" />
+        <view class="review-body">
+          <view class="review-header">
+            <text class="review-user">{{item.user}}</text>
+            <text class="review-stars">{{'★★★★★'}}</text>
+          </view>
+          <text class="review-text">{{item.text}}</text>
+          <text class="review-date">{{item.date}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部 CTA -->
+  <view class="cta-section">
+    <text class="cta-price">¥{{price}}/{{period}}</text>
+    <text class="cta-desc">年费制 · 每日更新 · 随时加入</text>
+    <view class="cta-btn" bindtap="onJoinTap">立即加入</view>
+  </view>
 </view>

@@ -1,4 +1,57 @@
-.container { padding: 64rpx 32rpx; text-align: center; background: #f0f2f5; min-height: 100vh; }
-.title { display: block; font-size: 48rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 16rpx; }
-.desc { display: block; font-size: 28rpx; color: #5c6370; margin-bottom: 48rpx; }
-.join-btn { display: inline-block; background: #2563eb; color: #fff; padding: 24rpx 64rpx; border-radius: 12rpx; font-size: 34rpx; font-weight: 700; }
+/* community.wxss · P12: WorkBuddy 办公效率社群装修 */
+.page-container { min-height: 100vh; background: #F7F6F3; padding-bottom: 140rpx; }
+
+/* 头部 */
+.header-section { background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); padding: 48rpx 48rpx 40rpx; border-radius: 0 0 32rpx 32rpx; text-align: center; box-shadow: 0 8rpx 24rpx rgba(37,99,235,0.2); }
+.logo-circle { width: 120rpx; height: 120rpx; border-radius: 50%; background: rgba(255,255,255,0.2); border: 4rpx solid rgba(255,255,255,0.4); display: flex; align-items: center; justify-content: center; margin: 0 auto 24rpx; }
+.logo-text { font-size: 48rpx; font-weight: 800; color: #fff; }
+.community-title { display: block; font-size: 40rpx; font-weight: 700; color: #fff; margin-bottom: 12rpx; }
+.community-slogan { display: block; font-size: 28rpx; color: rgba(255,255,255,0.85); line-height: 1.5; margin-bottom: 24rpx; }
+.tag-row { display: flex; justify-content: center; flex-wrap: wrap; margin-bottom: 16rpx; }
+.community-tag { font-size: 22rpx; color: #fff; background: rgba(255,255,255,0.25); padding: 6rpx 16rpx; border-radius: 999rpx; margin: 0 8rpx 8rpx 0; font-weight: 600; }
+.member-count { font-size: 24rpx; color: rgba(255,255,255,0.7); }
+
+/* 区块 */
+.section { background: #fff; margin: 16rpx 0 0; padding: 32rpx 48rpx; border-bottom: 2rpx solid #EAEAEA; }
+.section-title { display: block; font-size: 34rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 24rpx; }
+
+/* 权益 */
+.benefits-grid { display: flex; flex-wrap: wrap; }
+.benefit-item { width: 48%; margin-right: 4%; margin-bottom: 24rpx; }
+.benefit-item:nth-child(2n) { margin-right: 0; }
+.benefit-icon { width: 48rpx; height: 48rpx; margin-bottom: 8rpx; }
+.benefit-title { display: block; font-size: 28rpx; font-weight: 600; color: #1a1a2e; margin-bottom: 4rpx; }
+.benefit-desc { display: block; font-size: 22rpx; color: #5c6370; line-height: 1.4; }
+
+/* 运营记录 */
+.operations-list { }
+.operation-item { display: flex; padding: 20rpx 0; border-top: 2rpx solid #f0f2f5; }
+.operation-item:first-child { border-top: none; }
+.operation-date { width: 100rpx; flex-shrink: 0; text-align: right; }
+.op-date { display: block; font-size: 22rpx; color: #9ca3af; }
+.op-time { display: block; font-size: 20rpx; color: #9ca3af; }
+.operation-content { margin-left: 20rpx; flex: 1; }
+.op-tag { display: inline-block; font-size: 20rpx; padding: 2rpx 10rpx; border-radius: 999rpx; font-weight: 600; margin-right: 12rpx; }
+.op-tag-PPT { background: #dbeafe; color: #2563eb; }
+.op-tag-Excel { background: #dcfce7; color: #16a34a; }
+.op-tag-数据分析 { background: #ede9fe; color: #7c3aed; }
+.op-tag-WorkBuddy { background: #fef3c7; color: #ea580c; }
+.op-title { font-size: 28rpx; color: #1a1a2e; line-height: 1.5; }
+
+/* 评价 */
+.reviews-list { }
+.review-item { display: flex; padding: 24rpx 0; border-top: 2rpx solid #f0f2f5; }
+.review-item:first-child { border-top: none; }
+.review-avatar { width: 72rpx; height: 72rpx; border-radius: 50%; margin-right: 20rpx; flex-shrink: 0; background: #f0f2f5; }
+.review-body { flex: 1; }
+.review-header { display: flex; justify-content: space-between; margin-bottom: 8rpx; }
+.review-user { font-size: 28rpx; font-weight: 600; color: #1a1a2e; }
+.review-stars { font-size: 24rpx; color: #f59e0b; }
+.review-text { display: block; font-size: 28rpx; color: #1a1a2e; line-height: 1.6; margin-bottom: 8rpx; }
+.review-date { display: block; font-size: 22rpx; color: #9ca3af; }
+
+/* CTA */
+.cta-section { position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 32rpx 48rpx; border-top: 2rpx solid #EAEAEA; box-shadow: 0 -4rpx 12rpx rgba(0,0,0,0.06); text-align: center; }
+.cta-price { display: block; font-size: 48rpx; font-weight: 800; color: #dc2626; }
+.cta-desc { display: block; font-size: 24rpx; color: #5c6370; margin-bottom: 16rpx; }
+.cta-btn { height: 88rpx; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); border-radius: 999rpx; font-size: 32rpx; font-weight: 700; color: #fff; }

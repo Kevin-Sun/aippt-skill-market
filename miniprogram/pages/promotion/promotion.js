@@ -1,4 +1,4 @@
-// pages/promotion/promotion.js · 活动页
+// pages/promotion/promotion.js · F1: 活动点击→详情页
 var banners = [
   { id: 'invite', image: '/images/promotion-invite.png', title: '邀请好友得免费 skill', desc: '转发给好友，双方各得 1 个免费 skill', action: '立即邀请', type: 'share' },
   { id: 'member', image: '/images/promotion-member.png', title: '会员权益', desc: '8种风格 skill 全场景覆盖，月费 19.9 起', action: '开通会员', type: 'member' },
@@ -8,9 +8,7 @@ var banners = [
 ];
 
 Page({
-  data: {
-    banners: banners,
-  },
+  data: { banners: banners },
 
   onBannerTap: function(e) {
     var type = e.currentTarget.dataset.type;
@@ -21,14 +19,16 @@ Page({
         wx.showToast({ title: '点击右上角转发', icon: 'none' });
         break;
       case 'member':
-        wx.switchTab({ url: '/pages/mine/mine' });
+        wx.navigateTo({ url: '/pages/promotion-detail/promotion-detail?id=member' });
         break;
       case 'community':
-        wx.setClipboardData({ data: '知识星球：AI+办公/学业社群（299年费）' });
+        wx.navigateTo({ url: '/pages/promotion-detail/promotion-detail?id=community' });
         break;
       case 'sale':
+        wx.navigateTo({ url: '/pages/promotion-detail/promotion-detail?id=sale' });
+        break;
       case 'free':
-        wx.switchTab({ url: '/pages/index/index' });
+        wx.navigateTo({ url: '/pages/promotion-detail/promotion-detail?id=free' });
         break;
     }
   },

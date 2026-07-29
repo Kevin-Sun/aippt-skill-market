@@ -1,68 +1,102 @@
-// pages/promotion-detail/promotion-detail.js · 活动详情页
-var activities = {
+// pages/promotion-detail/promotion-detail.js · F5+F6: 图片路径+id加载
+var ACTIVITIES = {
   invite: {
-    title: '邀请好友得免费 skill', banner: '/images/promotion-invite.png',
-    rules: ['1. 转发活动给好友', '2. 好友通过你的链接注册', '3. 双方各得 1 个免费 skill', '4. 邀请上限 5 人'],
-    steps: [{ step: 1, title: '转发活动', desc: '点击"立即邀请"转发给好友' }, { step: 2, title: '好友注册', desc: '好友通过你的链接注册小程序' }, { step: 3, title: '获得奖励', desc: '双方各得 1 个免费 skill' }],
-    rewards: [{ name: '免费 skill x1', status: '待获得' }],
-    inviteRecords: []
+    id: 'invite', title: '邀请好友得免费 skill',
+    description: '邀请好友注册小程序，好友首次购买 skill 后，你和好友各得 1 个免费 skill 兑换券。',
+    image: '/images/promotion-invite.png',
+    isHot: true, daysLeft: 15, participants: 1286,
+    rules: ['邀请好友通过你的专属链接注册小程序','好友需首次购买任意 skill（免费 skill 不算）','你和好友各获得 1 张免费 skill 兑换券','兑换券有效期 30 天','每个用户最多邀请 50 人'],
+    steps: [{num:1,title:'分享活动',desc:'点击下方分享按钮，发送给好友'},{num:2,title:'好友注册',desc:'好友通过你的链接注册小程序'},{num:3,title:'好友购买',desc:'好友首次购买任意 skill'},{num:4,title:'领取奖励',desc:'你和好友各得 1 张兑换券'}],
+    rewards: [{level:'1人',name:'免费 skill x1',condition:'邀请 1 人购买'},{level:'5人',name:'免费 skill x5',condition:'邀请 5 人购买'},{level:'20人',name:'月度会员',condition:'邀请 20 人购买'},{level:'50人',name:'年度会员',condition:'邀请 50 人购买'}],
   },
   member: {
-    title: '会员权益', banner: '/images/promotion-member.png',
-    rules: ['1. 开通月度/年度会员', '2. 解锁全库 skill', '3. 月度会员含定制调优 1 次', '4. 年度会员含社群'],
-    steps: [{ step: 1, title: '选择档位', desc: '2.9/9.9/19.9/99.9' }, { step: 2, title: '支付开通', desc: '微信支付' }, { step: 3, title: '享受权益', desc: '全库 skill + 定制 + 社群' }],
-    rewards: [], inviteRecords: []
+    id: 'member', title: '会员权益',
+    description: '8 种风格 skill 全场景覆盖，月费 19.9 起，年度 99.9 更值。',
+    image: '/images/promotion-member.png',
+    isHot: false, daysLeft: 0, participants: 892,
+    rules: ['月度会员 19.9 元/月','年度会员 99.9 元/年','全库 skill 免费使用','预览+导出功能','每月上新 skill'],
+    steps: [{num:1,title:'选择套餐',desc:'选择月度或年度会员'},{num:2,title:'支付',desc:'微信虚拟支付'},{num:3,title:'开通',desc:'立即开通全库权限'}],
+    rewards: [{level:'月度',name:'全库 skill',condition:'19.9 元/月'},{level:'年度',name:'全库+定制',condition:'99.9 元/年'}],
   },
   community: {
-    title: '知识星球社群', banner: '/images/promotion-community.png',
-    rules: ['1. 年费 299 元', '2. 每日更新 PPT 技巧', '3. agent 使用交流', '4. 会员专属定制调优'],
-    steps: [{ step: 1, title: '扫码加入', desc: '复制知识星球链接' }, { step: 2, title: '支付年费', desc: '299 元/年' }, { step: 3, title: '加入社群', desc: '每日更新+交流' }],
-    rewards: [], inviteRecords: []
+    id: 'community', title: '知识星球社群',
+    description: 'AI+办公/学业社群，299 年费，每日更新 PPT 技巧和 agent 玩法。',
+    image: '/images/promotion-community.png',
+    isHot: false, daysLeft: 0, participants: 356,
+    rules: ['299 元/年','每日 PPT 技巧更新','agent 使用分享','会员专属定制调优','社群互助问答'],
+    steps: [{num:1,title:'加入',desc:'点击下方按钮加入社群'},{num:2,title:'付费',desc:'299 元年费'},{num:3,title:'参与',desc:'每日互动更新'}],
+    rewards: [{level:'年费',name:'每日更新+定制',condition:'299 元/年'}],
   },
   sale: {
-    title: '限时特惠 0.99 元', banner: '/images/promotion-sale.png',
-    rules: ['1. 限时 3 天', '2. 精选 skill 0.99 元', '3. 每人限购 1 个', '4. 不支持退款'],
-    steps: [{ step: 1, title: '选择 skill', desc: '从特惠列表选择' }, { step: 2, title: '支付 0.99', desc: '微信支付' }, { step: 3, title: '解锁 skill', desc: '立即使用' }],
-    rewards: [], inviteRecords: []
+    id: 'sale', title: '限时特惠 0.99 元',
+    description: '精选 PPT skill 限时 0.99 元抢购，倒计时 3 天。',
+    image: '/images/promotion-sale.png',
+    isHot: true, daysLeft: 3, participants: 2341,
+    rules: ['限时 3 天','精选 skill 0.99 元','每人限购 3 个','先到先得'],
+    steps: [{num:1,title:'选 skill',desc:'选择限时特惠 skill'},{num:2,title:'支付',desc:'0.99 元抢购'},{num:3,title:'使用',desc:'立即解锁使用'}],
+    rewards: [{level:'特惠',name:'精选 skill x3',condition:'0.99 元/个'}],
   },
   free: {
-    title: '免费 skill 领取', banner: '/images/promotion-free.png',
-    rules: ['1. 每人限领 1 个', '2. 基础 skill 免费领', '3. 先到先得', '4. 领取后永久使用'],
-    steps: [{ step: 1, title: '选择免费 skill', desc: '工作汇报/答辩' }, { step: 2, title: '点击领取', desc: '免费解锁' }, { step: 3, title: '开始使用', desc: '复制到 agent' }],
-    rewards: [], inviteRecords: []
-  }
+    id: 'free', title: '免费 skill 领取',
+    description: '基础 skill 免费领，先到先得。',
+    image: '/images/promotion-free.png',
+    isHot: false, daysLeft: 0, participants: 5678,
+    rules: ['基础 skill 免费领','每人限领 2 个','先到先得'],
+    steps: [{num:1,title:'选 skill',desc:'选择免费 skill'},{num:2,title:'领取',desc:'免费领取'},{num:3,title:'使用',desc:'立即使用'}],
+    rewards: [{level:'免费',name:'基础 skill x2',condition:'免费领取'}],
+  },
 };
 
 Page({
-  data: { activity: null, countdown: '03:00:00' },
-  onLoad: function(options) {
-    var id = options.id || 'invite';
-    var activity = activities[id];
+  data: {
+    activity: ACTIVITIES.invite,
+    inviteCount: 0, rewardCount: 0, pendingCount: 0,
+    inviteList: [],
+  },
+
+  onLoad: function(opts) {
+    var id = opts && opts.id ? opts.id : 'invite';
+    var activity = ACTIVITIES[id] || ACTIVITIES.invite;
     this.setData({ activity: activity });
-    this.startCountdown();
+    
+    // 加载邀请记录（从 storage）
+    try {
+      var records = wx.getStorageSync('inviteRecords') || [];
+      var completed = records.filter(function(r) { return r.status === '已完成'; });
+      var pending = records.filter(function(r) { return r.status === '待结算'; });
+      this.setData({
+        inviteList: records,
+        inviteCount: records.length,
+        rewardCount: completed.length,
+        pendingCount: pending.length,
+      });
+    } catch (e) {}
   },
-  startCountdown: function() {
-    var self = this;
-    var remaining = 3 * 24 * 3600;
-    setInterval(function() {
-      remaining--;
-      if (remaining < 0) remaining = 0;
-      var d = Math.floor(remaining / 86400);
-      var h = Math.floor((remaining % 86400) / 3600);
-      var m = Math.floor((remaining % 3600) / 60);
-      var s = remaining % 60;
-      self.setData({ countdown: (d > 0 ? d + '天 ' : '') + (h < 10 ? '0' : '') + h + ':' + (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s });
-    }, 1000);
-  },
-  onInviteTap: function() {
+
+  onShareTap: function() {
     wx.showShareMenu({ withShareTicket: true });
-    wx.showToast({ title: '点击右上角转发', icon: 'none' });
+    wx.showToast({ title: '请点右上角分享', icon: 'none' });
   },
+
+  onJoinTap: function() {
+    // F: 保存参与状态到 storage
+    try {
+      var joined = wx.getStorageSync('joinedActivities') || [];
+      var actId = this.data.activity.id;
+      if (joined.indexOf(actId) < 0) {
+        joined.push(actId);
+        wx.setStorageSync('joinedActivities', joined);
+      }
+      wx.showToast({ title: '已参与活动', icon: 'success' });
+    } catch (e) {
+      wx.showToast({ title: '已参与活动', icon: 'success' });
+    }
+  },
+
   onShareAppMessage: function() {
     return {
-      title: this.data.activity.title + ' · AI智作PPT',
-      path: '/pages/promotion/promotion',
-      imageUrl: this.data.activity.banner
+      title: 'AI智作PPT模版社 · ' + this.data.activity.title,
+      path: '/pages/promotion-detail/promotion-detail?id=' + this.data.activity.id,
     };
-  }
+  },
 });

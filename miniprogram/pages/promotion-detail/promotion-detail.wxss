@@ -1,25 +1,49 @@
-/* promotion-detail.wxss */
-.page-container { padding-bottom: 140rpx; background: #f0f2f5; min-height: 100vh; }
-.activity-banner { width: 100%; height: 360rpx; }
-.activity-header { padding: 32rpx; background: #fff; }
-.activity-title { display: block; font-size: 40rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 16rpx; }
-.countdown-box { display: flex; align-items: center; }
-.countdown-label { font-size: 26rpx; color: #5c6370; margin-right: 12rpx; }
-.countdown-time { font-size: 32rpx; font-weight: 700; color: #dc2626; }
-.section { padding: 32rpx; background: #fff; margin-top: 16rpx; }
-.section-title { font-size: 34rpx; font-weight: 700; color: #1a1a2e; display: block; margin-bottom: 24rpx; }
-.rule-item { padding: 12rpx 0; }
-.rule-text { font-size: 28rpx; color: #1a1a2e; line-height: 1.5; }
+/* promotion-detail.wxss · V3.2 装修 */
+.page-container { min-height: 100vh; background: #F7F6F3; padding-bottom: 140rpx; }
+.hero-image { width: 100%; height: 360rpx; display: block; }
+.activity-header { padding: 32rpx 48rpx; background: #FFFFFF; border-bottom: 2rpx solid #EAEAEA; }
+.activity-title { display: block; font-family: "Noto Serif SC", Georgia, serif; font-size: 44rpx; font-weight: 700; color: #1a1a2e; letter-spacing: -1px; line-height: 1.2; margin-bottom: 16rpx; }
+.activity-meta { display: flex; flex-wrap: wrap; margin-bottom: 16rpx; }
+.meta-tag { font-size: 22rpx; padding: 4rpx 12rpx; border-radius: 999rpx; font-weight: 600; margin-right: 12rpx; }
+.meta-hot { background: #dc2626; color: #fff; }
+.meta-time { background: #fef3c7; color: #ea580c; }
+.meta-count { background: #dbeafe; color: #2563eb; }
+.activity-desc { display: block; font-size: 28rpx; color: #5c6370; line-height: 1.6; }
+.section { padding: 32rpx 48rpx; background: #FFFFFF; margin-top: 16rpx; border-bottom: 2rpx solid #EAEAEA; }
+.section-title { display: block; font-size: 34rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 24rpx; }
+.rule-list { }
+.rule-item { display: flex; align-items: flex-start; margin-bottom: 16rpx; }
+.rule-icon { width: 36rpx; height: 36rpx; margin-right: 16rpx; flex-shrink: 0; margin-top: 4rpx; }
+.rule-text { font-size: 28rpx; color: #1a1a2e; line-height: 1.5; flex: 1; }
+.steps-list { }
 .step-item { display: flex; margin-bottom: 24rpx; }
-.step-num { width: 48rpx; height: 48rpx; border-radius: 50%; background: #2563eb; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28rpx; font-weight: 700; flex-shrink: 0; }
-.step-content { margin-left: 20rpx; }
+.step-num-circle { width: 56rpx; height: 56rpx; border-radius: 50%; background: #2563eb; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 28rpx; font-weight: 700; flex-shrink: 0; }
+.step-content { margin-left: 20rpx; flex: 1; }
 .step-title { display: block; font-size: 30rpx; font-weight: 600; color: #1a1a2e; }
-.step-desc { display: block; font-size: 26rpx; color: #5c6370; margin-top: 4rpx; }
-.invite-item { display: flex; justify-content: space-between; padding: 16rpx 0; border-bottom: 2rpx solid #f0f2f5; }
-.invite-name { font-size: 28rpx; color: #1a1a2e; }
-.invite-status { font-size: 26rpx; color: #5c6370; }
-.reward-item { display: flex; justify-content: space-between; padding: 16rpx 0; }
-.reward-name { font-size: 28rpx; font-weight: 600; color: #1a1a2e; }
-.reward-status { font-size: 26rpx; color: #16a34a; }
-.bottom-bar { position: fixed; bottom: 0; left: 0; right: 0; padding: 20rpx 32rpx; background: #fff; border-top: 2rpx solid #e5e7eb; }
-.cta-btn { width: 100%; height: 96rpx; display: flex; align-items: center; justify-content: center; background: #2563eb; border-radius: 12rpx; font-size: 34rpx; font-weight: 700; color: #fff; }
+.step-desc { display: block; font-size: 26rpx; color: #5c6370; margin-top: 4rpx; line-height: 1.4; }
+.invite-stats { display: flex; margin-bottom: 24rpx; }
+.invite-stat { flex: 1; text-align: center; }
+.invite-num { display: block; font-size: 48rpx; font-weight: 800; color: #2563eb; font-variant-numeric: tabular-nums; }
+.invite-label { display: block; font-size: 22rpx; color: #5c6370; margin-top: 8rpx; }
+.invite-list { }
+.invite-item { display: flex; align-items: center; padding: 20rpx 0; border-top: 2rpx solid #f0f2f5; }
+.invite-name { flex: 1; font-size: 28rpx; color: #1a1a2e; }
+.invite-status { font-size: 24rpx; margin-right: 16rpx; }
+.status-done { color: #16a34a; }
+.status-pending { color: #ea580c; }
+.invite-reward { font-size: 28rpx; font-weight: 700; color: #dc2626; }
+.empty-state { text-align: center; padding: 40rpx 0; }
+.empty-text { display: block; font-size: 28rpx; color: #9ca3af; margin-bottom: 8rpx; }
+.empty-hint { display: block; font-size: 24rpx; color: #9ca3af; }
+.reward-grid { display: flex; flex-wrap: wrap; }
+.reward-card { width: 48%; margin-right: 4%; margin-bottom: 16rpx; background: #F7F6F3; border: 2rpx solid #EAEAEA; border-radius: 16rpx; padding: 24rpx; text-align: center; }
+.reward-card:nth-child(2n) { margin-right: 0; }
+.reward-icon { width: 48rpx; height: 48rpx; margin-bottom: 12rpx; }
+.reward-level { display: block; font-size: 22rpx; color: #7c3aed; background: #ede9fe; padding: 4rpx 12rpx; border-radius: 999rpx; font-weight: 700; margin: 0 auto 12rpx; display: inline-block; }
+.reward-name { display: block; font-size: 28rpx; font-weight: 600; color: #1a1a2e; margin-bottom: 8rpx; }
+.reward-condition { display: block; font-size: 22rpx; color: #5c6370; }
+.bottom-bar { position: fixed; bottom: 0; left: 0; right: 0; display: flex; align-items: center; padding: 16rpx 48rpx; background: #FFFFFF; border-top: 2rpx solid #EAEAEA; box-shadow: 0 -4rpx 12rpx rgba(0,0,0,0.06); }
+.share-btn { display: flex; flex-direction: column; align-items: center; margin-right: 24rpx; }
+.bottom-icon { width: 40rpx; height: 40rpx; }
+.bottom-text { font-size: 20rpx; color: #5c6370; margin-top: 4rpx; }
+.join-btn { flex: 1; height: 88rpx; display: flex; align-items: center; justify-content: center; background: #2563eb; border-radius: 999rpx; font-size: 32rpx; font-weight: 700; color: #fff; }

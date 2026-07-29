@@ -1,22 +1,17 @@
-/* app.wxss · 清新配色 + 高对比度 */
 page {
-  --color-bg: #f0f2f5;
-  --color-surface: #ffffff;
+  --color-canvas: #F7F6F3;
+  --color-surface: #FFFFFF;
   --color-text: #1a1a2e;
   --color-text-secondary: #5c6370;
+  --color-border: #EAEAEA;
   --color-primary: #2563eb;
-  --color-primary-dark: #1d4ed8;
-  --color-primary-light: #dbeafe;
   --color-success: #16a34a;
-  --color-success-light: #dcfce7;
   --color-danger: #dc2626;
-  --color-warning: #ea580c;
-  --color-border: #e5e7eb;
-  --color-accent: #7c3aed;
   --font-sans: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif;
-  background-color: var(--color-bg);
+  --font-serif: "Noto Serif SC", "Georgia", serif;
+  background-color: var(--color-canvas);
   color: var(--color-text);
   font-family: var(--font-sans);
   font-size: 28rpx;
-  line-height: 1.5;
+  line-height: 1.6;
 }
