@@ -1,4 +1,4 @@
-/* mine.wxss · F4: VIP金色徽章 */
+
 .page-container { min-height: 100vh; background: #F7F6F3; padding-bottom: 120rpx; }
 .user-card { background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%); padding: 48rpx 48rpx 40rpx; border-radius: 0 0 32rpx 32rpx; box-shadow: 0 8rpx 24rpx rgba(37,99,235,0.2); }
 .user-card.vip-card { background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f59e0b 100%); box-shadow: 0 8rpx 24rpx rgba(245,158,11,0.3); }

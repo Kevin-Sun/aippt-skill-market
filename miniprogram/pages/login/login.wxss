@@ -1,4 +1,4 @@
-/* login.wxss · 清新 UI */
+
 .container { padding: 64rpx 48rpx; background: #f0f2f5; min-height: 100vh; }
 .logo { font-size: 52rpx; font-weight: 700; color: #1a1a2e; text-align: center; margin-top: 120rpx; }
 .desc { font-size: 30rpx; color: #5c6370; text-align: center; margin-top: 24rpx; }

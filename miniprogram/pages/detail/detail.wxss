@@ -1,4 +1,4 @@
-/* detail.wxss · V3 Soft Structuralism */
+
 .page-container { padding-bottom: 140rpx; background: #F7F6F3; min-height: 100vh; }
 .preview-swiper { width: 100%; height: 400rpx; }
 .preview-image { width: 100%; height: 100%; }
