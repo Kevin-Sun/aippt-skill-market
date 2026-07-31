@@ -90,3 +90,5 @@
 .loading-more { text-align: center; padding: 24rpx 0; color: #9ca3af; font-size: 26rpx; }
 .skill-price.free { color: #16a34a; }
 .skill-price.paid { color: #dc2626; }
+
+.skill-price.purchased { color: #16a34a; background: #dcfce7; }

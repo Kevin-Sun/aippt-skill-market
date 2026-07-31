@@ -35,6 +35,10 @@ Page({
     self.setData({ loading: true });
     
     var allSkills = skillsService.getByScene(self.data.currentScene);
+    // P0-1: 读 purchasedSkills，标记已购买
+    var purchased = [];
+    try { purchased = wx.getStorageSync("purchasedSkills") || []; } catch(e) {}
+    allSkills.forEach(function(s) { s.isPurchased = purchased.indexOf(s.id) >= 0; });
     var pageSize = 6;
     var start = reset ? 0 : self.data.skills.length;
     var end = Math.min(start + pageSize, allSkills.length);

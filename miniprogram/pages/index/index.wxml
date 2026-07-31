@@ -45,7 +45,8 @@
           <view class="skill-meta">
             <text class="skill-scene">{{item.scene}}</text>
             <text class="skill-lang">{{item.language}}</text>
-            <text class="skill-price {{item.isFree ? 'free' : 'paid'}}" wx:if="{{item.isFree}}">免费</text>
+            <text class="skill-price purchased" wx:if="{{item.isPurchased}}">已购买</text>
+            <text class="skill-price free" wx:elif="{{item.isFree}}">免费</text>
             <text class="skill-price paid" wx:else>¥{{item.price}}</text>
           </view>
         </view>

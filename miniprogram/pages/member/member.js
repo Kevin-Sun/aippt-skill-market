@@ -43,7 +43,16 @@ Page({
       success: function(res) {
         wx.hideLoading();
         var result = res.result;
-        if (result && result.success) {
+        if (result && result.errno === 0) {
+          if (!wx.canIUse("requestVirtualPayment")) {
+            wx.showModal({
+              title: "提示",
+              content: "当前微信版本不支持虚拟支付，请用真机扫码测试",
+              showCancel: false,
+            });
+            self.setData({ paying: false });
+            return;
+          }
           wx.requestVirtualPayment({
             mode: 'short_series_goods',
             offerId: '1450602455',
