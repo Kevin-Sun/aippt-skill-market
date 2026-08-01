@@ -133,11 +133,14 @@ Page({
       env: 0,
       currencyType: 'CNY',
       outTradeNo: orderData.outTradeNo,
+      sign: orderData.sign,
+      nonce: orderData.nonce,
       success: function() {
         self.unlockSkill();
       },
-      fail: function() {
-        wx.showToast({ title: '支付取消', icon: 'none' });
+      fail: function(res) {
+        var msg = (res && res.errMsg) ? res.errMsg : '支付取消';
+        wx.showToast({ title: msg, icon: 'none' });
       }
     });
   },

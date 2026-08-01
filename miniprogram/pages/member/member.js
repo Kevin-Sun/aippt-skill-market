@@ -55,11 +55,13 @@ Page({
           }
           wx.requestVirtualPayment({
             mode: 'short_series_goods',
-            offerId: '1450602455',
+            offerId: result.offerId || '1450602455',
             buyQuantity: 1,
             env: 0,
             currencyType: 'CNY',
             outTradeNo: result.outTradeNo,
+            sign: result.sign,
+            nonce: result.nonce,
             success: function() {
               // P0-2: 支付成功写 orderRecords
               var order = {
@@ -84,18 +86,18 @@ Page({
               wx.showToast({ title: '开通成功', icon: 'success' });
               setTimeout(function() { wx.navigateBack(); }, 1500);
             },
-            fail: function() {
+            fail: function(res) {
               self.setData({ paying: false });
-              // P0-1: 支付失败不标记 isMember
-              wx.showToast({ title: '支付已取消', icon: 'none' });
+              var msg = (res && res.errMsg) ? res.errMsg : '支付已取消';
+              wx.showToast({ title: msg, icon: 'none' });
             }
           });
         } else {
-          // 云函数返回失败：不降级模拟支付
+          // 云函数返回失败
           self.setData({ paying: false });
           wx.showModal({
             title: '下单失败',
-            content: result && result.message ? result.message : '请稍后重试',
+            content: result && result.errMsg ? result.errMsg : '请稍后重试',
             showCancel: false,
           });
         }

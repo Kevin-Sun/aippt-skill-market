@@ -1,0 +1,40 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "envId": "template-prj-wzqm-d2dnx664dea841",
+  "functionRoot": "cloudfunctions",
+  "functions": [
+    {
+      "name": "payment",
+      "timeout": 10,
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "envVariables": {
+        "OFFER_ID": "1450602455",
+        "APPID": "wx9647f4ecd0d033fe",
+        "MCHID": "1748691274",
+        "VIRTUAL_PAYMENT_KEY": "3p8sSKcFyott8ZQ57Fw5C1dJtC0lAQvw"
+      }
+    },
+    {
+      "name": "quickstart",
+      "timeout": 10,
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "envVariables": {}
+    },
+    {
+      "name": "habit",
+      "timeout": 10,
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "envVariables": {}
+    },
+    {
+      "name": "skills",
+      "timeout": 10,
+      "runtime": "Nodejs20.19",
+      "handler": "index.main",
+      "envVariables": {}
+    }
+  ]
+}
