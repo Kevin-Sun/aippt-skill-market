@@ -1,7 +1,3 @@
 {
-  "permissions": {
-    "openapi": [
-      "auth.code2Session"
-    ]
-  }
+  "permissions": {}
 }

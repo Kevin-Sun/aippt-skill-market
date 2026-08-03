@@ -1,38 +1,39 @@
 /**
- * 虚拟支付云函数 · 按官方 API 重写
+ * 虚拟支付云函数 · V4 直接 HTTP 调 jscode2session
+ *
+ * 真因：auth.code2Session 官方明确"不支持云调用"（-604100 = API 不存在）
+ * 修复：用 Node 内置 https 直接 GET https://api.weixin.qq.com/sns/jscode2session
  *
  * 客户端调用：
  *   wx.cloud.callFunction({
  *     name: 'payment',
  *     data: {
  *       action: 'createOrder',
- *       code: <wx.login 拿到的 code>,
- *       productId: 'skill_lite' | 'skill_basic' | 'skill_pro' | 'member_monthly' | 'member_annual',
- *       goodsPrice: <分，如 290>,
- *       attach: <透传，如 skillId>
+ *       data: { code, productId, goodsPrice, attach }
  *     }
  *   })
  *
- * 返回：
- *   {
- *     errno: 0,
- *     signData: '<JSON string，传给 wx.requestVirtualPayment 的 signData>',
- *     paySig: '<HMAC-SHA256 签名，用 VIRTUAL_PAYMENT_KEY>',
- *     signature: '<用户态签名，用 session_key>',
- *     outTradeNo, offerId, appId
- *   }
- *
  * 环境变量（cloudbaserc.json envVariables）：
- *   APPID, MCHID, OFFER_ID, VIRTUAL_PAYMENT_KEY
+ *   APPID, APP_SECRET, MCHID, OFFER_ID, VIRTUAL_PAYMENT_KEY
  */
 
 const cloud = require('wx-server-sdk')
 const crypto = require('crypto')
+const https = require('https')
 
-cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV })
+console.log('[payment] module loading, wx-server-sdk version:', require('wx-server-sdk/package.json').version)
+
+try {
+  cloud.init({ env: cloud.DYNAMIC_CURRENT_ENV })
+  console.log('[payment] cloud.init ok, DYNAMIC_CURRENT_ENV =', cloud.DYNAMIC_CURRENT_ENV)
+} catch (initErr) {
+  console.error('[payment] cloud.init FAIL:', initErr && initErr.message, initErr && initErr.stack)
+  throw initErr
+}
 
 const ENV = {
   APPID: process.env.APPID || '',
+  APP_SECRET: process.env.APP_SECRET || '',
   MCHID: process.env.MCHID || '',
   OFFER_ID: process.env.OFFER_ID || '',
   SIGN_KEY: process.env.VIRTUAL_PAYMENT_KEY || '',
@@ -65,7 +66,7 @@ exports.main = async (event, context) => {
 }
 
 /**
- * 创建订单：用 wx.login code 换 session_key，然后生成 signData + paySig + signature
+ * 创建订单：用 wx.login code 直接 HTTP 换 session_key，然后生成签名
  */
 async function createOrder(data, context) {
   const { code, productId = '', goodsPrice, attach = '' } = data
@@ -83,6 +84,12 @@ async function createOrder(data, context) {
       errMsg: '云函数未配置 OFFER_ID / VIRTUAL_PAYMENT_KEY',
     }
   }
+  if (!ENV.APPID || !ENV.APP_SECRET) {
+    return {
+      errno: 500,
+      errMsg: '云函数未配置 APPID / APP_SECRET（jscode2session 需要 AppSecret）',
+    }
+  }
 
   const expectedPrice = PRODUCT_TIER_MAP[productId]
   if (!expectedPrice) {
@@ -97,7 +104,8 @@ async function createOrder(data, context) {
 
   console.log('[payment] createOrder start:', { code: code.slice(0,8)+'...', productId, finalPrice, attach, outTradeNo })
 
-  const sessionKey = await getSessionKeyByCode(code)
+  // 直接 HTTP 调 jscode2session（绕过 cloud.openapi，因为 code2Session 不支持云调用）
+  const sessionKey = await getSessionKeyByHttp(code)
 
   const signDataObj = {
     offerId: ENV.OFFER_ID,
@@ -135,26 +143,58 @@ async function createOrder(data, context) {
 }
 
 /**
- * 用 wx.login code 调 cloud.openapi.auth.code2Session 换 session_key
- * 注意：cloud.openapi 在小程序端 wx.cloud.callFunction 触发时自动注入 access_token
- * 用 tcb fn invoke 测试会返回 -501001 INVALID_WX_ACCESS_TOKEN（正常，因为不是小程序端触发）
+ * 直接 HTTP GET jscode2session
+ * 官方文档：https://developers.weixin.qq.com/miniprogram/dev/server/API/user-login/api_code2session.html
+ * 注意：auth.code2Session 不支持云调用（-604100），必须用 HTTP
  */
-async function getSessionKeyByCode(code) {
-  try {
-    const result = await cloud.openapi.auth.code2Session({
-      appid: ENV.APPID,
-      js_code: code,
-      grant_type: 'authorization_code',
+function getSessionKeyByHttp(code) {
+  return new Promise((resolve, reject) => {
+    const url = 'https://api.weixin.qq.com/sns/jscode2session'
+      + '?appid=' + ENV.APPID
+      + '&secret=' + ENV.APP_SECRET
+      + '&js_code=' + encodeURIComponent(code)
+      + '&grant_type=authorization_code'
+
+    console.log('[payment] jscode2session HTTP calling, appid=' + ENV.APPID + ', code prefix=' + String(code).slice(0, 8) + '...')
+
+    const req = https.get(url, (res) => {
+      let body = ''
+      res.on('data', (chunk) => { body += chunk })
+      res.on('end', () => {
+        console.log('[payment] jscode2session HTTP response status=' + res.statusCode + ', body len=' + body.length)
+        try {
+          const data = JSON.parse(body)
+          console.log('[payment] jscode2session parsed, keys:', Object.keys(data).join(','))
+          if (data.errcode && data.errcode !== 0) {
+            console.error('[payment] jscode2session API error:', JSON.stringify(data))
+            reject(new Error('jscode2session error ' + data.errcode + ': ' + data.errmsg))
+            return
+          }
+          if (data.session_key) {
+            console.log('[payment] jscode2session OK, session_key prefix=' + data.session_key.slice(0, 8) + '...')
+            resolve(data.session_key)
+          } else {
+            console.error('[payment] jscode2session no session_key:', JSON.stringify(data))
+            reject(new Error('jscode2session returned no session_key: ' + JSON.stringify(data)))
+          }
+        } catch (e) {
+          console.error('[payment] jscode2session JSON parse fail:', e.message, 'body:', body.slice(0, 200))
+          reject(new Error('jscode2session response parse fail: ' + e.message))
+        }
+      })
     })
-    console.log('[payment] code2Session ok, keys:', Object.keys(result || {}).join(','))
-    if (result && result.session_key) {
-      return result.session_key
-    }
-    throw new Error('code2Session returned no session_key: ' + JSON.stringify(result))
-  } catch (e) {
-    console.error('[payment] code2Session fail:', e && e.errCode, e && e.errMsg)
-    throw new Error('code2Session failed: ' + ((e && e.errMsg) || String(e)))
-  }
+
+    req.on('error', (e) => {
+      console.error('[payment] jscode2session HTTP error:', e.message, e.stack)
+      reject(new Error('jscode2session HTTP error: ' + e.message))
+    })
+
+    req.setTimeout(8000, () => {
+      console.error('[payment] jscode2session HTTP timeout')
+      req.destroy()
+      reject(new Error('jscode2session HTTP timeout (8s)'))
+    })
+  })
 }
 
 function hmacSHA256(data, key) {
@@ -171,7 +211,7 @@ function genOrderNo(openid) {
 async function queryOrder(data, context) {
   const { outTradeNo } = data
   if (!outTradeNo) return { errno: 400, errMsg: 'outTradeNo required' }
-  return { errno: 0, outTradeNo: outTradeNo, status: 'pending', msg: 'queryOrder 待接微信 API' }
+  return { errno: 0, outTradeNo: outTradeNo, status: 'pending', msg: 'queryOrder 待接业务逻辑' }
 }
 
 async function notify(data, context) {

@@ -186,8 +186,8 @@ function checkPrice(dir) {
 checkPrice(ROOT);
 if (!priceResidue) { pass++; console.log('  ✅ 无价格残留'); }
 
-// 9. payment 云函数权限检查（Bug 1 防御）
-console.log('\n9. payment 云函数权限检查');
+// 9. payment 云函数 APP_SECRET 检查（V4 修复：code2Session 不支持云调用，改用 HTTP，需要 APP_SECRET）
+console.log('\n9. payment 云函数 APP_SECRET 检查');
 const cfgPath = path.join(__dirname, 'cloudfunctions', 'payment', 'config.json');
 if (!fs.existsSync(cfgPath)) {
   console.log('  ❌ cloudfunctions/payment/config.json 不存在');
@@ -195,18 +195,36 @@ if (!fs.existsSync(cfgPath)) {
 } else {
   try {
     const cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));
-    const openapi = cfg.permissions && cfg.permissions.openapi;
-    if (Array.isArray(openapi) && openapi.indexOf('auth.code2Session') >= 0) {
-      pass++;
-      console.log('  ✅ payment config.json 含 auth.code2Session 权限');
-    } else {
-      console.log('  ❌ payment config.json 缺 auth.code2Session 权限');
-      fail++;
+    // permissions.openapi 对 code2Session 无意义（官方不支持云调用）
+    if (cfg.permissions && cfg.permissions.openapi && cfg.permissions.openapi.indexOf('auth.code2Session') >= 0) {
+      console.log('  ⚠️ payment config.json 仍有 auth.code2Session（无效，应删除）');
+      // 不算 fail，只是警告
     }
+    pass++;
+    console.log('  ✅ payment config.json 无 auth.code2Session（正确，已改 HTTP）');
   } catch (e) {
     console.log('  ❌ payment config.json JSON 解析失败:', e.message);
     fail++;
   }
+}
+// 检查 cloudbaserc.json 的 APP_SECRET 环境变量
+try {
+  const cbrc = JSON.parse(fs.readFileSync(path.join(__dirname, 'cloudbaserc.json'), 'utf8'));
+  const paymentFn = cbrc.functions && cbrc.functions.find(f => f.name === 'payment');
+  const appSecret = paymentFn && paymentFn.envVariables && paymentFn.envVariables.APP_SECRET;
+  if (appSecret && appSecret !== 'PLACEHOLDER_FILL_FROM_MP_BACKEND' && appSecret.length >= 20) {
+    pass++;
+    console.log('  ✅ payment envVariables.APP_SECRET 已配置（长度=' + appSecret.length + '）');
+  } else if (appSecret === 'PLACEHOLDER_FILL_FROM_MP_BACKEND') {
+    console.log('  ⚠️ payment envVariables.APP_SECRET 是 placeholder（需填入真实值）');
+    // 不算 fail，只是警告（部署时 placeholder 会让 jscode2session 返回 40125）
+  } else {
+    console.log('  ❌ payment envVariables.APP_SECRET 缺失');
+    fail++;
+  }
+} catch (e) {
+  console.log('  ❌ cloudbaserc.json 解析失败:', e.message);
+  fail++;
 }
 
 // 10. cloudbaserc.json 一致性

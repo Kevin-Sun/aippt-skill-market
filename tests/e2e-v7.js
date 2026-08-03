@@ -171,12 +171,11 @@ assert(
   'CFG-02 cloudbaserc.json envId === app.js envId === aippt-skill-d6g5hsem096551cc3'
 );
 
-// CFG-03: payment config.json 含 auth.code2Session 权限
-const payCfg = JSON.parse(readFile(path.join(CLOUD, 'payment/config.json')));
-const openapi = payCfg.permissions && payCfg.permissions.openapi;
+// CFG-03: payment 云函数用 HTTP jscode2session（V4: code2Session 不支持云调用）
+const payIndex = readFile(path.join(CLOUD, 'payment/index.js'));
 assert(
-  Array.isArray(openapi) && openapi.indexOf('auth.code2Session') >= 0,
-  'CFG-03 payment config.json permissions.openapi 含 auth.code2Session'
+  payIndex.indexOf('https.get') >= 0 && payIndex.indexOf('jscode2session') >= 0 && payIndex.indexOf('cloud.openapi.auth.code2Session') === -1,
+  'CFG-03 payment index.js 用 HTTP jscode2session（非 cloud.openapi，因 code2Session 不支持云调用）'
 );
 
 // CFG-04: project.config.json appid === cloudbaserc.json envVariables.APPID
