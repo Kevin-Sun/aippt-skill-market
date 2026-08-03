@@ -104,7 +104,7 @@
   <view class="member-guide-card" wx:if="{{showMemberCard}}" bindtap="onMemberTap">
     <view class="member-guide-left">
       <text class="member-guide-title">开通会员 · 全库 1200+ skill 免费用</text>
-      <text class="member-guide-desc">月费 19.9 起 · 年度 99.9 更值</text>
+      <text class="member-guide-desc">月费 19 起 · 年度 99 更值</text>
     </view>
     <view class="member-guide-action">开通</view>
   </view>

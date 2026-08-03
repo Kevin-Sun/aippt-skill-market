@@ -26,10 +26,10 @@
     <view class="table-row table-header">
       <text class="table-cell">权益</text>
       <text class="table-cell">免费</text>
-      <text class="table-cell">2.9</text>
-      <text class="table-cell">9.9</text>
-      <text class="table-cell highlight">19.9/月</text>
-      <text class="table-cell">99.9/年</text>
+      <text class="table-cell">2</text>
+      <text class="table-cell">9</text>
+      <text class="table-cell highlight">19/月</text>
+      <text class="table-cell">99/年</text>
     </view>
     <view class="table-row">
       <text class="table-cell">浏览</text>

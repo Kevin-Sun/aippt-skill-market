@@ -26,7 +26,7 @@
         <text class="member-card-title" wx:if="{{isMember}}">{{memberLevelText}} · 到期 {{memberExpiry}}</text>
         <text class="member-card-title" wx:else>开通会员 · 全库 skill</text>
         <text class="member-card-desc" wx:if="{{isMember}}">全库 skill + 预览导出 + 定制调优</text>
-        <text class="member-card-desc" wx:else>月费 19.9 起 · 年度 99.9 更值</text>
+        <text class="member-card-desc" wx:else>月费 19 起 · 年度 99 更值</text>
       </view>
     </view>
     <view class="member-card-right">

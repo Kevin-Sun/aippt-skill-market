@@ -6,12 +6,15 @@
 // 5. 图片路径存在性检查
 // 6. 包体积检查
 // 7. app.json pages 文件存在性检查
+// 8. 价格残留扫描（Bug 2 防御：WXML/JS 里不能出现 9.9/19.9/2.9/99.9）
+// 9. payment 云函数权限检查（Bug 1 防御：config.json 必须含 auth.code2Session）
+// 10. cloudbaserc.json 一致性（envId 与 app.js 一致）
 
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-const ROOT = path.join(__dirname, '..', 'miniprogram');
+const ROOT = path.join(__dirname, 'miniprogram');
 let pass = 0, fail = 0;
 
 function assert(cond, name, detail) {
@@ -152,6 +155,87 @@ appJson.pages.forEach(p => {
   });
 });
 if (pagesOK) { pass++; console.log('  ✅ 所有 pages 文件存在'); }
+
+// 8. 价格残留扫描（Bug 2 防御）
+console.log('\n8. 价格残留扫描（不允许 9.9/19.9/2.9/99.9）');
+const PRICE_RE = /\b(2\.9|9\.9|19\.9|99\.9)\b/g;
+let priceResidue = false;
+function checkPrice(dir) {
+  fs.readdirSync(dir).forEach(f => {
+    const fp = path.join(dir, f);
+    if (f === 'node_modules' || f === 'package-lock.json') return;
+    if (fs.statSync(fp).isDirectory()) {
+      checkPrice(fp);
+    } else if (f.endsWith('.wxml') || f.endsWith('.js') || f.endsWith('.wxss') || f.endsWith('.json')) {
+      const content = fs.readFileSync(fp, 'utf8');
+      const matches = content.match(PRICE_RE);
+      if (matches) {
+        const lines = content.split('\n');
+        lines.forEach((line, i) => {
+          if (PRICE_RE.test(line)) {
+            console.log(`  ❌ ${fp}:${i+1}: ${line.trim()}`);
+            PRICE_RE.lastIndex = 0;
+          }
+        });
+        priceResidue = true;
+        fail++;
+      }
+    }
+  });
+}
+checkPrice(ROOT);
+if (!priceResidue) { pass++; console.log('  ✅ 无价格残留'); }
+
+// 9. payment 云函数权限检查（Bug 1 防御）
+console.log('\n9. payment 云函数权限检查');
+const cfgPath = path.join(__dirname, 'cloudfunctions', 'payment', 'config.json');
+if (!fs.existsSync(cfgPath)) {
+  console.log('  ❌ cloudfunctions/payment/config.json 不存在');
+  fail++;
+} else {
+  try {
+    const cfg = JSON.parse(fs.readFileSync(cfgPath, 'utf8'));
+    const openapi = cfg.permissions && cfg.permissions.openapi;
+    if (Array.isArray(openapi) && openapi.indexOf('auth.code2Session') >= 0) {
+      pass++;
+      console.log('  ✅ payment config.json 含 auth.code2Session 权限');
+    } else {
+      console.log('  ❌ payment config.json 缺 auth.code2Session 权限');
+      fail++;
+    }
+  } catch (e) {
+    console.log('  ❌ payment config.json JSON 解析失败:', e.message);
+    fail++;
+  }
+}
+
+// 10. cloudbaserc.json 一致性
+console.log('\n10. cloudbaserc.json 一致性');
+try {
+  const cbrc = JSON.parse(fs.readFileSync(path.join(__dirname, 'cloudbaserc.json'), 'utf8'));
+  const appJs = fs.readFileSync(path.join(ROOT, 'app.js'), 'utf8');
+  const appEnvMatch = appJs.match(/env:\s*'([^']+)'/);
+  const appEnv = appEnvMatch ? appEnvMatch[1] : '';
+  if (cbrc.envId && appEnv && cbrc.envId === appEnv) {
+    pass++;
+    console.log(`  ✅ envId 一致: ${cbrc.envId}`);
+  } else {
+    console.log(`  ❌ envId 不一致: cloudbaserc=${cbrc.envId}, app.js=${appEnv}`);
+    fail++;
+  }
+  // 也检查 VIRTUAL_PAYMENT_KEY 等环境变量
+  const paymentFn = cbrc.functions && cbrc.functions.find(f => f.name === 'payment');
+  if (paymentFn && paymentFn.envVariables && paymentFn.envVariables.VIRTUAL_PAYMENT_KEY) {
+    pass++;
+    console.log('  ✅ payment envVariables.VIRTUAL_PAYMENT_KEY 已配置');
+  } else {
+    console.log('  ❌ payment envVariables.VIRTUAL_PAYMENT_KEY 缺失');
+    fail++;
+  }
+} catch (e) {
+  console.log('  ❌ cloudbaserc.json 解析失败:', e.message);
+  fail++;
+}
 
 console.log(`\n=== 编译验证结果: ${pass} PASS / ${fail} FAIL ===`);
 process.exit(fail > 0 ? 1 : 0);
