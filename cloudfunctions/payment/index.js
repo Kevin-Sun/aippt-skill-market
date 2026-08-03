@@ -136,12 +136,13 @@ async function createOrder(data, context) {
 
 /**
  * 用 wx.login code 调 cloud.openapi.auth.code2Session 换 session_key
+ * 注意：cloud.openapi 在小程序端 wx.cloud.callFunction 触发时自动注入 access_token
+ * 用 tcb fn invoke 测试会返回 -501001 INVALID_WX_ACCESS_TOKEN（正常，因为不是小程序端触发）
  */
 async function getSessionKeyByCode(code) {
   try {
     const result = await cloud.openapi.auth.code2Session({
       appid: ENV.APPID,
-      secret: '',
       js_code: code,
       grant_type: 'authorization_code',
     })

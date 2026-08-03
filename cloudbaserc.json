@@ -13,6 +13,13 @@
         "APPID": "wx9647f4ecd0d033fe",
         "MCHID": "1748691274",
         "VIRTUAL_PAYMENT_KEY": "3p8sSKcFyott8ZQ57Fw5C1dJtC0lAQvw"
+      },
+      "config": {
+        "permissions": {
+          "openapi": [
+            "auth.code2Session"
+          ]
+        }
       }
     },
     {
