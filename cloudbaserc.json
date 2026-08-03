@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
-  "envId": "template-prj-wzqm-d2dnx664dea841",
+  "envId": "aippt-skill-d6g5hsem096551cc3",
   "functionRoot": "cloudfunctions",
   "functions": [
     {

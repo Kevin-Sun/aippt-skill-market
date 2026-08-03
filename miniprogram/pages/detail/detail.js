@@ -71,53 +71,78 @@ Page({
   requestPayment: function() {
     var self = this;
     var skill = this.data.skill;
-    var amount = Math.round(skill.price * 100);
+    var productId = this.getProductIdForSkill(skill);
+    var goodsPrice = Math.round(Number(skill.price) * 100);
 
     wx.showLoading({ title: '正在下单...' });
 
-    wx.cloud.callFunction({
-      name: 'payment',
-      data: {
-        action: 'createOrder',
-        data: {
-          mode: 'short_series_goods',
-          amount: amount,
-          attach: skill.id,
-          productId: skill.id
+    wx.login({
+      success: function(loginRes) {
+        var code = loginRes.code;
+        if (!code) {
+          wx.hideLoading();
+          wx.showToast({ title: '登录失败，无法支付', icon: 'none' });
+          return;
         }
-      },
-      success: function(res) {
-        wx.hideLoading();
-        var result = res.result;
-        if (result && result.errno === 0) {
-          self.callVirtualPayment(result, amount);
-        } else {
-          wx.showToast({ title: '下单失败：' + (result ? result.errMsg : '未知错误'), icon: 'none' });
-        }
-      },
-      fail: function(err) {
-        wx.hideLoading();
-        wx.showModal({
-          title: '支付失败',
-          content: '网络错误或云函数未部署，是否重试？',
-          confirmText: '重试',
-          cancelText: '取消',
-          success: function(modalRes) {
-            if (modalRes.confirm) {
-              self.setData({ retryCount: (self.data.retryCount || 0) + 1 });
-              if (self.data.retryCount <= 3) { self.requestPayment(); }
-              else { wx.showToast({ title: '重试次数过多', icon: 'none' }); }
+        wx.cloud.callFunction({
+          name: 'payment',
+          data: {
+            action: 'createOrder',
+            data: {
+              code: code,
+              productId: productId,
+              goodsPrice: goodsPrice,
+              attach: skill.id,
             }
-            else { wx.showToast({ title: '已取消', icon: 'none' }); }
+          },
+          success: function(res) {
+            wx.hideLoading();
+            var result = res.result;
+            if (result && result.errno === 0) {
+              self.callVirtualPayment(result, goodsPrice);
+            } else {
+              wx.showModal({
+                title: '下单失败',
+                content: (result ? result.errMsg : '未知错误') + ' (errno=' + (result ? result.errno : '?') + ')',
+                showCancel: false,
+              });
+            }
+          },
+          fail: function(err) {
+            wx.hideLoading();
+            wx.showModal({
+              title: '支付失败',
+              content: '网络错误或云函数未部署，是否重试？',
+              confirmText: '重试',
+              cancelText: '取消',
+              success: function(modalRes) {
+                if (modalRes.confirm) {
+                  self.setData({ retryCount: (self.data.retryCount || 0) + 1 });
+                  if (self.data.retryCount <= 3) { self.requestPayment(); }
+                  else { wx.showToast({ title: '重试次数过多', icon: 'none' }); }
+                }
+                else { wx.showToast({ title: '已取消', icon: 'none' }); }
+              }
+            });
           }
         });
+      },
+      fail: function() {
+        wx.hideLoading();
+        wx.showToast({ title: '微信登录失败', icon: 'none' });
       }
     });
   },
 
-  callVirtualPayment: function(orderData, amount) {
+  getProductIdForSkill: function(skill) {
+    var price = Number(skill.price);
+    if (price <= 2) return 'skill_lite';
+    if (price <= 9) return 'skill_basic';
+    return 'skill_pro';
+  },
+
+  callVirtualPayment: function(orderData, goodsPrice) {
     var self = this;
-    // P0-5: 检查是否支持虚拟支付
     if (!wx.canIUse("requestVirtualPayment")) {
       wx.showModal({
         title: "提示",
@@ -128,13 +153,16 @@ Page({
     }
     wx.requestVirtualPayment({
       mode: 'short_series_goods',
-      offerId: orderData.offerId || '1450602455',
+      offerId: orderData.offerId,
       buyQuantity: 1,
       env: 0,
       currencyType: 'CNY',
+      productId: orderData.productId,
+      goodsPrice: orderData.goodsPrice,
       outTradeNo: orderData.outTradeNo,
-      sign: orderData.sign,
-      nonce: orderData.nonce,
+      signData: orderData.signData,
+      paySig: orderData.paySig,
+      signature: orderData.signature,
       success: function() {
         self.unlockSkill();
       },

@@ -8,7 +8,7 @@ App({
     } else {
       try {
         wx.cloud.init({
-          env: 'template-prj-wzqm-d2dnx664dea841',
+          env: 'aippt-skill-d6g5hsem096551cc3',
           traceUser: true,
         });
       } catch (e) {

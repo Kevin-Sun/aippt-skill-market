@@ -267,7 +267,7 @@ nano /Users/sunkai/ops-dashboard/templates/miniprogram-base/cloudfunctions/payme
 cd /Users/sunkai/ops-dashboard/templates/miniprogram-base/cloudfunctions/payment
 
 <span class="comment"># 部署云函数</span>
-tcb fn deploy payment --envId template-prj-wzqm-d2dnx664dea841 --force
+tcb fn deploy payment --envId aippt-skill-d6g5hsem096551cc3 --force
     </div>
     
     <p><strong>6.2</strong> 等待部署完成（约 10-30 秒），看到以下输出表示成功：</p>
@@ -275,13 +275,13 @@ tcb fn deploy payment --envId template-prj-wzqm-d2dnx664dea841 --force
     <div class="code-block">
 ✔ [payment] 云函数部署成功！
 
-ℹ 控制台查看：https://tcb.cloud.tencent.com/dev?envId=template-prj-wzqm-d2dnx664dea841#/scf
+ℹ 控制台查看：https://tcb.cloud.tencent.com/dev?envId=aippt-skill-d6g5hsem096551cc3#/scf
     </div>
     
     <div class="warn">
       <strong>⚠️ 如果部署失败：</strong>
       <br>1. 检查 <code>tcb login</code> 是否已登录（运行 <code>tcb login</code> 重新登录）
-      <br>2. 检查环境 ID：<code>template-prj-wzqm-d2dnx664dea841</code>
+      <br>2. 检查环境 ID：<code>aippt-skill-d6g5hsem096551cc3</code>
       <br>3. 检查网络连接
     </div>
     
@@ -289,7 +289,7 @@ tcb fn deploy payment --envId template-prj-wzqm-d2dnx664dea841 --force
     
     <div class="code-block">
 <span class="comment"># 在浏览器打开云开发控制台</span>
-open https://tcb.cloud.tencent.com/dev?envId=template-prj-wzqm-d2dnx664dea841#/scf
+open https://tcb.cloud.tencent.com/dev?envId=aippt-skill-d6g5hsem096551cc3#/scf
 
 <span class="comment"># 找到 payment 云函数 → 函数配置 → 环境变量</span>
 <span class="comment"># 确认看到 4 个环境变量：</span>
@@ -371,7 +371,7 @@ open /Applications/wechatwebdevtools.app
       
       <div class="faq-item">
         <strong>Q: 点购买后显示"网络错误或云函数未部署，是否重试？"</strong>
-        <p>说明云函数 <code>payment</code> 没部署或网络不通。运行 <code>tcb fn deploy payment --envId template-prj-wzqm-d2dnx664dea841 --force</code> 重新部署。</p>
+        <p>说明云函数 <code>payment</code> 没部署或网络不通。运行 <code>tcb fn deploy payment --envId aippt-skill-d6g5hsem096551cc3 --force</code> 重新部署。</p>
       </div>
       
       <div class="faq-item">
@@ -440,7 +440,7 @@ AppID:     <span class="value">wx9647f4ecd0d033fe</span>  <span class="comment">
 商户号:     <span class="value">1748691274</span>
 Offer ID:  <span class="value">1450602455</span>
 网站ICP:   <span class="value">京ICP备2026044381号-1</span>
-云环境ID:  <span class="value">template-prj-wzqm-d2dnx664dea841</span>（体验版，2027-01-26到期）
+云环境ID:  <span class="value">aippt-skill-d6g5hsem096551cc3</span>（体验版，2027-01-26到期）
     </div>
     
     <p><strong>需要你获取的</strong>：</p>
@@ -455,12 +455,12 @@ Offer ID:  <span class="value">1450602455</span>
     
     <p><strong>部署命令</strong>：</p>
     <div class="code-block">
-cd /Users/sunkai/ops-dashboard/templates/miniprogram-base/cloudfunctions/payment && tcb fn deploy payment --envId template-prj-wzqm-d2dnx664dea841 --force
+cd /Users/sunkai/ops-dashboard/templates/miniprogram-base/cloudfunctions/payment && tcb fn deploy payment --envId aippt-skill-d6g5hsem096551cc3 --force
     </div>
     
     <p><strong>云开发控制台</strong>：</p>
     <div class="code-block">
-https://tcb.cloud.tencent.com/dev?envId=template-prj-wzqm-d2dnx664dea841#/scf
+https://tcb.cloud.tencent.com/dev?envId=aippt-skill-d6g5hsem096551cc3#/scf
     </div>
     
     <p><strong>GitHub 仓库</strong>：</p>
