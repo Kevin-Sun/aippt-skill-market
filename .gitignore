@@ -6,3 +6,4 @@ raw-materials/github/
 private.*.key
 .env
 tests/screenshot*.png
+cloudbaserc.json
