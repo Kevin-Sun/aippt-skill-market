@@ -1,0 +1,534 @@
+[
+  {
+    "id": "preview_00_0",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "variant": 0,
+    "url": "preview-images/preview_00_0.png"
+  },
+  {
+    "id": "preview_00_1",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "variant": 1,
+    "url": "preview-images/preview_00_1.png"
+  },
+  {
+    "id": "preview_00_2",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "variant": 2,
+    "url": "preview-images/preview_00_2.png"
+  },
+  {
+    "id": "preview_00_3",
+    "scene": "工作汇报",
+    "style": "商务简约",
+    "variant": 3,
+    "url": "preview-images/preview_00_3.png"
+  },
+  {
+    "id": "preview_01_0",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "variant": 0,
+    "url": "preview-images/preview_01_0.png"
+  },
+  {
+    "id": "preview_01_1",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "variant": 1,
+    "url": "preview-images/preview_01_1.png"
+  },
+  {
+    "id": "preview_01_2",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "variant": 2,
+    "url": "preview-images/preview_01_2.png"
+  },
+  {
+    "id": "preview_01_3",
+    "scene": "商务展示",
+    "style": "商务简约",
+    "variant": 3,
+    "url": "preview-images/preview_01_3.png"
+  },
+  {
+    "id": "preview_02_0",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "variant": 0,
+    "url": "preview-images/preview_02_0.png"
+  },
+  {
+    "id": "preview_02_1",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "variant": 1,
+    "url": "preview-images/preview_02_1.png"
+  },
+  {
+    "id": "preview_02_2",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "variant": 2,
+    "url": "preview-images/preview_02_2.png"
+  },
+  {
+    "id": "preview_02_3",
+    "scene": "创意设计",
+    "style": "创意活泼",
+    "variant": 3,
+    "url": "preview-images/preview_02_3.png"
+  },
+  {
+    "id": "preview_03_0",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "variant": 0,
+    "url": "preview-images/preview_03_0.png"
+  },
+  {
+    "id": "preview_03_1",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "variant": 1,
+    "url": "preview-images/preview_03_1.png"
+  },
+  {
+    "id": "preview_03_2",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "variant": 2,
+    "url": "preview-images/preview_03_2.png"
+  },
+  {
+    "id": "preview_03_3",
+    "scene": "学术研究",
+    "style": "学术清爽",
+    "variant": 3,
+    "url": "preview-images/preview_03_3.png"
+  },
+  {
+    "id": "preview_04_0",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "variant": 0,
+    "url": "preview-images/preview_04_0.png"
+  },
+  {
+    "id": "preview_04_1",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "variant": 1,
+    "url": "preview-images/preview_04_1.png"
+  },
+  {
+    "id": "preview_04_2",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "variant": 2,
+    "url": "preview-images/preview_04_2.png"
+  },
+  {
+    "id": "preview_04_3",
+    "scene": "答辩",
+    "style": "学术清爽",
+    "variant": 3,
+    "url": "preview-images/preview_04_3.png"
+  },
+  {
+    "id": "preview_05_0",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "variant": 0,
+    "url": "preview-images/preview_05_0.png"
+  },
+  {
+    "id": "preview_05_1",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "variant": 1,
+    "url": "preview-images/preview_05_1.png"
+  },
+  {
+    "id": "preview_05_2",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "variant": 2,
+    "url": "preview-images/preview_05_2.png"
+  },
+  {
+    "id": "preview_05_3",
+    "scene": "教育课件",
+    "style": "创意活泼",
+    "variant": 3,
+    "url": "preview-images/preview_05_3.png"
+  },
+  {
+    "id": "preview_06_0",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "variant": 0,
+    "url": "preview-images/preview_06_0.png"
+  },
+  {
+    "id": "preview_06_1",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "variant": 1,
+    "url": "preview-images/preview_06_1.png"
+  },
+  {
+    "id": "preview_06_2",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "variant": 2,
+    "url": "preview-images/preview_06_2.png"
+  },
+  {
+    "id": "preview_06_3",
+    "scene": "创意设计",
+    "style": "日系简约",
+    "variant": 3,
+    "url": "preview-images/preview_06_3.png"
+  },
+  {
+    "id": "preview_07_0",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "variant": 0,
+    "url": "preview-images/preview_07_0.png"
+  },
+  {
+    "id": "preview_07_1",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "variant": 1,
+    "url": "preview-images/preview_07_1.png"
+  },
+  {
+    "id": "preview_07_2",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "variant": 2,
+    "url": "preview-images/preview_07_2.png"
+  },
+  {
+    "id": "preview_07_3",
+    "scene": "创意设计",
+    "style": "中式典雅",
+    "variant": 3,
+    "url": "preview-images/preview_07_3.png"
+  },
+  {
+    "id": "preview_08_0",
+    "scene": "工作汇报",
+    "style": "中式典雅",
+    "variant": 0,
+    "url": "preview-images/preview_08_0.png"
+  },
+  {
+    "id": "preview_08_1",
+    "scene": "工作汇报",
+    "style": "中式典雅",
+    "variant": 1,
+    "url": "preview-images/preview_08_1.png"
+  },
+  {
+    "id": "preview_08_2",
+    "scene": "工作汇报",
+    "style": "中式典雅",
+    "variant": 2,
+    "url": "preview-images/preview_08_2.png"
+  },
+  {
+    "id": "preview_08_3",
+    "scene": "工作汇报",
+    "style": "中式典雅",
+    "variant": 3,
+    "url": "preview-images/preview_08_3.png"
+  },
+  {
+    "id": "preview_09_0",
+    "scene": "创意设计",
+    "style": "科技极简",
+    "variant": 0,
+    "url": "preview-images/preview_09_0.png"
+  },
+  {
+    "id": "preview_09_1",
+    "scene": "创意设计",
+    "style": "科技极简",
+    "variant": 1,
+    "url": "preview-images/preview_09_1.png"
+  },
+  {
+    "id": "preview_09_2",
+    "scene": "创意设计",
+    "style": "科技极简",
+    "variant": 2,
+    "url": "preview-images/preview_09_2.png"
+  },
+  {
+    "id": "preview_09_3",
+    "scene": "创意设计",
+    "style": "科技极简",
+    "variant": 3,
+    "url": "preview-images/preview_09_3.png"
+  },
+  {
+    "id": "preview_10_0",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "variant": 0,
+    "url": "preview-images/preview_10_0.png"
+  },
+  {
+    "id": "preview_10_1",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "variant": 1,
+    "url": "preview-images/preview_10_1.png"
+  },
+  {
+    "id": "preview_10_2",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "variant": 2,
+    "url": "preview-images/preview_10_2.png"
+  },
+  {
+    "id": "preview_10_3",
+    "scene": "商务展示",
+    "style": "科技极简",
+    "variant": 3,
+    "url": "preview-images/preview_10_3.png"
+  },
+  {
+    "id": "preview_11_0",
+    "scene": "教育课件",
+    "style": "中式典雅",
+    "variant": 0,
+    "url": "preview-images/preview_11_0.png"
+  },
+  {
+    "id": "preview_11_1",
+    "scene": "教育课件",
+    "style": "中式典雅",
+    "variant": 1,
+    "url": "preview-images/preview_11_1.png"
+  },
+  {
+    "id": "preview_11_2",
+    "scene": "教育课件",
+    "style": "中式典雅",
+    "variant": 2,
+    "url": "preview-images/preview_11_2.png"
+  },
+  {
+    "id": "preview_11_3",
+    "scene": "教育课件",
+    "style": "中式典雅",
+    "variant": 3,
+    "url": "preview-images/preview_11_3.png"
+  },
+  {
+    "id": "preview_12_0",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "variant": 0,
+    "url": "preview-images/preview_12_0.png"
+  },
+  {
+    "id": "preview_12_1",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "variant": 1,
+    "url": "preview-images/preview_12_1.png"
+  },
+  {
+    "id": "preview_12_2",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "variant": 2,
+    "url": "preview-images/preview_12_2.png"
+  },
+  {
+    "id": "preview_12_3",
+    "scene": "学术研究",
+    "style": "科技极简",
+    "variant": 3,
+    "url": "preview-images/preview_12_3.png"
+  },
+  {
+    "id": "preview_13_0",
+    "scene": "商务展示",
+    "style": "创意活泼",
+    "variant": 0,
+    "url": "preview-images/preview_13_0.png"
+  },
+  {
+    "id": "preview_13_1",
+    "scene": "商务展示",
+    "style": "创意活泼",
+    "variant": 1,
+    "url": "preview-images/preview_13_1.png"
+  },
+  {
+    "id": "preview_13_2",
+    "scene": "商务展示",
+    "style": "创意活泼",
+    "variant": 2,
+    "url": "preview-images/preview_13_2.png"
+  },
+  {
+    "id": "preview_13_3",
+    "scene": "商务展示",
+    "style": "创意活泼",
+    "variant": 3,
+    "url": "preview-images/preview_13_3.png"
+  },
+  {
+    "id": "preview_14_0",
+    "scene": "商务展示",
+    "style": "中式典雅",
+    "variant": 0,
+    "url": "preview-images/preview_14_0.png"
+  },
+  {
+    "id": "preview_14_1",
+    "scene": "商务展示",
+    "style": "中式典雅",
+    "variant": 1,
+    "url": "preview-images/preview_14_1.png"
+  },
+  {
+    "id": "preview_14_2",
+    "scene": "商务展示",
+    "style": "中式典雅",
+    "variant": 2,
+    "url": "preview-images/preview_14_2.png"
+  },
+  {
+    "id": "preview_14_3",
+    "scene": "商务展示",
+    "style": "中式典雅",
+    "variant": 3,
+    "url": "preview-images/preview_14_3.png"
+  },
+  {
+    "id": "preview_15_0",
+    "scene": "教育课件",
+    "style": "学术清爽",
+    "variant": 0,
+    "url": "preview-images/preview_15_0.png"
+  },
+  {
+    "id": "preview_15_1",
+    "scene": "教育课件",
+    "style": "学术清爽",
+    "variant": 1,
+    "url": "preview-images/preview_15_1.png"
+  },
+  {
+    "id": "preview_15_2",
+    "scene": "教育课件",
+    "style": "学术清爽",
+    "variant": 2,
+    "url": "preview-images/preview_15_2.png"
+  },
+  {
+    "id": "preview_15_3",
+    "scene": "教育课件",
+    "style": "学术清爽",
+    "variant": 3,
+    "url": "preview-images/preview_15_3.png"
+  },
+  {
+    "id": "preview_16_0",
+    "scene": "答辩",
+    "style": "中式典雅",
+    "variant": 0,
+    "url": "preview-images/preview_16_0.png"
+  },
+  {
+    "id": "preview_16_1",
+    "scene": "答辩",
+    "style": "中式典雅",
+    "variant": 1,
+    "url": "preview-images/preview_16_1.png"
+  },
+  {
+    "id": "preview_16_2",
+    "scene": "答辩",
+    "style": "中式典雅",
+    "variant": 2,
+    "url": "preview-images/preview_16_2.png"
+  },
+  {
+    "id": "preview_16_3",
+    "scene": "答辩",
+    "style": "中式典雅",
+    "variant": 3,
+    "url": "preview-images/preview_16_3.png"
+  },
+  {
+    "id": "preview_17_0",
+    "scene": "答辩",
+    "style": "创意活泼",
+    "variant": 0,
+    "url": "preview-images/preview_17_0.png"
+  },
+  {
+    "id": "preview_17_1",
+    "scene": "答辩",
+    "style": "创意活泼",
+    "variant": 1,
+    "url": "preview-images/preview_17_1.png"
+  },
+  {
+    "id": "preview_17_2",
+    "scene": "答辩",
+    "style": "创意活泼",
+    "variant": 2,
+    "url": "preview-images/preview_17_2.png"
+  },
+  {
+    "id": "preview_17_3",
+    "scene": "答辩",
+    "style": "创意活泼",
+    "variant": 3,
+    "url": "preview-images/preview_17_3.png"
+  },
+  {
+    "id": "preview_18_0",
+    "scene": "工作汇报",
+    "style": "科技极简",
+    "variant": 0,
+    "url": "preview-images/preview_18_0.png"
+  },
+  {
+    "id": "preview_18_1",
+    "scene": "工作汇报",
+    "style": "科技极简",
+    "variant": 1,
+    "url": "preview-images/preview_18_1.png"
+  },
+  {
+    "id": "preview_18_2",
+    "scene": "工作汇报",
+    "style": "科技极简",
+    "variant": 2,
+    "url": "preview-images/preview_18_2.png"
+  },
+  {
+    "id": "preview_18_3",
+    "scene": "工作汇报",
+    "style": "科技极简",
+    "variant": 3,
+    "url": "preview-images/preview_18_3.png"
+  }
+]
