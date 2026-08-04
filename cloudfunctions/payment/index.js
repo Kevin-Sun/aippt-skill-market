@@ -119,7 +119,10 @@ async function createOrder(data, context) {
   }
   const signDataStr = JSON.stringify(signDataObj)
 
-  const paySig = hmacSHA256(signDataStr, ENV.SIGN_KEY)
+  // 官方签名算法：paySig = HMAC-SHA256(key=AppKey, msg="requestVirtualPayment" + "&" + signData)
+  // 漏 "requestVirtualPayment&" 前缀 → -15006 PAY_SIG_INVALID
+  const paySig = hmacSHA256('requestVirtualPayment&' + signDataStr, ENV.SIGN_KEY)
+  // signature = HMAC-SHA256(key=session_key, msg=signData) — 不加前缀
   const signature = hmacSHA256(signDataStr, sessionKey)
 
   console.log('[payment] createOrder done:', {
@@ -202,10 +205,15 @@ function hmacSHA256(data, key) {
 }
 
 function genOrderNo(openid) {
-  const ts = Date.now().toString(36)
-  const rand = crypto.randomBytes(4).toString('hex')
-  const uid = (openid || 'u').slice(-4)
-  return 'vp_' + ts + rand + uid
+  // UUID v4 格式：devtools 模拟器对 outTradeNo 内部 UUID 校验
+  // 官方要求：8-32 字符，字符集 数字/大小写字母/_-|*@，不能以 _ 开头
+  // UUID 格式 8-4-4-4-12，符合长度要求
+  const hex = crypto.randomBytes(16)
+  // 设置 version 4 + variant
+  hex[6] = (hex[6] & 0x0f) | 0x40
+  hex[8] = (hex[8] & 0x3f) | 0x80
+  const h = hex.toString('hex')
+  return h.slice(0, 8) + h.slice(8, 12) + h.slice(12, 16) + h.slice(16, 20) + h.slice(20, 32)
 }
 
 async function queryOrder(data, context) {

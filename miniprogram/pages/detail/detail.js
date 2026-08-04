@@ -143,6 +143,7 @@ Page({
         });
         return;
       }
+      console.log('[detail] about to callFunction, code=' + code.slice(0, 8) + ', productId=' + productId + ', goodsPrice=' + goodsPrice);
       wx.cloud.callFunction({
         name: 'payment',
         data: {
@@ -157,6 +158,7 @@ Page({
         success: function(res) {
           wx.hideLoading();
           var result = res && res.result;
+          console.log('[detail] callFunction success, errno=' + (result && result.errno) + ', has signData=' + !!(result && result.signData));
           if (result && result.errno === 0) {
             self.callVirtualPayment(result, goodsPrice);
           } else {
@@ -172,7 +174,7 @@ Page({
         },
         fail: function(err) {
           wx.hideLoading();
-          console.error('[detail] callFunction fail:', err);
+          console.error('[detail] callFunction fail:', err && JSON.stringify(err));
           wx.showModal({
             title: '云函数调用失败',
             content: 'errCode=' + (err && err.errCode) + '\nerrMsg=' + (err && err.errMsg ? err.errMsg : JSON.stringify(err)),
@@ -214,7 +216,10 @@ Page({
 
   callVirtualPayment: function(orderData, goodsPrice) {
     var self = this;
-    if (!wx.canIUse("requestVirtualPayment")) {
+    console.log('[detail] callVirtualPayment, offerId=' + orderData.offerId + ', productId=' + orderData.productId + ', goodsPrice=' + orderData.goodsPrice + ', outTradeNo=' + orderData.outTradeNo + ', signDataLen=' + (orderData.signData ? orderData.signData.length : 0) + ', paySigLen=' + (orderData.paySig ? orderData.paySig.length : 0) + ', signatureLen=' + (orderData.signature ? orderData.signature.length : 0));
+    var canUseVP = wx.canIUse("requestVirtualPayment");
+    console.log('[detail] wx.canIUse requestVirtualPayment =', canUseVP);
+    if (!canUseVP) {
       wx.showModal({
         title: "提示",
         content: "当前微信版本不支持虚拟支付，请用真机扫码测试或升级微信",
@@ -234,7 +239,8 @@ Page({
       signData: orderData.signData,
       paySig: orderData.paySig,
       signature: orderData.signature,
-      success: function() {
+      success: function(res) {
+        console.log('[detail] requestVirtualPayment SUCCESS:', JSON.stringify(res));
         self.unlockSkill();
       },
       fail: function(res) {

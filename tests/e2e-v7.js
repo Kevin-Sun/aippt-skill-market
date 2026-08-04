@@ -70,7 +70,7 @@ assert(
 
 // PAY-08: detail.js callVirtualPayment success 分支调 unlockSkill
 assert(
-  detailJs.indexOf("success: function() {\n        self.unlockSkill();") >= 0,
+  /success:\s*function\([^)]*\)\s*{[\s\S]*?self\.unlockSkill\(\)/.test(detailJs),
   'PAY-08 detail.js callVirtualPayment success 分支调 unlockSkill'
 );
 
