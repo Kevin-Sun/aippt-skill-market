@@ -74,6 +74,26 @@ assert(
   'PAY-08 detail.js callVirtualPayment success 分支调 unlockSkill'
 );
 
+// PAY-09: detail.js callVirtualPayment fail 分支有 cancel 静默分支（-1/-2/cancel → return 不弹 modal）
+const detailCancelMatch = detailJs.match(/fail:\s*function\(res\)\s*{[\s\S]*?(?:errCode\s*===?\s*-1|errCode\s*===?\s*-2|indexOf\(['"]cancel[']\))/);
+assert(
+  detailCancelMatch !== null,
+  'PAY-09 detail.js fail 分支有 cancel 静默分支（-1/-2/cancel → return）'
+);
+
+// PAY-10: detail.js mapPaymentError 覆盖 -1 和 -2
+assert(
+  detailJs.indexOf('errCode === -1') >= 0 && detailJs.indexOf('errCode === -2') >= 0,
+  'PAY-10 detail.js mapPaymentError 覆盖 -1 和 -2'
+);
+
+// PAY-11: member.js callVirtualPayment fail 分支有 cancel 静默分支
+const memberCancelMatch = memberJs.match(/fail:\s*function\(res\)\s*{[\s\S]*?(?:errCode\s*===?\s*-1|errCode\s*===?\s*-2|indexOf\(['"]cancel[']\))/);
+assert(
+  memberCancelMatch !== null,
+  'PAY-11 member.js fail 分支有 cancel 静默分支'
+);
+
 results.forEach(r => console.log(r));
 results.length = 0;
 

@@ -245,8 +245,11 @@ Page({
       },
       fail: function(res) {
         var errCode = res && res.errCode;
-        var errMsg = (res && res.errMsg) ? res.errMsg : '支付取消';
-        console.error('[detail] requestVirtualPayment fail:', errCode, errMsg);
+        var errMsg = (res && res.errMsg) ? res.errMsg : '';
+        console.log('[detail] requestVirtualPayment fail:', errCode, errMsg);
+        if (errCode === -1 || errCode === -2 || (errMsg && errMsg.indexOf('cancel') >= 0)) {
+          return;
+        }
         var userMsg = self.mapPaymentError(errCode, errMsg);
         wx.showModal({
           title: '支付失败 (' + (errCode || '?') + ')',
@@ -258,6 +261,7 @@ Page({
   },
 
   mapPaymentError: function(errCode, errMsg) {
+    if (errCode === -1 || errCode === -2) return '已取消支付';
     if (errCode === -15013) return '价格不匹配（goodsPrice 与后台配置不一致），请联系客服';
     if (errCode === -15003) return '商品未在后台上架，请等待审核生效';
     if (errCode === -15006) return '商品审核未通过';
