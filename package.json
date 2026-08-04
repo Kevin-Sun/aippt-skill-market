@@ -1,0 +1,29 @@
+{
+  "name": "aippt-skill-market",
+  "version": "1.0.0",
+  "description": "",
+  "main": "check-page.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-Sun/aippt-skill-market.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kevin-Sun/aippt-skill-market/issues"
+  },
+  "homepage": "https://github.com/Kevin-Sun/aippt-skill-market#readme",
+  "dependencies": {
+    "miniprogram-automator": "^0.12.1",
+    "miniprogram-ci": "^2.1.31",
+    "ws": "^8.21.2"
+  }
+}

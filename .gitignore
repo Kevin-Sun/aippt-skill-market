@@ -7,3 +7,5 @@ private.*.key
 .env
 tests/screenshot*.png
 cloudbaserc.json
+node_modules/
+oss/preview-images/*.png

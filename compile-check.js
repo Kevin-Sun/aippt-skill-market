@@ -156,6 +156,32 @@ appJson.pages.forEach(p => {
 });
 if (pagesOK) { pass++; console.log('  ✅ 所有 pages 文件存在'); }
 
+// 7. 图片路径存在性检查
+console.log('\n7. 图片路径存在性检查');
+let imgMissing = 0;
+function checkImageRefs(dir) {
+  fs.readdirSync(dir).forEach(f => {
+    const fp = path.join(dir, f);
+    if (f === 'node_modules' || f === 'package-lock.json') return;
+    if (fs.statSync(fp).isDirectory()) { checkImageRefs(fp); return; }
+    if (!f.endsWith('.wxml') && !f.endsWith('.js') && !f.endsWith('.wxss')) return;
+    const content = fs.readFileSync(fp, 'utf8');
+    const re = /\/images\/[^\s'"`)]+/g;
+    let m;
+    while ((m = re.exec(content)) !== null) {
+      const imgPath = m[0].replace(/['"`)]$/,'');
+      const abs = path.join(ROOT, imgPath);
+      if (!fs.existsSync(abs)) {
+        console.log(`  ❌ ${fp.replace(ROOT+'/','')}: 引用 ${imgPath} 但文件不存在`);
+        imgMissing++;
+      }
+    }
+  });
+}
+checkImageRefs(ROOT);
+if (imgMissing === 0) { pass++; console.log('  ✅ 所有图片路径存在'); }
+else { fail += imgMissing; console.log('  共 '+imgMissing+' 个缺失'); }
+
 // 8. 价格残留扫描（Bug 2 防御）
 console.log('\n8. 价格残留扫描（不允许 9.9/19.9/2.9/99.9）');
 const PRICE_RE = /\b(2\.9|9\.9|19\.9|99\.9)\b/g;

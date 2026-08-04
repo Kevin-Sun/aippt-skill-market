@@ -64,7 +64,7 @@
   padding: 20rpx 24rpx;
   min-height: 72rpx;
 }
-.skill-style-tag { color: #ffffff; font-size: 24rpx; font-weight: 700; letter-spacing: 1rpx; text-shadow: 0 1rpx 2rpx rgba(0,0,0,0.15); }
+.skill-style-tag { color: #ffffff; font-size: 24rpx; font-weight: 700; letter-spacing: 1rpx; text-shadow: 0 1rpx 2rpx rgba(0,0,0,0.15); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200rpx; }
 .skill-recommend {
   background: rgba(255,255,255,0.25);
   color: #ffffff;
