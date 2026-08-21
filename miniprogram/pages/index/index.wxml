@@ -1,4 +1,4 @@
-<!--pages/index/index.wxml · V5: 无限下拉+查看更多-->
+<!--pages/index/index.wxml · V5: 无限下拉+查看更多+搜索态-->
 <view class="page-container">
   <view class="nav-bar">
     <text class="nav-logo">AI智作PPT</text>
@@ -11,40 +11,62 @@
   </view>
   <view class="search-bar">
     <input class="search-input" placeholder="{{searchHint}}" bindinput="onSearchInput" value="{{searchValue}}" bindconfirm="onSearchSubmit" />
+    <view class="search-clear-btn" wx:if="{{searchValue}}" bindtap="onSearchClear">✕</view>
     <view class="search-submit-btn" bindtap="onSearchSubmit">
       <image class="search-icon-img" src="/images/icons/search.png" mode="aspectFit" />
     </view>
   </view>
-  <scroll-view scroll-x class="scene-bar">
-    <view wx:for="{{scenes}}" wx:key="*this" class="scene-tag {{currentScene === item ? 'active' : ''}}" data-scene="{{item}}" bindtap="onSceneTap">{{item}}</view>
-  </scroll-view>
-  <view class="sale-banner" bindtap="onSaleTap">
-    <view class="sale-banner-text">
-      <text class="sale-banner-title">限时特惠 0.99 元</text>
-      <text class="sale-banner-desc">精选 skill 限时抢，倒计时 3 天</text>
-    </view>
-    <view class="sale-banner-cta">抢购</view>
+  <!-- 搜索结果条 -->
+  <view class="search-result-bar" wx:if="{{showSearchResults}}">
+    <text class="search-result-text" wx:if="{{searchResultsCount > 0}}">"{{searchValue}}" 的搜索结果 · {{searchResultsCount}} 个</text>
+    <text class="search-result-text" wx:else>未找到 "{{searchValue}}" 相关 skill</text>
   </view>
-  <view class="free-banner" bindtap="onFreeTap">
-    <view class="free-banner-text">
-      <text class="free-banner-title">免费 skill 领取</text>
-      <text class="free-banner-desc">基础 skill 免费领，先到先得</text>
+  <!-- 非搜索态显示场景栏+banner -->
+  <block wx:if="{{!showSearchResults}}">
+    <scroll-view scroll-x class="scene-bar">
+      <view wx:for="{{scenes}}" wx:key="*this" class="scene-tag {{currentScene === item ? 'active' : ''}}" data-scene="{{item}}" bindtap="onSceneTap">{{item}}</view>
+    </scroll-view>
+    <view class="sale-banner" bindtap="onSaleTap">
+      <view class="sale-banner-text">
+        <text class="sale-banner-title">限时特惠 0.99 元</text>
+        <text class="sale-banner-desc">精选 skill 限时抢，倒计时 3 天</text>
+      </view>
+      <view class="sale-banner-cta">抢购</view>
     </view>
-    <view class="free-banner-cta">领取</view>
+    <view class="free-banner" bindtap="onFreeTap">
+      <view class="free-banner-text">
+        <text class="free-banner-title">免费 skill 领取</text>
+        <text class="free-banner-desc">基础 skill 免费领，先到先得</text>
+      </view>
+      <view class="free-banner-cta">领取</view>
+    </view>
+  </block>
+  <!-- 搜索空态 -->
+  <view class="search-empty-state" wx:if="{{showSearchResults && searchResultsCount === 0}}">
+    <text class="empty-title">没找到 "{{searchValue}}" 相关 skill</text>
+    <view class="empty-quick-tags">
+      <text class="quick-tag" bindtap="onQuickSearch" data-q="答辩">答辩</text>
+      <text class="quick-tag" bindtap="onQuickSearch" data-q="工作汇报">工作汇报</text>
+      <text class="quick-tag" bindtap="onQuickSearch" data-q="学术">学术</text>
+      <text class="quick-tag" bindtap="onQuickSearch" data-q="PPT">PPT</text>
+    </view>
+    <view class="empty-cta" bindtap="onSearchClear">浏览全部 skill →</view>
   </view>
-  <view class="skill-list">
+  <view class="skill-list" wx:if="{{skills.length > 0}}">
     <view wx:for="{{skills}}" wx:key="id" class="skill-card" data-id="{{item.id}}" bindtap="onSkillTap">
       <view class="skill-card-inner">
         <view class="skill-card-header" style="background: {{item.gradient}};">
           <text class="skill-style-tag">{{item.style}}</text>
-          <text class="skill-recommend" wx:if="{{item.recommendedAgent}}">推荐 {{item.recommendedAgent}}</text>
+          <text class="skill-tier-badge" wx:if="{{item.tier === 'paid'}}">付费</text>
+          <text class="skill-tier-badge" wx:elif="{{item.tier === 'free_ref'}}">免费</text>
+          <text class="skill-tier-badge" wx:elif="{{item.tier === 'inspiration'}}">参考</text>
         </view>
         <view class="skill-card-body">
-          <text class="skill-name">{{item.name}}</text>
-          <text class="skill-desc">{{item.previewDesc}}</text>
+          <text class="skill-name">{{item.displayName}}</text>
+          <text class="skill-desc">{{item.displayDesc}}</text>
           <view class="skill-meta">
             <text class="skill-scene">{{item.scene}}</text>
-            <text class="skill-lang">{{item.language}}</text>
+            <text class="skill-agent" wx:if="{{item.recommendedAgent}}">{{item.recommendedAgent}}</text>
             <text class="skill-price purchased" wx:if="{{item.isPurchased}}">已购买</text>
             <text class="skill-price free" wx:elif="{{item.isFree}}">免费</text>
             <text class="skill-price paid" wx:else>¥{{item.price}}</text>
@@ -58,8 +80,11 @@
     <text>加载中...</text>
   </view>
   <!-- 搜索结果：查看全部 -->
-  <view class="view-all-search" wx:if="{{showSearchResults && searchResultsCount > 0}}" bindtap="onViewAllSearchTap">
+  <view class="view-all-search" wx:if="{{showSearchResults && searchResultsCount > 6}}" bindtap="onViewAllSearchTap">
     <text>查看全部 {{searchResultsCount}} 个搜索结果 →</text>
+  </view>
+  <view class="view-all-search" wx:if="{{showSearchResults && searchResultsCount > 0 && searchResultsCount <= 6}}">
+    <text>已显示全部 {{searchResultsCount}} 个结果</text>
   </view>
   <!-- 查看更多 -->
   <view class="view-more-btn" wx:if="{{showViewMore}}" bindtap="onViewMoreTap">

@@ -1,4 +1,4 @@
-<!--pages/orders/orders.wxml · P0: 渲染 orders 数组-->
+<!--pages/orders/orders.wxml · V2: 空态CTA + 客服入口-->
 <view class="page-container">
   <view class="tab-bar">
     <view class="tab-item {{tab === 'purchased' ? 'active' : ''}}" data-tab="purchased" bindtap="onTabTap">已购 ({{purchased.length}})</view>
@@ -9,23 +9,31 @@
   <!-- 已购 -->
   <view wx:if="{{tab === 'purchased'}}">
     <view wx:if="{{purchased.length > 0}}">
-      <view class="order-card" wx:for="{{purchased}}" wx:key="*this">
-        <text class="order-name">{{item}}</text>
+      <view class="order-card" wx:for="{{purchased}}" wx:key="id">
+        <text class="order-name">{{item.name}}</text>
         <text class="order-status done">已解锁</text>
       </view>
     </view>
-    <view class="empty" wx:else><text>暂无已购 skill</text></view>
+    <view class="empty-state" wx:else>
+      <text class="empty-title">暂无已购 skill</text>
+      <text class="empty-desc">解锁后可在此查看和使用</text>
+      <view class="empty-cta" bindtap="onGoMarket">去逛逛 skill 市场 →</view>
+    </view>
   </view>
 
   <!-- 收藏 -->
   <view wx:if="{{tab === 'favorites'}}">
     <view wx:if="{{favorites.length > 0}}">
-      <view class="order-card" wx:for="{{favorites}}" wx:key="*this">
-        <text class="order-name">{{item}}</text>
+      <view class="order-card" wx:for="{{favorites}}" wx:key="id">
+        <text class="order-name">{{item.name}}</text>
         <text class="order-status">已收藏</text>
       </view>
     </view>
-    <view class="empty" wx:else><text>暂无收藏</text></view>
+    <view class="empty-state" wx:else>
+      <text class="empty-title">暂无收藏</text>
+      <text class="empty-desc">收藏喜欢的 skill，方便随时找到</text>
+      <view class="empty-cta" bindtap="onGoMarket">去逛逛 skill 市场 →</view>
+    </view>
   </view>
 
   <!-- 订单 -->
@@ -42,6 +50,16 @@
         </view>
       </view>
     </view>
-    <view class="empty" wx:else><text>暂无订单记录</text></view>
+    <view class="empty-state" wx:else>
+      <text class="empty-title">暂无订单记录</text>
+      <text class="empty-desc">解锁 skill 后会自动生成订单</text>
+      <view class="empty-cta" bindtap="onGoMarket">去逛逛 skill 市场 →</view>
+    </view>
+  </view>
+
+  <!-- 联系客服 -->
+  <view class="contact-section">
+    <text class="contact-text">遇到问题？</text>
+    <button class="contact-btn" open-type="contact" bindcontact="onContactTap">联系客服</button>
   </view>
 </view>

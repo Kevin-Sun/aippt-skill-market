@@ -1,4 +1,4 @@
-<!--pages/member/member.wxml · 会员页（SKU对比表）-->
+<!--pages/member/member.wxml · 会员页（v1.5.3 删社群）-->
 <view class="page-container">
   <view class="header">
     <text class="header-title">会员中心</text>
@@ -15,7 +15,7 @@
         <text class="tier-period" wx:if="{{item.period}}">/{{item.period}}</text>
       </view>
       <view class="tier-features">
-        <text class="feature-item" wx:for="{{item.features}}" wx:for-item="f" wx:key="*this"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /> {{f}}</text>
+        <text class="feature-item" wx:for="{{item.features}}" wx:for-item="f" wx:key="*this">✓ {{f}}</text>
       </view>
       <view class="tier-cta">开通</view>
     </view>
@@ -26,39 +26,24 @@
     <view class="table-row table-header">
       <text class="table-cell">权益</text>
       <text class="table-cell">免费</text>
-      <text class="table-cell">2</text>
-      <text class="table-cell">9</text>
-      <text class="table-cell highlight">19/月</text>
+      <text class="table-cell">19/月</text>
       <text class="table-cell">99/年</text>
     </view>
     <view class="table-row">
       <text class="table-cell">浏览</text>
-      <text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell highlight"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text>
+      <text class="table-cell">✓</text><text class="table-cell">✓</text><text class="table-cell">✓</text>
     </view>
     <view class="table-row">
-      <text class="table-cell">单skill</text>
-      <text class="table-cell">-</text><text class="table-cell">1个</text><text class="table-cell">-</text><text class="table-cell highlight">免费</text><text class="table-cell">免费</text>
+      <text class="table-cell">全库 skill</text>
+      <text class="table-cell">-</text><text class="table-cell">✓</text><text class="table-cell">✓</text>
     </view>
     <view class="table-row">
-      <text class="table-cell">一类</text>
-      <text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell">n个</text><text class="table-cell highlight"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text>
+      <text class="table-cell">预览+导出</text>
+      <text class="table-cell">-</text><text class="table-cell">✓</text><text class="table-cell">✓</text>
     </view>
     <view class="table-row">
-      <text class="table-cell">全库</text>
-      <text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell highlight"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text>
+      <text class="table-cell">定制调优</text>
+      <text class="table-cell">-</text><text class="table-cell">-</text><text class="table-cell">✓</text>
     </view>
-    <view class="table-row">
-      <text class="table-cell">定制</text>
-      <text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell highlight"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text>
-    </view>
-    <view class="table-row">
-      <text class="table-cell">社群</text>
-      <text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell highlight"><image class="check-icon" src="/images/icons/cross.png" mode="aspectFit" /></text><text class="table-cell"><image class="check-icon" src="/images/icons/check.png" mode="aspectFit" /></text>
-    </view>
-  </view>
-
-  <view class="community-section" bindtap="onCommunityTap">
-    <text class="community-title">知识星球社群</text>
-    <text class="community-desc">299 年费 · 每日更新 · 加入社群 →</text>
   </view>
 </view>

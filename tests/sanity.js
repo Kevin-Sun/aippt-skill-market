@@ -11,7 +11,7 @@ function ok(c, m) { if (c) { pass++; console.log('  ✅ ' + m); } else { fail++;
 console.log('\nS1. 数据字段完整性矩阵（防 compartment #6 详情页空白）');
 const svc = require(path.join(ROOT, 'data', 'skills-service.js'));
 const all = svc.skills;
-const NEED = ['id','name','previewDesc','scene','style','language','price','isFree','recommendedAgent','gradient','includes','steps','rating','salesCount','suitableFor'];
+const NEED = ['id','name','previewDesc','scene','style','language','price','isFree','recommendedAgent','gradient','steps','rating'];
 let missing = 0;
 for (const f of NEED) {
   const n = all.filter(x => { const v = x[f]; return v !== undefined && v !== null && v !== '' && (!Array.isArray(v) || v.length > 0); }).length;

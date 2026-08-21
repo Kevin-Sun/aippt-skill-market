@@ -1,23 +1,43 @@
 
 .page-container { padding-bottom: 140rpx; background: #F7F6F3; min-height: 100vh; }
-.preview-swiper { width: 100%; height: 400rpx; }
-.preview-image { width: 100%; height: 100%; }
+
+.hero-card { padding: 48rpx; min-height: 300rpx; display: flex; flex-direction: column; justify-content: flex-end; }
+.hero-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16rpx; }
+.hero-style { font-size: 24rpx; color: rgba(255,255,255,0.8); font-weight: 600; }
+.hero-tier { font-size: 22rpx; color: #fff; background: rgba(255,255,255,0.25); padding: 4rpx 16rpx; border-radius: 999rpx; font-weight: 600; }
+.hero-title { font-size: 44rpx; font-weight: 800; color: #fff; line-height: 1.2; margin-bottom: 16rpx; text-shadow: 0 2rpx 8rpx rgba(0,0,0,0.15); }
+.hero-tags { display: flex; flex-wrap: wrap; gap: 12rpx; margin-bottom: 12rpx; }
+.hero-tag { font-size: 24rpx; color: #fff; background: rgba(255,255,255,0.2); padding: 6rpx 20rpx; border-radius: 999rpx; }
+.hero-stats { display: flex; align-items: center; gap: 16rpx; margin-top: 8rpx; }
+.hero-star { font-size: 26rpx; color: #fff; font-weight: 700; }
+.hero-fork { font-size: 24rpx; color: rgba(255,255,255,0.8); }
+.hero-src { font-size: 22rpx; color: rgba(255,255,255,0.6); margin-left: auto; }
+
 .skill-header { padding: 32rpx 48rpx; background: #FFFFFF; border-bottom: 2rpx solid #EAEAEA; }
-.skill-title { display: block; font-family: "Noto Serif SC", Georgia, serif; font-size: 48rpx; font-weight: 700; color: #1a1a2e; line-height: 1.1; letter-spacing: -1px; margin-bottom: 16rpx; }
-.skill-desc { display: block; font-size: 30rpx; color: #5c6370; line-height: 1.5; margin-bottom: 24rpx; }
-.skill-tags { display: flex; flex-wrap: wrap; }
-.skill-tags > text + text { margin-left: 12rpx; }
-.tag-scene { font-size: 24rpx; color: #2563eb; background: #dbeafe; padding: 6rpx 16rpx; border-radius: 999rpx; font-weight: 600; }
-.tag-style { font-size: 24rpx; color: #7c3aed; background: #ede9fe; padding: 6rpx 16rpx; border-radius: 999rpx; }
-.tag-lang { font-size: 24rpx; color: #5c6370; background: #F7F6F3; padding: 6rpx 16rpx; border-radius: 999rpx; }
-.tag-recommend { font-size: 24rpx; color: #fff; background: #16a34a; padding: 6rpx 16rpx; border-radius: 999rpx; font-weight: 700; }
-.skill-stats { display: flex; margin-top: 16rpx; }
-.stat-item { font-size: 26rpx; color: #5c6370; margin-right: 24rpx; }
+.skill-desc { display: block; font-size: 30rpx; color: #5c6370; line-height: 1.5; }
+
+.editor-review { font-size: 28rpx; color: #374151; line-height: 1.6; padding: 24rpx; background: #f0f7ff; border-radius: 16rpx; border-left: 6rpx solid #2563eb; }
+
 .price-section { display: flex; justify-content: space-between; align-items: center; padding: 32rpx 48rpx; background: #FFFFFF; margin-top: 16rpx; border-bottom: 2rpx solid #EAEAEA; }
 .price-value { font-size: 48rpx; font-weight: 800; color: #dc2626; }
 .price-action { font-size: 28rpx; color: #2563eb; font-weight: 600; background: #dbeafe; padding: 12rpx 32rpx; border-radius: 999rpx; }
 .section { padding: 32rpx 48rpx; background: #FFFFFF; margin-top: 16rpx; border-bottom: 2rpx solid #EAEAEA; }
 .section-title { font-size: 34rpx; font-weight: 700; color: #1a1a2e; display: block; margin-bottom: 24rpx; }
+
+.deliverable-card { padding: 24rpx; background: #f8fafc; border-radius: 16rpx; margin-bottom: 16rpx; }
+.deliverable-label { font-size: 24rpx; color: #6b7280; display: block; margin-bottom: 8rpx; }
+.deliverable-value { font-size: 28rpx; color: #1a1a2e; word-break: break-all; }
+
+.skill-md-view { max-height: 800rpx; }
+.skill-md-text { font-size: 24rpx; color: #374151; line-height: 1.5; }
+
+.preview-swiper { width: 100%; height: 400rpx; border-radius: 16rpx; overflow: hidden; }
+.preview-page { width: 100%; height: 100%; background: #fff; }
+.preview-fallback { width: 100%; height: 400rpx; display: flex; align-items: center; justify-content: center; border-radius: 16rpx; }
+.preview-fallback-text { color: #fff; font-size: 28rpx; }
+.preview-counter { text-align: center; font-size: 22rpx; color: #9ca3af; padding: 8rpx 0; }
+
+.rating-src { font-size: 22rpx; color: #9ca3af; margin-left: auto; }
 .section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16rpx; }
 .section-more { font-size: 26rpx; color: #2563eb; }
 .includes-grid { display: flex; }

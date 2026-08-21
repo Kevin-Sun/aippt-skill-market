@@ -1,0 +1,38 @@
+<!-- pages/original-detail/original-detail.wxml -->
+<view class="container">
+  <view class="original-header">
+    <text class="platform-badge">{{platform}}</text>
+    <text class="original-title">{{title}}</text>
+    <text class="original-author" wx:if="{{author}}">by {{author}}</text>
+  </view>
+
+  <view class="original-cover" wx:if="{{hasCover}}" bindtap="onPreviewCover">
+    <image class="cover-image" src="{{coverImage}}" mode="aspectFit" />
+  </view>
+  <view class="original-cover-fallback" wx:if="{{!hasCover}}">
+    <text class="fallback-text">暂无封面图</text>
+  </view>
+
+  <view class="original-info" wx:if="{{stars > 0 || forks > 0 || language}}">
+    <text class="info-item" wx:if="{{stars > 0}}">{{stars}} stars</text>
+    <text class="info-item" wx:if="{{forks > 0}}">{{forks}} forks</text>
+    <text class="info-item" wx:if="{{language}}">{{language}}</text>
+  </view>
+
+  <view class="original-desc" wx:if="{{desc}}">
+    <text class="desc-text">{{desc}}</text>
+  </view>
+
+  <view class="original-actions">
+    <view class="action-btn" bindtap="onCopyLink" wx:if="{{originalUrl}}">
+      <text>复制原作链接</text>
+    </view>
+    <view class="action-btn-secondary" bindtap="onBack">
+      <text>返回</text>
+    </view>
+  </view>
+
+  <view class="original-hint" wx:if="{{originalUrl}}">
+    <text>复制链接后，可在浏览器粘贴打开查看完整原作</text>
+  </view>
+</view>

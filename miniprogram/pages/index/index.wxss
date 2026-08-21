@@ -61,10 +61,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20rpx 24rpx;
-  min-height: 72rpx;
+  padding: 16rpx 24rpx;
+  min-height: 56rpx;
 }
-.skill-style-tag { color: #ffffff; font-size: 24rpx; font-weight: 700; letter-spacing: 1rpx; text-shadow: 0 1rpx 2rpx rgba(0,0,0,0.15); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 200rpx; }
+.skill-style-tag { color: #ffffff; font-size: 22rpx; font-weight: 700; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; min-width: 0; }
+.skill-tier-badge { color: #ffffff; font-size: 20rpx; font-weight: 600; background: rgba(255,255,255,0.25); padding: 4rpx 12rpx; border-radius: 999rpx; white-space: nowrap; flex-shrink: 0; margin-left: 12rpx; }
 .skill-recommend {
   background: rgba(255,255,255,0.25);
   color: #ffffff;
@@ -81,7 +82,8 @@
 .skill-desc { display: block; font-size: 24rpx; color: #5c6370; line-height: 1.5; margin-bottom: 16rpx; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .skill-meta { display: flex; align-items: center; flex-wrap: wrap; }
 .skill-meta > text + text { margin-left: 12rpx; }
-.skill-scene { font-size: 22rpx; color: #2563eb; background: #dbeafe; padding: 4rpx 12rpx; border-radius: 999rpx; font-weight: 600; }
+.skill-scene { font-size: 22rpx; color: #5c6370; background: #f3f4f6; padding: 4rpx 12rpx; border-radius: 999rpx; }
+.skill-agent { font-size: 22rpx; color: #2563eb; background: #dbeafe; padding: 4rpx 12rpx; border-radius: 999rpx; font-weight: 600; white-space: nowrap; }
 .skill-lang { font-size: 22rpx; color: #5c6370; background: #F7F6F3; padding: 4rpx 12rpx; border-radius: 999rpx; }
 .skill-price { font-size: 28rpx; font-weight: 800; color: #dc2626; margin-left: auto; }
 
@@ -92,3 +94,13 @@
 .skill-price.paid { color: #dc2626; }
 
 .skill-price.purchased { color: #16a34a; background: #dcfce7; }
+
+.search-clear-btn { position: absolute; right: 80rpx; top: 50%; transform: translateY(-50%); font-size: 28rpx; color: #9ca3af; padding: 8rpx; z-index: 10; }
+.search-bar { position: relative; }
+.search-result-bar { padding: 16rpx 48rpx; background: #eff6ff; }
+.search-result-text { font-size: 26rpx; color: #2563eb; font-weight: 600; }
+.search-empty-state { text-align: center; padding: 80rpx 48rpx; }
+.search-empty-state .empty-title { display: block; font-size: 32rpx; color: #5c6370; margin-bottom: 32rpx; }
+.search-empty-state .empty-quick-tags { display: flex; justify-content: center; gap: 16rpx; margin-bottom: 32rpx; }
+.search-empty-state .quick-tag { padding: 12rpx 32rpx; background: #fff; border-radius: 999rpx; font-size: 26rpx; color: #2563eb; border: 2rpx solid #2563eb; }
+.search-empty-state .empty-cta { color: #2563eb; font-size: 28rpx; font-weight: 600; }

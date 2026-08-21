@@ -1,9 +1,21 @@
 // ci-preview.js · 用 miniprogram-ci 自动生成预览二维码
 // 前置: 从 mp.weixin.qq.com → 开发管理 → 开发设置 下载"小程序代码上传密钥"
 //       保存为项目根目录的 private.wx9647f4ecd0d033fe.key
-//       IP 白名单可不勾（密钥本身是强凭据）
+//       IP 白名单必须配: mp 后台 → 开发设置 → 小程序代码上传 → IP 白名单
+//       加入出口 IP（用 `no_proxy=* curl -s https://httpbin.org/ip` 查询）
+//       本机代理出口 IP 不稳定，脚本自动绕过代理直连微信
 //
 // 用法: node scripts/ci-preview.js
+
+// 绕过本机代理直连微信（servicewechat.com 国内可达，避免代理切节点导致 -10008）
+delete process.env.HTTP_PROXY;
+delete process.env.http_proxy;
+delete process.env.HTTPS_PROXY;
+delete process.env.https_proxy;
+delete process.env.ALL_PROXY;
+delete process.env.all_proxy;
+process.env.no_proxy = '*';
+
 const ci = require('miniprogram-ci');
 const path = require('path');
 const os = require('os');

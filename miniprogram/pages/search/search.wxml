@@ -63,7 +63,7 @@
     <view class="recommended-section" wx:if="{{recommendedSkills.length > 0}}">
       <text class="recommended-title">你可能喜欢</text>
       <view class="recommended-item" wx:for="{{recommendedSkills}}" wx:key="id" data-id="{{item.id}}" bindtap="onRecommendedTap">
-        <text class="recommended-name">{{item.name}}</text>
+        <text class="recommended-name">{{item.displayName}}</text>
         <text class="recommended-price">{{item.isFree ? '免费' : '¥' + item.price}}</text>
       </view>
     </view>
@@ -76,8 +76,8 @@
         <text class="skill-item-style">{{item.style}}</text>
       </view>
       <view class="skill-item-body">
-        <text class="skill-item-name">{{item.name}}</text>
-        <text class="skill-item-desc">{{item.previewDesc}}</text>
+        <text class="skill-item-name">{{item.displayName}}</text>
+        <text class="skill-item-desc">{{item.displayDesc}}</text>
         <view class="skill-item-tags">
           <text class="tag-scene">{{item.scene}}</text>
           <text class="tag-lang">{{item.language}}</text>

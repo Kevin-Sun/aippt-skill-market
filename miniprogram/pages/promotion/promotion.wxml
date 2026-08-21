@@ -2,7 +2,7 @@
 <view class="page-container">
   <view class="header">
     <text class="header-title">活动中心</text>
-    <text class="header-subtitle">福利 · 会员 · 社群</text>
+    <text class="header-subtitle">福利 · 会员 · 优惠</text>
   </view>
 
   <view class="banner-list">

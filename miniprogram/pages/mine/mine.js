@@ -71,7 +71,6 @@ Page({
   onMemberTap: function() { wx.navigateTo({ url: '/pages/member/member' }); },
   onOrdersTap: function() { wx.navigateTo({ url: '/pages/orders/orders' }); },
   onFavoritesTap: function() { wx.navigateTo({ url: '/pages/orders/orders' }); },
-  onCommunityTap: function() { wx.navigateTo({ url: '/pages/community/community' }); },
   onPromotionTap: function() { wx.navigateTo({ url: '/pages/promotion/promotion' }); },
   onSupportTap: function() { wx.showToast({ title: '联系客服', icon: 'none' }); },
   onAboutTap: function() { wx.showToast({ title: 'AI智作PPT模版社', icon: 'none' }); },

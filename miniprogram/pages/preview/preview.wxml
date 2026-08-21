@@ -1,6 +1,27 @@
 <!--pages/preview/preview.wxml-->
-<view class="container">
-  <view>预览区域</view>
-  <button bindtap="onRender">渲染预览</button>
-  <text wx:if="{{renderReady}}">渲染完成</text>
+<view class="preview-container">
+  <swiper class="preview-swiper" current="{{currentPreview}}" bindchange="onSwiperChange" duration="300">
+    <swiper-item wx:for="{{previewDeck}}" wx:key="*this" class="preview-slide">
+      <image src="{{item}}" mode="aspectFit" class="preview-image"
+        binderror="onImgError" data-index="{{index}}"
+        bindload="onImgLoad" />
+    </swiper-item>
+  </swiper>
+
+  <view class="preview-fallback" wx:if="{{imgErrorCount > 0 && imgLoadCount === 0}}">
+    <view class="fallback-card" style="background: {{skillGradient}}">
+      <text class="fallback-text">{{skillName}}</text>
+      <text class="fallback-sub">预览图加载中...</text>
+    </view>
+  </view>
+
+  <view class="preview-hud">
+    <view class="preview-page-indicator">
+      <text>{{currentPreview + 1}} / {{totalPreview}}</text>
+    </view>
+    <view class="preview-actions">
+      <text class="preview-action-btn" bindtap="onFullScreen">放大</text>
+      <text class="preview-action-btn" bindtap="onClose">关闭</text>
+    </view>
+  </view>
 </view>

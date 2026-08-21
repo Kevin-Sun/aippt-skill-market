@@ -6,10 +6,10 @@ var tiers = [
   { id: 'single', name: '单 skill', price: 2, period: '一次性', features: ['1 个 skill', '基础预览'], recommended: false, badge: '' },
   { id: 'category', name: '一类 skill', price: 9, period: '一次性', features: ['n 个同类 skill', '预览+导出'], recommended: false, badge: '' },
   { id: 'monthly', name: '月度会员', price: 19, period: '月', features: ['全库 skill', '预览+导出', '每月更新'], recommended: true, badge: '最热' },
-  { id: 'annual', name: '年度会员', price: 99, period: '年', features: ['全库 skill', '预览+导出', '定制调优', '社群'], recommended: false, badge: '最值' },
+  { id: 'annual', name: '年度会员', price: 99, period: '年', features: ['全库 skill', '预览+导出', '定制调优'], recommended: false, badge: '最值' },
 ];
 
-var allFeatures = ['浏览 skill', '免费 skill', '单 skill 购买', '一类 skill', '全库 skill', '预览+导出', '定制调优', '社群'];
+var allFeatures = ['浏览 skill', '免费 skill', '单 skill 购买', '一类 skill', '全库 skill', '预览+导出', '定制调优'];
 
 Page({
   data: {
@@ -165,6 +165,14 @@ Page({
                 wx.setStorageSync('isMember', true);
                 wx.setStorageSync('memberLevel', tier.id === 'annual' ? 3 : (tier.id === 'monthly' ? 2 : 1));
 
+                // 写云端订阅记录
+                wx.cloud.callFunction({
+                  name: 'skills',
+                  data: { action: 'saveSubscription', data: { plan: id, productId: productId, outTradeNo: result.outTradeNo } },
+                  success: function() { console.log('[member] subscription saved to cloud'); },
+                  fail: function() { console.warn('[member] saveSubscription failed, localStorage fallback already saved'); },
+                });
+
                 self.setData({ paying: false });
                 wx.showToast({ title: '开通成功', icon: 'success' });
                 setTimeout(function() { wx.navigateBack(); }, 1500);
@@ -229,8 +237,4 @@ Page({
     if (tier.id === 'annual') return 'member_annual';
     return 'skill_lite';
   },
-
-  onCommunityTap: function() {
-    wx.navigateTo({ url: '/pages/community/community' });
-  }
 });

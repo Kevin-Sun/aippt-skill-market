@@ -1,5 +1,15 @@
 // ci-upload.js · 用 miniprogram-ci 上传正式版代码
 // 用法: node scripts/ci-upload.js --ver 1.0.0 --desc "首次提交审核"
+
+// 绕过本机代理直连微信（servicewechat.com 国内可达，避免代理切节点导致 -10008）
+delete process.env.HTTP_PROXY;
+delete process.env.http_proxy;
+delete process.env.HTTPS_PROXY;
+delete process.env.https_proxy;
+delete process.env.ALL_PROXY;
+delete process.env.all_proxy;
+process.env.no_proxy = '*';
+
 const ci = require('miniprogram-ci');
 const path = require('path');
 const fs = require('fs');

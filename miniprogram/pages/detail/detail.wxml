@@ -1,38 +1,70 @@
-<!--pages/detail/detail.wxml · V2 详情页（预览图+包含内容+适用场景+使用步骤+评价+相关推荐+分享+收藏）-->
+<!--pages/detail/detail.wxml · V3 渐变设计卡+卖点区+假数据隐藏+inspiration专属-->
 <view class="page-container" wx:if="{{skill}}">
-  <!-- 预览图轮播 -->
-  <swiper class="preview-swiper" indicator-dots circular autoplay bindchange="onPreviewChange">
-    <swiper-item wx:for="{{skill.previewImages}}" wx:key="*this" bindtap="onPreviewTap">
-      <image class="preview-image" src="{{item}}" mode="aspectFill" />
-    </swiper-item>
-  </swiper>
 
-  <!-- 标题+描述+标签 -->
-  <view class="skill-header">
-    <text class="skill-title">{{skill.name}}</text>
-    <text class="skill-desc">{{skill.previewDesc}}</text>
-    <view class="skill-tags">
-      <text class="tag-scene">{{skill.scene}}</text>
-      <text class="tag-style">{{skill.style}}</text>
-      <text class="tag-lang">{{skill.language}}</text>
-      <text class="tag-recommend" wx:if="{{skill.recommendedAgent}}">推荐 {{skill.recommendedAgent}}</text>
+  <!-- 渐变设计卡（替代空图轮播） -->
+  <view class="hero-card" style="background: {{skill.gradient || 'linear-gradient(135deg, #2563eb, #3b82f6)'}};">
+    <view class="hero-top">
+      <text class="hero-style">{{skill.style}}</text>
+      <text class="hero-tier" wx:if="{{skill.tier === 'paid'}}">付费技能</text>
+      <text class="hero-tier" wx:elif="{{skill.tier === 'free_ref'}}">免费开源</text>
+      <text class="hero-tier" wx:elif="{{skill.tier === 'inspiration'}}">灵感参考</text>
     </view>
-    <view class="skill-stats">
-      <text class="stat-item"><image class="star-icon" src="/images/icons/star.png" mode="aspectFit" /> {{skill.rating}}</text>
-      <text class="stat-item">已售 {{skill.salesCount}}</text>
+    <text class="hero-title">{{skill.displayName}}</text>
+    <view class="hero-tags">
+      <text class="hero-tag">{{skill.scene}}</text>
+      <text class="hero-tag" wx:if="{{skill.language !== '全部'}}">{{skill.language}}</text>
+      <text class="hero-tag" wx:if="{{skill.recommendedAgent}}">{{skill.recommendedAgent}}</text>
+    </view>
+    <view class="hero-stats" wx:if="{{skill.githubStars !== undefined}}">
+      <text class="hero-star">★ {{skill.githubStars}}</text>
+      <text class="hero-fork" wx:if="{{skill.githubForks > 0}}">fork {{skill.githubForks}}</text>
+      <text class="hero-src">GitHub</text>
     </view>
   </view>
 
+  <!-- 描述 -->
+  <view class="skill-header">
+    <text class="skill-desc">{{skill.displayDesc}}</text>
+  </view>
+
+  <!-- 效果预览（有 previewDeck 才显示） -->
+  <view class="section" wx:if="{{skill.previewDeck && skill.previewDeck.length > 0}}">
+    <text class="section-title">效果预览</text>
+    <swiper class="preview-swiper" indicator-dots circular bindchange="onPreviewChange" wx:if="{{previewLoaded}}">
+      <swiper-item wx:for="{{skill.previewDeck}}" wx:key="*this" bindtap="onPreviewTap">
+        <image class="preview-page" src="{{item}}" mode="aspectFit" binderror="onPreviewError" bindload="onPreviewImgLoad" />
+      </swiper-item>
+    </swiper>
+    <view class="preview-fallback" wx:if="{{!previewLoaded}}" style="background: {{skill.gradient}};">
+      <text class="preview-fallback-text">预览加载中...</text>
+    </view>
+    <view class="preview-counter" wx:if="{{previewLoaded && previewImgLoadCount > 0}}">
+      <text>已加载 {{previewImgLoadCount}}/{{skill.previewDeck.length}} 页</text>
+    </view>
+  </view>
+
+  <!-- 亮点（editorReview） -->
+  <view class="section" wx:if="{{skill.editorReview}}">
+    <text class="section-title">编辑点评</text>
+    <view class="editor-review"><text>{{skill.editorReview}}</text></view>
+  </view>
+
   <!-- 价格区 -->
-  <view class="price-section">
+  <view class="price-section" wx:if="{{skill.tier !== 'inspiration'}}">
     <text class="price-value" wx:if="{{skill.isFree}}">免费</text>
     <text class="price-value" wx:else>¥{{skill.price}}</text>
     <text class="price-action" bindtap="onTryUseTap" wx:if="{{skill.isFree}}">试用</text>
     <text class="price-action" bindtap="onTryUseTap" wx:else>先看效果</text>
   </view>
 
-  <!-- 包含内容 -->
-  <view class="section">
+  <!-- inspiration 专属：查看原作外链 -->
+  <view class="price-section" wx:if="{{skill.tier === 'inspiration'}}">
+    <text class="price-value">免费参考</text>
+    <text class="price-action" bindtap="onViewOriginalTap">查看原作 →</text>
+  </view>
+
+  <!-- 包含内容（有真实值才显示） -->
+  <view class="section" wx:if="{{skill.includes}}">
     <text class="section-title">包含内容</text>
     <view class="includes-grid">
       <view class="include-item">
@@ -51,15 +83,15 @@
   </view>
 
   <!-- 适用场景 -->
-  <view class="section">
+  <view class="section" wx:if="{{skill.suitableFor && skill.suitableFor.length > 0}}">
     <text class="section-title">适用场景</text>
     <view class="suitable-list">
-      <text class="suitable-tag" wx:for="{{skill.suitableFor}}" wx:key="*this">{{item}}</text>
+      <view class="suitable-tag" wx:for="{{skill.suitableFor}}" wx:key="*this"><text>{{item}}</text></view>
     </view>
   </view>
 
   <!-- 使用步骤 -->
-  <view class="section">
+  <view class="section" wx:if="{{skill.steps && skill.steps.length > 0}}">
     <text class="section-title">使用步骤</text>
     <view class="steps-list">
       <view class="step-item" wx:for="{{skill.steps}}" wx:key="num">
@@ -72,9 +104,33 @@
     </view>
   </view>
 
-  <!-- 三 agent 获取方式 -->
-  <view class="section">
-    <text class="section-title">三 agent 获取方式</text>
+  <!-- 已购交付物（paid + isPurchased） -->
+  <view class="section" wx:if="{{isPurchased && skill.tier === 'paid'}}">
+    <text class="section-title">已购内容</text>
+    <view class="deliverable-card" wx:if="{{skill.repoUrl}}">
+      <text class="deliverable-label">源码仓库</text>
+      <text class="deliverable-value" selectable="{{true}}">{{skill.repoUrl}}</text>
+    </view>
+    <view class="deliverable-card" wx:if="{{skill.installCmd}}">
+      <text class="deliverable-label">安装命令</text>
+      <text class="deliverable-value" selectable="{{true}}" bindtap="onCopyInstall">{{skill.installCmd}}</text>
+    </view>
+    <view class="deliverable-card" wx:if="{{skillContent}}">
+      <text class="deliverable-label">SKILL.md 全文</text>
+      <scroll-view scroll-y class="skill-md-view">
+        <text class="skill-md-text" selectable="{{true}}" space="">{{skillContent}}</text>
+      </scroll-view>
+      <view class="copy-btn" bindtap="onCopySkillMd">复制全文</view>
+    </view>
+    <view class="deliverable-card" wx:if="{{skill.guideZh}}">
+      <text class="deliverable-label">中文使用指南</text>
+      <text class="deliverable-value" selectable="{{true}}">{{skill.guideZh}}</text>
+    </view>
+  </view>
+
+  <!-- 三 agent 获取方式（非 inspiration） -->
+  <view class="section" wx:if="{{skill.tier !== 'inspiration'}}">
+    <text class="section-title">Agent 获取方式</text>
     <view class="agent-card" bindtap="onCopyCodex">
       <view class="agent-icon agent-codex">C</view>
       <view class="agent-info">
@@ -104,16 +160,24 @@
     </view>
   </view>
 
-  <!-- 评价区 -->
-  <view class="section" bindtap="onReviewTap">
+  <!-- 评价区（有 GitHub stars 才显示评分，0 条评价不显示星级） -->
+  <view class="section" wx:if="{{skill.githubStars !== undefined}}" bindtap="onReviewTap">
     <view class="section-header">
-      <text class="section-title">用户评价</text>
-      <text class="section-more">查看全部 →</text>
+      <text class="section-title">社区反馈</text>
+      <text class="section-more" wx:if="{{skill.reviews.length > 0}}">查看全部 →</text>
     </view>
     <view class="rating-row">
       <text class="rating-num">{{skill.rating}}</text>
-      <text class="rating-stars">{{item.rating >= 1 ? "★" : "☆"}}{{item.rating >= 2 ? "★" : "☆"}}{{item.rating >= 3 ? "★" : "☆"}}{{item.rating >= 4 ? "★" : "☆"}}{{item.rating >= 5 ? "★" : "☆"}}</text>
-      <text class="rating-count">{{skill.reviews.length}}条评价</text>
+      <view class="rating-stars">
+        <text wx:if="{{skill.rating >= 1}}">★</text><text wx:else>☆</text>
+        <text wx:if="{{skill.rating >= 2}}">★</text><text wx:else>☆</text>
+        <text wx:if="{{skill.rating >= 3}}">★</text><text wx:else>☆</text>
+        <text wx:if="{{skill.rating >= 4}}">★</text><text wx:else>☆</text>
+        <text wx:if="{{skill.rating >= 5}}">★</text><text wx:else>☆</text>
+      </view>
+      <text class="rating-count" wx:if="{{skill.githubIssues > 0}}">{{skill.githubIssues}} 个讨论</text>
+      <text class="rating-count" wx:else>暂无讨论</text>
+      <text class="rating-src">数据来源：GitHub</text>
     </view>
     <view class="review-item" wx:for="{{skill.reviews}}" wx:key="*this" wx:if="{{index < 2}}">
       <view class="review-header">
@@ -124,7 +188,7 @@
       <text class="review-date">{{item.date}}</text>
     </view>
     <view class="empty-reviews" wx:if="{{skill.reviews.length === 0}}">
-      <text>暂无评价，成为第一个评价的人</text>
+      <text>暂无用户评价</text>
     </view>
   </view>
 
@@ -137,7 +201,7 @@
           <text class="related-style">{{item.style}}</text>
         </view>
         <view class="related-body">
-          <text class="related-name">{{item.name}}</text>
+          <text class="related-name">{{item.displayName}}</text>
           <text class="related-price" wx:if="{{item.isFree}}">免费</text>
           <text class="related-price" wx:else>¥{{item.price}}</text>
         </view>
@@ -153,7 +217,7 @@
     <view class="bottom-icon-btn" bindtap="onFavoriteTap">
       <text class="bottom-icon {{isFavorited ? 'favorited' : ''}}">{{isFavorited ? '已收藏' : '收藏'}}</text>
     </view>
-    <view class="buy-btn {{isPurchased ? 'purchased' : ''}}" bindtap="onBuyTap">
+    <view class="buy-btn {{isPurchased ? 'purchased' : ''}}" bindtap="onBuyTap" wx:if="{{skill.tier !== 'inspiration'}}">
       <text>{{isPurchased ? '已解锁' : (skill.isFree ? '免费解锁' : '购买解锁 ¥' + skill.price)}}</text>
     </view>
   </view>

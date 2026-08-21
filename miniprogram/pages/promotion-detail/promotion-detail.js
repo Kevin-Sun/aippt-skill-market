@@ -18,15 +18,6 @@ var ACTIVITIES = {
     steps: [{num:1,title:'选择套餐',desc:'选择月度或年度会员'},{num:2,title:'支付',desc:'微信虚拟支付'},{num:3,title:'开通',desc:'立即开通全库权限'}],
     rewards: [{level:'月度',name:'全库 skill',condition:'19 元/月'},{level:'年度',name:'全库+定制',condition:'99 元/年'}],
   },
-  community: {
-    id: 'community', title: '知识星球社群',
-    description: 'AI+办公/学业社群，299 年费，每日更新 PPT 技巧和 agent 玩法。',
-    image: '/images/promotion-community.jpg',
-    isHot: false, daysLeft: 0, participants: 356,
-    rules: ['299 元/年','每日 PPT 技巧更新','agent 使用分享','会员专属定制调优','社群互助问答'],
-    steps: [{num:1,title:'加入',desc:'点击下方按钮加入社群'},{num:2,title:'付费',desc:'299 元年费'},{num:3,title:'参与',desc:'每日互动更新'}],
-    rewards: [{level:'年费',name:'每日更新+定制',condition:'299 元/年'}],
-  },
   sale: {
     id: 'sale', title: '限时特惠 0.99 元',
     description: '精选 PPT skill 限时 0.99 元抢购，倒计时 3 天。',

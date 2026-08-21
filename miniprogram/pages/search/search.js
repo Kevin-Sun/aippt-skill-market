@@ -59,7 +59,10 @@ Page({
       if (self.data.searchQuery) {
         var q = self.data.searchQuery.toLowerCase();
         var textMatch = (s.name && s.name.toLowerCase().indexOf(q) >= 0) ||
+                        (s.nameZh && s.nameZh.indexOf(self.data.searchQuery) >= 0) ||
                         (s.previewDesc && s.previewDesc.toLowerCase().indexOf(q) >= 0) ||
+                        (s.descZh && s.descZh.indexOf(self.data.searchQuery) >= 0) ||
+                        (s.editorReview && s.editorReview.indexOf(self.data.searchQuery) >= 0) ||
                         (s.recommendedAgent && s.recommendedAgent.toLowerCase().indexOf(q) >= 0);
         if (!textMatch) match = false;
       }

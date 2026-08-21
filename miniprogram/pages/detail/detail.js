@@ -15,6 +15,10 @@ Page({
     purchasedAt: '',
     loginCode: '',
     loginCodeAt: 0,
+    skillContent: '',
+    previewLoaded: false,
+    previewImgLoadCount: 0,
+    previewImgErrorCount: 0,
   },
 
   onLoad: function(options) {
@@ -29,6 +33,13 @@ Page({
     this.checkPurchased(skillId);
     this.checkFavorite(skillId);
     this.prepareLoginCode();
+    if (skill && skill.tier === 'paid') {
+      this.loadSkillContent(skillId);
+    }
+    // 预览图加载检测
+    if (skill && skill.previewDeck && skill.previewDeck.length > 0) {
+      this.setData({ previewLoaded: true });
+    }
   },
 
   onShow: function() {
@@ -86,10 +97,29 @@ Page({
   },
 
   checkPurchased: function(skillId) {
+    var self = this;
     try {
       var purchased = wx.getStorageSync('purchasedSkills') || [];
-      this.setData({ isPurchased: purchased.indexOf(skillId) >= 0 });
+      var localPurchased = purchased.indexOf(skillId) >= 0;
+      self.setData({ isPurchased: localPurchased });
     } catch (e) {}
+    // 云端查询（清 localStorage 后仍能恢复）
+    wx.cloud.callFunction({
+      name: 'skills',
+      data: { action: 'getPurchases' },
+      success: function(res) {
+        if (res && res.result && res.result.purchases) {
+          var cloudPurchased = res.result.purchases.some(function(p) { return p.skillId === skillId; });
+          if (cloudPurchased && !self.data.isPurchased) {
+            // 云端有记录但本地丢了 → 恢复本地
+            var local = wx.getStorageSync('purchasedSkills') || [];
+            if (local.indexOf(skillId) < 0) local.push(skillId);
+            wx.setStorageSync('purchasedSkills', local);
+            self.setData({ isPurchased: true });
+          }
+        }
+      },
+    });
   },
 
   checkFavorite: function(skillId) {
@@ -100,7 +130,23 @@ Page({
   },
 
   onPreviewChange: function(e) {
-    this.setData({ currentPreview: e.detail.current });
+    this.setData({ currentPreview: e.detail.current || 0 });
+  },
+
+  onPreviewError: function() {
+    this.setData({ previewLoaded: false, previewImgErrorCount: this.data.previewImgErrorCount + 1 });
+  },
+
+  onPreviewImgLoad: function() {
+    this.setData({ previewImgLoadCount: this.data.previewImgLoadCount + 1 });
+  },
+
+  onPreviewTap: function() {
+    // 全屏预览（用 wx.previewImage）
+    var urls = this.data.skill.previewDeck || [];
+    if (urls.length > 0) {
+      wx.previewImage({ current: urls[this.data.currentPreview], urls: urls });
+    }
   },
 
   onPreviewTap: function() {
@@ -276,12 +322,11 @@ Page({
       var purchased = wx.getStorageSync('purchasedSkills') || [];
       if (purchased.indexOf(skill.id) < 0) purchased.push(skill.id);
       wx.setStorageSync('purchasedSkills', purchased);
-      // P0-4: 写 orderRecords
       var order = {
         id: 'skill_' + skill.id + '_' + Date.now(),
         type: 'skill',
         skillId: skill.id,
-        skillName: skill.name,
+        skillName: skill.nameZh || skill.name,
         amount: Math.round(Number(skill.price) * 100),
         status: '已完成',
         createdAt: new Date().toISOString(),
@@ -291,6 +336,20 @@ Page({
       wx.setStorageSync('orderRecords', records);
       this.setData({ isPurchased: true, purchasedAt: order.createdAt });
       wx.showToast({ title: '解锁成功', icon: 'success' });
+      // 云端保存购买记录
+      wx.cloud.callFunction({
+        name: 'skills',
+        data: {
+          action: 'savePurchase',
+          data: {
+            skillId: skill.id,
+            skillName: skill.nameZh || skill.name,
+            productId: this.getProductIdForSkill(skill),
+            amount: order.amount,
+            outTradeNo: order.id,
+          },
+        },
+      });
     } catch (e) {}
   },
 
@@ -352,5 +411,40 @@ Page({
   onReviewTap: function() {
     var skillId = this.data.skill.id;
     wx.navigateTo({ url: '/pages/reviews/reviews?id=' + skillId });
+  },
+
+  onViewOriginalTap: function() {
+    var skill = this.data.skill;
+    var url = skill.sourceUrl || skill.repoUrl || '';
+    if (url) {
+      wx.navigateTo({ url: '/pages/original-detail/original-detail?id=' + skill.id });
+    } else {
+      wx.showToast({ title: '此技能为灵感参考，暂无外部链接', icon: 'none' });
+    }
+  },
+
+  onCopyInstall: function() {
+    var skill = this.data.skill;
+    if (skill.installCmd) wx.setClipboardData({ data: skill.installCmd, success: function() { wx.showToast({ title: '安装命令已复制', icon: 'success' }); } });
+  },
+
+  loadSkillContent: function(skillId) {
+    var self = this;
+    wx.cloud.callFunction({
+      name: 'skills',
+      data: { action: 'getSkillContent', data: { skillId: skillId } },
+      success: function(res) {
+        if (res && res.result && res.result.content && res.result.content.content) {
+          self.setData({ skillContent: res.result.content.content });
+        }
+      },
+    });
+  },
+
+  onCopySkillMd: function() {
+    var content = this.data.skillContent;
+    if (content) {
+      wx.setClipboardData({ data: content, success: function() { wx.showToast({ title: 'SKILL.md 已复制', icon: 'success' }); } });
+    }
   },
 });

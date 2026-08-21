@@ -40,9 +40,30 @@ function normalizeReviews(s) {
   return s;
 }
 
+// display 字段映射：nameZh/descZh 优先，保留 name/previewDesc 供搜索
+var deckMap = require('./preview-decks.js');
+var HTTPS_PREFIX = 'https://6169-aippt-skill-d6g5hsem096551cc3-1320018322.tcb.qcloud.la/preview-decks/';
+
+function buildPreviewDeck(s) {
+  if (s.previewDeck && s.previewDeck.length > 0) return s;
+  if (s.deckId && deckMap[s.deckId]) {
+    s.previewDeck = deckMap[s.deckId].map(function(f) {
+      return HTTPS_PREFIX + s.deckId + '/' + f;
+    });
+  }
+  return s;
+}
+
+function mapDisplayFields(s) {
+  s.displayName = s.nameZh || s.name;
+  s.displayDesc = s.descZh || s.previewDesc || '';
+  s.originalName = s.name;
+  return s;
+}
+
 // 合并：本地 8 个精品在前 + 300 个真实数据在后，统一做字段归一
 var allSkills = localSkills.skills.concat(cloudSkills).map(function(s) {
-  return normalizeGradient(deriveSuitableFor(normalizeReviews(Object.assign({}, s))));
+  return buildPreviewDeck(mapDisplayFields(normalizeGradient(deriveSuitableFor(normalizeReviews(Object.assign({}, s))))));
 });
 
 // 过滤：只显示 published 的 skill
@@ -102,7 +123,10 @@ function search(query) {
   var q = query.toLowerCase();
   return skills.filter(function(s) {
     return (s.name && s.name.toLowerCase().indexOf(q) >= 0) ||
+           (s.nameZh && s.nameZh.indexOf(query) >= 0) ||
            (s.previewDesc && s.previewDesc.toLowerCase().indexOf(q) >= 0) ||
+           (s.descZh && s.descZh.indexOf(query) >= 0) ||
+           (s.editorReview && s.editorReview.indexOf(query) >= 0) ||
            (s.scene && s.scene.indexOf(query) >= 0) ||
            (s.style && s.style.indexOf(query) >= 0) ||
            (s.recommendedAgent && s.recommendedAgent.toLowerCase().indexOf(q) >= 0);

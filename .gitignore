@@ -9,3 +9,9 @@ tests/screenshot*.png
 cloudbaserc.json
 node_modules/
 oss/preview-images/*.png
+# v1.5.3 整理：大文件/中间产物不入库
+raw-materials/ppt-master-svg/
+raw-materials/ppt-master-png/
+raw-materials/skill-contents-for-upload.json
+.opencode/
+tests/screenshots/

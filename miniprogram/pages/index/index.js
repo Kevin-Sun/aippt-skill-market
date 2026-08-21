@@ -90,24 +90,42 @@ Page({
   onLoginTap: function() { wx.navigateTo({ url: '/pages/login/login' }); },
   onSearchInput: function(e) { this.setData({ searchValue: e.detail.value }); },
 
+  onSearchClear: function() { this.setData({ searchValue: '', showSearchResults: false }); this.loadSkills(true); },
+
+  onQuickSearch: function(e) {
+    var q = e.currentTarget.dataset.q;
+    this.setData({ searchValue: q });
+    this.onSearchSubmit();
+  },
+
   onSearchSubmit: function() {
-    var q = this.data.searchValue;
+    var q = (this.data.searchValue || '').trim();
     if (!q) { this.setData({ showSearchResults: false }); this.loadSkills(true); return; }
+    wx.showLoading({ title: '搜索中...', mask: true });
+    var self = this;
     var all = skillsService.getByScene(this.data.currentScene);
     var filtered = all.filter(function(s) {
-      return (s.name && s.name.toLowerCase().indexOf(q.toLowerCase()) >= 0) ||
-             (s.previewDesc && s.previewDesc.toLowerCase().indexOf(q.toLowerCase()) >= 0) ||
+      var ql = q.toLowerCase();
+      return (s.name && s.name.toLowerCase().indexOf(ql) >= 0) ||
+             (s.nameZh && s.nameZh.indexOf(q) >= 0) ||
+             (s.previewDesc && s.previewDesc.toLowerCase().indexOf(ql) >= 0) ||
+             (s.descZh && s.descZh.indexOf(q) >= 0) ||
+             (s.editorReview && s.editorReview.indexOf(q) >= 0) ||
              (s.scene && s.scene.indexOf(q) >= 0) ||
              (s.style && s.style.indexOf(q) >= 0) ||
-             (s.recommendedAgent && s.recommendedAgent.toLowerCase().indexOf(q.toLowerCase()) >= 0);
+             (s.recommendedAgent && s.recommendedAgent.toLowerCase().indexOf(ql) >= 0);
     });
-    this.setData({
+    self.setData({
       skills: filtered.slice(0, 6),
       showSearchResults: true,
       searchResultsCount: filtered.length,
       hasMore: false,
       showViewMore: false,
     });
+    wx.hideLoading();
+    if (filtered.length === 0) {
+      wx.showToast({ title: '未找到"' + q + '"相关 skill', icon: 'none', duration: 2000 });
+    }
   },
 
   onSaleTap: function() { wx.navigateTo({ url: '/pages/promotion-detail/promotion-detail?id=sale' }); },
@@ -117,5 +135,13 @@ Page({
     if (scene !== '全部') free = free.filter(function(s) { return s.scene === scene; });
     if (free.length > 0) wx.navigateTo({ url: '/pages/detail/detail?id=' + free[0].id });
     else wx.showToast({ title: '暂无免费 skill', icon: 'none' });
+  },
+
+  onShareAppMessage: function() {
+    return { title: 'AI智作PPT模版社 - 300+ AI技能模版', path: '/pages/index/index' };
+  },
+
+  onShareTimeline: function() {
+    return { title: 'AI智作PPT模版社 - 300+ AI技能模版' };
   },
 });
