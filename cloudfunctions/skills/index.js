@@ -143,6 +143,7 @@ async function importOriginalDetails(data, context) {
 
 const httpx = require('got')
 const PPT_BACKEND = 'http://106.55.42.77'
+const PPT_API_KEY = 'aippt-v16-secret-2026'
 
 /**
  * 生成 PPT（调用独立后端 GLM-5.2 + python-pptx）
@@ -162,6 +163,7 @@ async function generatePPT(data, context) {
   try {
     const resp = await httpx.post(PPT_BACKEND + '/api/generate', {
       json: { skillId: skillId || 'test', userMessage, style: style || '商务简约', pages: pages || 5, openid },
+      headers: { 'x-api-key': PPT_API_KEY },
       timeout: { request: 120000 },
     })
     
@@ -169,19 +171,21 @@ async function generatePPT(data, context) {
     const text = resp.body
     const doneMatch = text.match(/"event":\s*"done"[\s\S]*?"pptxUrl":\s*"([^"]+)"/)
     if (doneMatch) {
-      // 上传到 CloudBase storage
-      const pptxUrl = doneMatch[1]
-      const sessionId = doneMatch[0].match(/"sessionId":\s*"([^"]+)"/)
-      
-      // 下载 .pptx
-      const pptxResp = await httpx(PPT_BACKEND + pptxUrl.replace(PPT_BACKEND, ''), { timeout: 30000 })
+      // 下载 .pptx（后端返回的 URL 带 :8000 端口，替换为 80 端口走 nginx）
+      const pptxUrl = doneMatch[1].replace(':8000', '')
+      const sessionIdMatch = text.match(/"sessionId":\s*"([^"]+)"/)
+      const sessionId = sessionIdMatch ? sessionIdMatch[1] : ''
+
+      // 从 URL 提取路径部分（/download/xxx），用 80 端口下载
+      const pathPart = pptxUrl.replace(/^https?:\/\/[^/]+/, '')
+      const pptxResp = await httpx(PPT_BACKEND + pathPart, { timeout: 60000, responseType: 'buffer', headers: { 'x-api-key': PPT_API_KEY } })
       const cloudPath = 'output/' + openid + '/' + Date.now() + '.pptx'
       const uploadResult = await cloud.uploadFile({ cloudPath, fileContent: pptxResp.body })
-      
+
       // 记录使用次数
       await db.collection('usage_records').add({ data: { openid, skillId, createdAt: new Date().toISOString() } })
-      
-      return { errno: 0, pptxUrl: uploadResult.fileID, fileID: uploadResult.fileID }
+
+      return { errno: 0, fileID: uploadResult.fileID, sessionId: sessionId }
     }
     return { errno: 500, errMsg: 'backend did not return done event', raw: text.slice(0, 500) }
   } catch (e) {
@@ -201,6 +205,7 @@ async function refinePPT(data, context) {
   try {
     const resp = await httpx.post(PPT_BACKEND + '/api/refine', {
       json: { sessionId, instruction },
+      headers: { 'x-api-key': PPT_API_KEY },
       timeout: { request: 60000 },
     })
     const text = resp.body

@@ -8,6 +8,7 @@
   <view class="hero-section">
     <text class="hero-title">PPT Skill 市场</text>
     <text class="hero-subtitle">1200+ skill · 给 AI agent 喂 skill</text>
+    <view class="ai-generate-btn" bindtap="onAIGenerateTap">✨ AI 生成 PPT</view>
   </view>
   <view class="search-bar">
     <input class="search-input" placeholder="{{searchHint}}" bindinput="onSearchInput" value="{{searchValue}}" bindconfirm="onSearchSubmit" />

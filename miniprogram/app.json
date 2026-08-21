@@ -4,6 +4,7 @@
     "pages/detail/detail",
     "pages/preview/preview",
     "pages/original-detail/original-detail",
+    "pages/chat/chat",
     "pages/promotion/promotion",
     "pages/promotion-detail/promotion-detail",
     "pages/member/member",

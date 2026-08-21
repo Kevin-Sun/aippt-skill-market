@@ -19,10 +19,41 @@ Page({
     loginCode: '',
     loginCodeAt: 0,
     retryCount: 0,
+    isMember: false,
+    usageUsed: 0,
+    usageLimit: 0,
   },
 
   onLoad: function() {
     this.prepareLoginCode();
+    this.loadSubscription();
+    this.loadUsage();
+  },
+
+  loadSubscription: function() {
+    var self = this;
+    wx.cloud.callFunction({
+      name: 'skills',
+      data: { action: 'getSubscription' },
+      success: function(res) {
+        if (res && res.result && res.result.subscription) {
+          self.setData({ isMember: true });
+        }
+      },
+    });
+  },
+
+  loadUsage: function() {
+    var self = this;
+    wx.cloud.callFunction({
+      name: 'skills',
+      data: { action: 'getUsage' },
+      success: function(res) {
+        if (res && res.result && res.result.errno === 0) {
+          self.setData({ usageUsed: res.result.used, usageLimit: res.result.limit });
+        }
+      },
+    });
   },
 
   prepareLoginCode: function() {

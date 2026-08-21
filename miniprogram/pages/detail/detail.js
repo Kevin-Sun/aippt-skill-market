@@ -19,6 +19,22 @@ Page({
     previewLoaded: false,
     previewImgLoadCount: 0,
     previewImgErrorCount: 0,
+    isMember: false,
+  },
+
+  checkMembership: function(skillId) {
+    var self = this;
+    wx.cloud.callFunction({
+      name: 'skills',
+      data: { action: 'getSubscription' },
+      success: function(res) {
+        if (res && res.result && res.result.subscription) {
+          self.setData({ isMember: true });
+          // 会员直接标记已解锁
+          self.setData({ purchased: true, purchasedAt: '会员权益' });
+        }
+      },
+    });
   },
 
   onLoad: function(options) {
@@ -33,6 +49,7 @@ Page({
     this.checkPurchased(skillId);
     this.checkFavorite(skillId);
     this.prepareLoginCode();
+    this.checkMembership(skillId);
     if (skill && skill.tier === 'paid') {
       this.loadSkillContent(skillId);
     }
@@ -385,7 +402,7 @@ Page({
   },
 
   onTryUseTap: function() {
-    wx.navigateTo({ url: '/pages/preview/preview?id=' + this.data.skill.id });
+    wx.navigateTo({ url: '/pages/chat/chat?id=' + this.data.skill.id });
   },
 
   onCopyCodex: function() {
