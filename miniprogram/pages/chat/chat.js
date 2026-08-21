@@ -93,9 +93,16 @@ Page({
               ]),
             });
           } else if (result.content) {
+            // 解析 GLM 返回的 JSON（可能带 ```json 包裹）
+            var content = result.content.replace(/```json\n?/g, '').replace(/```/g, '').trim();
+            var display = content;
+            try {
+              var parsed = JSON.parse(content);
+              display = parsed.title + '\n' + (parsed.points || []).join('\n');
+            } catch (e) {}
             self.setData({
               messages: self.data.messages.concat([
-                { role: 'assistant', text: '修改完成：' + result.content.slice(0, 200) },
+                { role: 'assistant', text: '修改完成：\n' + display },
               ]),
             });
           }

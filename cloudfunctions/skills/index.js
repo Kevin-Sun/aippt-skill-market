@@ -197,7 +197,7 @@ async function generatePPT(data, context) {
  * 局部修改 PPT（对话式 agent）
  */
 async function refinePPT(data, context) {
-  const openid = context.OPENID || ''
+  const openid = context.OPENID || (data && data.openid) || ''
   if (!openid) return { errno: 401, errMsg: 'no openid' }
   const { sessionId, instruction } = data || {}
   if (!sessionId || !instruction) return { errno: 400, errMsg: 'missing sessionId or instruction' }
@@ -209,9 +209,12 @@ async function refinePPT(data, context) {
       timeout: { request: 60000 },
     })
     const text = resp.body
-    const doneMatch = text.match(/"event":\s*"done"[\s\S]*?"content":\s*"([^"]*)"/)
+    const doneMatch = text.match(/"event":\s*"done"[\s\S]*?"content":\s*"((?:[^"\\]|\\.)*)"/)
     if (doneMatch) {
-      return { errno: 0, content: doneMatch[1] }
+      // SSE JSON 字符串还原：外层已去引号，再反转义一次得到 GLM 原文
+      let content = doneMatch[1]
+      try { content = JSON.parse('"' + content + '"') } catch (e) {}
+      return { errno: 0, content: content }
     }
     return { errno: 500, errMsg: 'refine did not return done', raw: text.slice(0, 500) }
   } catch (e) {
