@@ -25,5 +25,8 @@
     "miniprogram-automator": "^0.12.1",
     "miniprogram-ci": "^2.1.31",
     "ws": "^8.21.2"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.3"
   }
 }
