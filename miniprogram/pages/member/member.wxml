@@ -10,7 +10,7 @@
   </view>
 
   <view class="tier-list">
-    <view class="tier-card {{tier.recommended ? 'recommended' : ''}}" wx:for="{{tiers}}" wx:key="id" data-id="{{item.id}}" bindtap="{{item.price > 0 ? 'onSubscribeTap' : ''}}">
+    <view class="tier-card {{tier.recommended ? 'recommended' : ''}}" wx:for="{{tiers}}" wx:key="id" data-id="{{item.id}}" bindtap="onSubscribeTap">
       <view class="tier-badge" wx:if="{{item.badge}}">{{item.badge}}</view>
       <text class="tier-name">{{item.name}}</text>
       <view class="tier-price-row">
@@ -21,8 +21,7 @@
       <view class="tier-features">
         <text class="feature-item" wx:for="{{item.features}}" wx:for-item="f" wx:key="*this">✓ {{f}}</text>
       </view>
-      <view class="tier-cta {{item.price > 0 ? '' : 'tier-cta-free'}}">{{item.price > 0 ? (isMember ? '续费' : '开通') : '当前可用'}}</view>
-    </view>
+      <view class="tier-cta {{item.price > 0 ? '' : 'tier-cta-free'}}">{{item.price > 0 ? (isMember ? '续费' : '开通') : '当前可用'}}</view>    </view>
   </view>
 
   <view class="compare-table">
