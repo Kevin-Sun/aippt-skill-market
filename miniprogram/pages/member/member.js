@@ -1,15 +1,14 @@
-// pages/member/member.js · V3 wx.login 缓存 + 错误映射
-var LOGIN_CODE_TTL_MS = 4 * 60 * 1000;
+// pages/member/member.js · V5 一次性 code + 40163 静默重试 + 用户化话术
+// wx.login code 是一次性的：被 createOrder 消费后（无论成败）立即作废缓存。
+// 遇 40163（code been used）自动换新 code 静默重试一次，用户无感。
 
 var tiers = [
   { id: 'free', name: '免费', price: 0, period: '', features: ['浏览 skill', '免费 skill 领取'], recommended: false, badge: '' },
-  { id: 'single', name: '单 skill', price: 2, period: '一次性', features: ['1 个 skill', '基础预览'], recommended: false, badge: '' },
-  { id: 'category', name: '一类 skill', price: 9, period: '一次性', features: ['n 个同类 skill', '预览+导出'], recommended: false, badge: '' },
-  { id: 'monthly', name: '月度会员', price: 19, period: '月', features: ['全库 skill', '预览+导出', '每月更新'], recommended: true, badge: '最热' },
-  { id: 'annual', name: '年度会员', price: 99, period: '年', features: ['全库 skill', '预览+导出', '定制调优'], recommended: false, badge: '最值' },
+  { id: 'monthly', name: '月度会员', price: 19, period: '月', features: ['全库 skill 解锁', '预览+导出', '每月更新'], recommended: true, badge: '最热' },
+  { id: 'annual', name: '年度会员', price: 99, period: '年', features: ['全库 skill 解锁', '预览+导出', '定制调优'], recommended: false, badge: '最值' },
 ];
 
-var allFeatures = ['浏览 skill', '免费 skill', '单 skill 购买', '一类 skill', '全库 skill', '预览+导出', '定制调优'];
+var allFeatures = ['浏览 skill', '免费 skill', '全库 skill 解锁', '预览+导出', '定制调优'];
 
 Page({
   data: {
@@ -20,14 +19,11 @@ Page({
     loginCodeAt: 0,
     retryCount: 0,
     isMember: false,
-    usageUsed: 0,
-    usageLimit: 0,
   },
 
   onLoad: function() {
     this.prepareLoginCode();
     this.loadSubscription();
-    this.loadUsage();
   },
 
   loadSubscription: function() {
@@ -43,42 +39,25 @@ Page({
     });
   },
 
-  loadUsage: function() {
-    var self = this;
-    wx.cloud.callFunction({
-      name: 'skills',
-      data: { action: 'getUsage' },
-      success: function(res) {
-        if (res && res.result && res.result.errno === 0) {
-          self.setData({ usageUsed: res.result.used, usageLimit: res.result.limit });
-        }
-      },
-    });
-  },
-
   prepareLoginCode: function() {
     var self = this;
     wx.login({
       success: function(res) {
         if (res && res.code) {
           self.setData({ loginCode: res.code, loginCodeAt: Date.now() });
-          console.log('[member] loginCode 预获取成功');
         }
       },
-      fail: function(err) {
-        console.warn('[member] 预 login 失败:', err);
-      }
+      fail: function() {}
     });
   },
 
-  getLoginCode: function(callback) {
+  // 获取 code：优先用未消费的缓存，否则新取。force=true 时强制新取。
+  getLoginCode: function(force, callback) {
     var now = Date.now();
-    if (this.data.loginCode && (now - this.data.loginCodeAt) < LOGIN_CODE_TTL_MS) {
-      console.log('[member] 使用缓存的 loginCode');
+    if (!force && this.data.loginCode && (now - this.data.loginCodeAt) < 4 * 60 * 1000) {
       callback(null, this.data.loginCode);
       return;
     }
-    console.log('[member] 缓存失效或不存在，重新调 wx.login');
     var self = this;
     wx.login({
       success: function(res) {
@@ -95,21 +74,9 @@ Page({
     });
   },
 
-  mapCloudError: function(errno, errMsg) {
-    if (errno === 400) return '参数错误（缺 code 或 productId）';
-    if (errno === 500) return '云函数未配置 OFFER_ID / VIRTUAL_PAYMENT_KEY';
-    if (errMsg && errMsg.indexOf('code2Session') >= 0) return '云函数未开 code2Session 权限，请联系开发者';
-    return errMsg || '未知错误';
-  },
-
-  mapPaymentError: function(errCode, errMsg) {
-    if (errCode === -1 || errCode === -2) return '已取消支付';
-    if (errCode === -15013) return '价格不匹配（goodsPrice 与后台配置不一致），请联系客服';
-    if (errCode === -15003) return '商品未在后台上架，请等待审核生效';
-    if (errCode === -15006) return '商品审核未通过';
-    if (errCode === -15012) return '签名错误，请联系开发者';
-    if (errCode === 40163) return 'wx.login code 已过期，请重新进入页面';
-    return errMsg || '未知错误';
+  // code 已被消费：立即作废，防止下次复用报 40163
+  invalidateLoginCode: function() {
+    this.setData({ loginCode: '', loginCodeAt: 0 });
   },
 
   onSubscribeTap: function(e) {
@@ -119,24 +86,26 @@ Page({
     if (!tier) return;
 
     if (tier.price === 0) {
-      wx.showToast({ title: '免费套餐无需开通', icon: 'none' });
+      wx.showToast({ title: '当前即免费方案', icon: 'none' });
       return;
     }
+    this.createOrder(tier, false);
+  },
 
+  createOrder: function(tier, isRetry) {
+    var self = this;
     var productId = this.getProductIdForTier(tier);
     var goodsPrice = Math.round(Number(tier.price) * 100);
-    var self = this;
     this.setData({ paying: true });
     wx.showLoading({ title: '正在下单...' });
 
-    this.getLoginCode(function(loginErr, code) {
+    this.getLoginCode(isRetry, function(loginErr, code) {
       if (loginErr || !code) {
         wx.hideLoading();
         self.setData({ paying: false });
-        console.error('[member] getLoginCode 失败:', loginErr);
         wx.showModal({
-          title: '登录失败',
-          content: '微信登录 code 获取失败，可能是频率限制（5 分钟内有效 1 次），请稍后重试。\n错误：' + (loginErr && loginErr.message ? loginErr.message : '未知'),
+          title: '网络开小差了',
+          content: '登录状态获取失败，请稍后重试',
           showCancel: false,
         });
         return;
@@ -149,123 +118,122 @@ Page({
             code: code,
             productId: productId,
             goodsPrice: goodsPrice,
-            attach: 'member_' + id,
+            attach: 'member_' + tier.id,
           }
         },
         success: function(res) {
+          // code 已被云函数消费，立即作废缓存
+          self.invalidateLoginCode();
           wx.hideLoading();
           var result = res && res.result;
           if (result && result.errno === 0) {
-            if (!wx.canIUse("requestVirtualPayment")) {
-              wx.showModal({
-                title: "提示",
-                content: "当前微信版本不支持虚拟支付，请用真机扫码测试",
-                showCancel: false,
-              });
-              self.setData({ paying: false });
-              return;
-            }
-            wx.requestVirtualPayment({
-              mode: 'short_series_goods',
-              offerId: result.offerId,
-              buyQuantity: 1,
-              env: 0,
-              currencyType: 'CNY',
-              productId: result.productId,
-              goodsPrice: result.goodsPrice,
-              outTradeNo: result.outTradeNo,
-              signData: result.signData,
-              paySig: result.paySig,
-              signature: result.signature,
-              success: function() {
-                var order = {
-                  id: 'member_' + id + '_' + Date.now(),
-                  type: 'member',
-                  tierId: id,
-                  tierName: tier.name,
-                  amount: goodsPrice,
-                  status: '已完成',
-                  createdAt: new Date().toISOString(),
-                };
-                try {
-                  var records = wx.getStorageSync('orderRecords') || [];
-                  records.unshift(order);
-                  wx.setStorageSync('orderRecords', records);
-                } catch (e) {}
-
-                wx.setStorageSync('isMember', true);
-                wx.setStorageSync('memberLevel', tier.id === 'annual' ? 3 : (tier.id === 'monthly' ? 2 : 1));
-
-                // 写云端订阅记录
-                wx.cloud.callFunction({
-                  name: 'skills',
-                  data: { action: 'saveSubscription', data: { plan: id, productId: productId, outTradeNo: result.outTradeNo } },
-                  success: function() { console.log('[member] subscription saved to cloud'); },
-                  fail: function() { console.warn('[member] saveSubscription failed, localStorage fallback already saved'); },
-                });
-
-                self.setData({ paying: false });
-                wx.showToast({ title: '开通成功', icon: 'success' });
-                setTimeout(function() { wx.navigateBack(); }, 1500);
-              },
-              fail: function(res) {
-                self.setData({ paying: false });
-                var errCode = res && res.errCode;
-                var errMsg = (res && res.errMsg) ? res.errMsg : '';
-                console.log('[member] requestVirtualPayment fail:', errCode, errMsg);
-                if (errCode === -1 || errCode === -2 || (errMsg && errMsg.indexOf('cancel') >= 0)) {
-                  return;
-                }
-                var userMsg = self.mapPaymentError(errCode, errMsg);
-                wx.showModal({
-                  title: '支付失败 (' + (errCode || '?') + ')',
-                  content: userMsg,
-                  showCancel: false,
-                });
-              }
-            });
+            self.callVirtualPayment(result, tier, goodsPrice);
           } else {
             self.setData({ paying: false });
-            var errno = result ? result.errno : '?';
-            var errMsg = result && result.errMsg ? result.errMsg : '请稍后重试';
-            var userMsg = self.mapCloudError(errno, errMsg);
+            var errMsg = (result && result.errMsg) || '';
+            // 40163：code 被复用 → 换新 code 静默重试一次
+            if (!isRetry && errMsg.indexOf('40163') >= 0) {
+              console.log('[member] 40163 detected, silent retry with fresh code');
+              self.createOrder(tier, true);
+              return;
+            }
             wx.showModal({
-              title: '下单失败 (errno=' + errno + ')',
-              content: userMsg + '\n\n原始：' + errMsg,
+              title: '下单失败',
+              content: '支付服务暂时不可用，请稍后重试',
               showCancel: false,
             });
           }
         },
-        fail: function(err) {
+        fail: function() {
+          self.invalidateLoginCode();
           wx.hideLoading();
           self.setData({ paying: false });
-          console.error('[member] callFunction fail:', err);
+          if (!isRetry) {
+            self.createOrder(tier, true);
+            return;
+          }
           wx.showModal({
-            title: '云函数调用失败',
-            content: 'errCode=' + (err && err.errCode) + '\nerrMsg=' + (err && err.errMsg ? err.errMsg : JSON.stringify(err)),
-            confirmText: '重试',
-            cancelText: '取消',
-            success: function(modalRes) {
-              if (modalRes.confirm) {
-                self.setData({ retryCount: (self.data.retryCount || 0) + 1, loginCode: '', loginCodeAt: 0 });
-                if (self.data.retryCount <= 3) {
-                  self.onSubscribeTap(e);
-                } else {
-                  wx.showToast({ title: '重试次数过多，请稍后再试', icon: 'none' });
-                }
-              }
-            }
+            title: '网络开小差了',
+            content: '连接支付服务失败，请稍后重试',
+            showCancel: false,
           });
         }
       });
     });
   },
 
+  callVirtualPayment: function(orderData, tier, goodsPrice) {
+    var self = this;
+    if (!wx.canIUse("requestVirtualPayment")) {
+      this.setData({ paying: false });
+      wx.showModal({
+        title: '提示',
+        content: '当前微信版本暂不支持支付，请升级微信后重试',
+        showCancel: false,
+      });
+      return;
+    }
+    wx.requestVirtualPayment({
+      mode: 'short_series_goods',
+      offerId: orderData.offerId,
+      buyQuantity: 1,
+      env: 0,
+      currencyType: 'CNY',
+      productId: orderData.productId,
+      goodsPrice: orderData.goodsPrice,
+      outTradeNo: orderData.outTradeNo,
+      signData: orderData.signData,
+      paySig: orderData.paySig,
+      signature: orderData.signature,
+      success: function() {
+        var order = {
+          id: 'member_' + tier.id + '_' + Date.now(),
+          type: 'member',
+          tierId: tier.id,
+          tierName: tier.name,
+          amount: goodsPrice,
+          status: '已完成',
+          createdAt: new Date().toISOString(),
+        };
+        try {
+          var records = wx.getStorageSync('orderRecords') || [];
+          records.unshift(order);
+          wx.setStorageSync('orderRecords', records);
+        } catch (e) {}
+
+        wx.setStorageSync('isMember', true);
+        wx.setStorageSync('memberLevel', tier.id === 'annual' ? 3 : 2);
+
+        wx.cloud.callFunction({
+          name: 'skills',
+          data: { action: 'saveSubscription', data: { plan: tier.id, productId: orderData.productId, outTradeNo: orderData.outTradeNo } },
+          success: function() {},
+          fail: function() {},
+        });
+
+        self.setData({ paying: false, isMember: true });
+        wx.showToast({ title: '开通成功', icon: 'success' });
+      },
+      fail: function(res) {
+        self.setData({ paying: false });
+        var errCode = res && res.errCode;
+        var errMsg = (res && res.errMsg) ? res.errMsg : '';
+        if (errCode === -1 || errCode === -2 || (errMsg && errMsg.indexOf('cancel') >= 0)) {
+          return;
+        }
+        console.log('[member] requestVirtualPayment fail:', errCode, errMsg);
+        wx.showModal({
+          title: '支付未完成',
+          content: '支付暂时不可用，请稍后重试。如已扣款请联系客服处理',
+          showCancel: false,
+        });
+      }
+    });
+  },
+
   getProductIdForTier: function(tier) {
-    if (tier.id === 'single') return 'skill_lite';
-    if (tier.id === 'category') return 'skill_basic';
     if (tier.id === 'monthly') return 'member_monthly';
     if (tier.id === 'annual') return 'member_annual';
-    return 'skill_lite';
+    return 'member_monthly';
   },
 });

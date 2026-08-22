@@ -25,10 +25,10 @@ console.log('PAY-01~08: 支付防御逻辑');
 const detailJs = readFile(path.join(ROOT, 'pages/detail/detail.js'));
 const memberJs = readFile(path.join(ROOT, 'pages/member/member.js'));
 
-// PAY-01: detail.js 含 wx.login code 空值防御 + 弹"登录失败"
+// PAY-01: detail.js 含 wx.login code 空值防御 + 用户化弹窗（v1.5.4 起不再暴露调试信息）
 assert(
-  detailJs.indexOf("if (loginErr || !code)") >= 0 && detailJs.indexOf('登录失败') >= 0,
-  'PAY-01 detail.js wx.login code 空值防御 + 登录失败弹窗'
+  detailJs.indexOf("if (loginErr || !code)") >= 0 && detailJs.indexOf('登录状态获取失败') >= 0,
+  'PAY-01 detail.js wx.login code 空值防御 + 用户化弹窗'
 );
 
 // PAY-02: detail.js 含 LOGIN_CODE_TTL_MS 缓存常量
@@ -37,28 +37,28 @@ assert(
   'PAY-02 detail.js LOGIN_CODE_TTL_MS 缓存常量（4分钟）'
 );
 
-// PAY-03: detail.js 含 mapCloudError + errno=400 映射
+// PAY-03: v1.5.4 下单失败弹窗不含 errno 调试信息（用户话术）
 assert(
-  detailJs.indexOf('mapCloudError') >= 0 && detailJs.indexOf('errno === 400') >= 0,
-  'PAY-03 detail.js mapCloudError + errno=400 映射'
+  detailJs.indexOf('下单失败') >= 0 && detailJs.indexOf('errno=') < 0 && detailJs.indexOf('原始：') < 0,
+  'PAY-03 detail.js 下单失败弹窗用户化（无 errno/原始错误串）'
 );
 
-// PAY-04: detail.js mapCloudError errno=500 映射
+// PAY-04: v1.5.4 code 一次性消费：下单后立即作废缓存
 assert(
-  detailJs.indexOf('errno === 500') >= 0,
-  'PAY-04 detail.js mapCloudError errno=500 映射'
+  detailJs.indexOf('invalidateLoginCode') >= 0 && memberJs.indexOf('invalidateLoginCode') >= 0,
+  'PAY-04 detail/member.js 均有 invalidateLoginCode（code 消费即作废）'
 );
 
-// PAY-05: detail.js mapPaymentError -15013 (goodsPrice mismatch) 映射
+// PAY-05: v1.5.4 40163 静默重试（换新 code 自动重试一次）
 assert(
-  detailJs.indexOf('-15013') >= 0 && detailJs.indexOf('价格不匹配') >= 0,
-  'PAY-05 detail.js mapPaymentError -15013 价格不匹配映射'
+  detailJs.indexOf('40163') >= 0 && memberJs.indexOf('40163') >= 0,
+  'PAY-05 detail/member.js 40163 检测 + 静默重试'
 );
 
-// PAY-06: detail.js mapPaymentError -15003 (productId not found) 映射
+// PAY-06: v1.5.4 支付失败弹窗用户化（无 errCode 标题、无调试映射）
 assert(
-  detailJs.indexOf('-15003') >= 0 && detailJs.indexOf('商品未在后台上架') >= 0,
-  'PAY-06 detail.js mapPaymentError -15003 商品未上架映射'
+  detailJs.indexOf('支付未完成') >= 0 && detailJs.indexOf('mapPaymentError') < 0 && detailJs.indexOf('mapCloudError') < 0,
+  'PAY-06 detail.js 支付失败弹窗用户化（移除 mapPaymentError/mapCloudError 调试映射）'
 );
 
 // PAY-07: detail.js callVirtualPayment fail 分支调 wx.showModal（不写 orderRecords）
@@ -232,10 +232,10 @@ assert(
   'E2E-03 detail.js getProductIdForSkill 价格→productId 映射正确'
 );
 
-// E2E-04: detail.js requestPayment retry 清 loginCode 缓存（避免使用过期 code）
+// E2E-04: v1.5.4 code 一次性消费：callFunction 回调即作废缓存 + 40163 换新 code 重试（requestPayment(true) 走 force 取新）
 assert(
-  detailJs.indexOf("self.setData({ loginCode: '', loginCodeAt: 0 });") >= 0,
-  'E2E-04 detail.js retry 时清 loginCode 缓存（避免使用过期 code）'
+  detailJs.indexOf("self.invalidateLoginCode();") >= 0 && detailJs.indexOf('requestPayment(true)') >= 0,
+  'E2E-04 detail.js code 消费即作废 + 40163 用 force=true 取新 code 重试'
 );
 
 results.forEach(r => console.log(r));

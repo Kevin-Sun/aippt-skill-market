@@ -137,10 +137,6 @@ Page({
     else wx.showToast({ title: '暂无免费 skill', icon: 'none' });
   },
 
-  onAIGenerateTap: function() {
-    wx.navigateTo({ url: '/pages/chat/chat' });
-  },
-
   onShareAppMessage: function() {
     return { title: 'AI智作PPT模版社 - 300+ AI技能模版', path: '/pages/index/index' };
   },

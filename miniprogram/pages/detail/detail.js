@@ -82,14 +82,12 @@ Page({
     });
   },
 
-  getLoginCode: function(callback) {
+  getLoginCode: function(force, callback) {
     var now = Date.now();
-    if (this.data.loginCode && (now - this.data.loginCodeAt) < LOGIN_CODE_TTL_MS) {
-      console.log('[detail] 使用缓存的 loginCode');
+    if (!force && this.data.loginCode && (now - this.data.loginCodeAt) < LOGIN_CODE_TTL_MS) {
       callback(null, this.data.loginCode);
       return;
     }
-    console.log('[detail] 缓存失效或不存在，重新调 wx.login');
     var self = this;
     wx.login({
       success: function(res) {
@@ -104,6 +102,11 @@ Page({
         callback(err, null);
       }
     });
+  },
+
+  // code 已被云函数消费，立即作废，防止复用报 40163
+  invalidateLoginCode: function() {
+    this.setData({ loginCode: '', loginCodeAt: 0 });
   },
 
   checkLogin: function() {
@@ -183,7 +186,7 @@ Page({
     }
   },
 
-  requestPayment: function() {
+  requestPayment: function(isRetry) {
     var self = this;
     var skill = this.data.skill;
     if (!skill) {
@@ -195,18 +198,16 @@ Page({
 
     wx.showLoading({ title: '正在下单...' });
 
-    this.getLoginCode(function(loginErr, code) {
+    this.getLoginCode(!!isRetry, function(loginErr, code) {
       if (loginErr || !code) {
         wx.hideLoading();
-        console.error('[detail] getLoginCode 失败:', loginErr);
         wx.showModal({
-          title: '登录失败',
-          content: '微信登录 code 获取失败，可能是频率限制（5 分钟内有效 1 次），请稍后重试。\n错误：' + (loginErr && loginErr.message ? loginErr.message : '未知'),
+          title: '网络开小差了',
+          content: '登录状态获取失败，请稍后重试',
           showCancel: false,
         });
         return;
       }
-      console.log('[detail] about to callFunction, code=' + code.slice(0, 8) + ', productId=' + productId + ', goodsPrice=' + goodsPrice);
       wx.cloud.callFunction({
         name: 'payment',
         data: {
@@ -219,55 +220,41 @@ Page({
           }
         },
         success: function(res) {
+          // code 已被云函数消费，立即作废缓存
+          self.invalidateLoginCode();
           wx.hideLoading();
           var result = res && res.result;
-          console.log('[detail] callFunction success, errno=' + (result && result.errno) + ', has signData=' + !!(result && result.signData));
           if (result && result.errno === 0) {
             self.callVirtualPayment(result, goodsPrice);
           } else {
-            var errno = result ? result.errno : '?';
-            var errMsg = result && result.errMsg ? result.errMsg : '未知错误';
-            var userMsg = self.mapCloudError(errno, errMsg);
+            var errMsg = (result && result.errMsg) || '';
+            // 40163：code 被复用 → 换新 code 静默重试一次
+            if (!isRetry && errMsg.indexOf('40163') >= 0) {
+              self.requestPayment(true);
+              return;
+            }
             wx.showModal({
-              title: '下单失败 (errno=' + errno + ')',
-              content: userMsg + '\n\n原始：' + errMsg,
+              title: '下单失败',
+              content: '支付服务暂时不可用，请稍后重试',
               showCancel: false,
             });
           }
         },
-        fail: function(err) {
+        fail: function() {
+          self.invalidateLoginCode();
           wx.hideLoading();
-          console.error('[detail] callFunction fail:', err && JSON.stringify(err));
+          if (!isRetry) {
+            self.requestPayment(true);
+            return;
+          }
           wx.showModal({
-            title: '云函数调用失败',
-            content: 'errCode=' + (err && err.errCode) + '\nerrMsg=' + (err && err.errMsg ? err.errMsg : JSON.stringify(err)),
-            confirmText: '重试',
-            cancelText: '取消',
-            success: function(modalRes) {
-              if (modalRes.confirm) {
-                self.setData({ retryCount: (self.data.retryCount || 0) + 1 });
-                if (self.data.retryCount <= 3) {
-                  self.setData({ loginCode: '', loginCodeAt: 0 });  // 清缓存重新 login
-                  self.requestPayment();
-                } else {
-                  wx.showToast({ title: '重试次数过多，请稍后再试', icon: 'none' });
-                }
-              } else {
-                wx.showToast({ title: '已取消', icon: 'none' });
-              }
-            }
+            title: '网络开小差了',
+            content: '连接支付服务失败，请稍后重试',
+            showCancel: false,
           });
         }
       });
     });
-  },
-
-  mapCloudError: function(errno, errMsg) {
-    if (errno === 400) return '参数错误（缺 code 或 productId）';
-    if (errno === 500) return '云函数未配置 OFFER_ID / VIRTUAL_PAYMENT_KEY';
-    if (errMsg && errMsg.indexOf('code2Session') >= 0) return '云函数未开 code2Session 权限，请联系开发者';
-    if (errMsg && errMsg.indexOf('appid') >= 0) return 'AppID 配置错误';
-    return errMsg || '未知错误';
   },
 
   getProductIdForSkill: function(skill) {
@@ -279,13 +266,11 @@ Page({
 
   callVirtualPayment: function(orderData, goodsPrice) {
     var self = this;
-    console.log('[detail] callVirtualPayment, offerId=' + orderData.offerId + ', productId=' + orderData.productId + ', goodsPrice=' + orderData.goodsPrice + ', outTradeNo=' + orderData.outTradeNo + ', signDataLen=' + (orderData.signData ? orderData.signData.length : 0) + ', paySigLen=' + (orderData.paySig ? orderData.paySig.length : 0) + ', signatureLen=' + (orderData.signature ? orderData.signature.length : 0));
     var canUseVP = wx.canIUse("requestVirtualPayment");
-    console.log('[detail] wx.canIUse requestVirtualPayment =', canUseVP);
     if (!canUseVP) {
       wx.showModal({
         title: "提示",
-        content: "当前微信版本不支持虚拟支付，请用真机扫码测试或升级微信",
+        content: "当前微信版本暂不支持支付，请升级微信后重试",
         showCancel: false,
       });
       return;
@@ -303,34 +288,21 @@ Page({
       paySig: orderData.paySig,
       signature: orderData.signature,
       success: function(res) {
-        console.log('[detail] requestVirtualPayment SUCCESS:', JSON.stringify(res));
         self.unlockSkill();
       },
       fail: function(res) {
         var errCode = res && res.errCode;
         var errMsg = (res && res.errMsg) ? res.errMsg : '';
-        console.log('[detail] requestVirtualPayment fail:', errCode, errMsg);
         if (errCode === -1 || errCode === -2 || (errMsg && errMsg.indexOf('cancel') >= 0)) {
           return;
         }
-        var userMsg = self.mapPaymentError(errCode, errMsg);
         wx.showModal({
-          title: '支付失败 (' + (errCode || '?') + ')',
-          content: userMsg,
+          title: '支付未完成',
+          content: '支付暂时不可用，请稍后重试。如已扣款请联系客服处理',
           showCancel: false,
         });
       }
     });
-  },
-
-  mapPaymentError: function(errCode, errMsg) {
-    if (errCode === -1 || errCode === -2) return '已取消支付';
-    if (errCode === -15013) return '价格不匹配（goodsPrice 与后台配置不一致），请联系客服';
-    if (errCode === -15003) return '商品未在后台上架，请等待审核生效';
-    if (errCode === -15006) return '商品审核未通过';
-    if (errCode === -15012) return '签名错误，请联系开发者';
-    if (errCode === 40163) return 'wx.login code 已过期，请重新进入页面';
-    return errMsg || '未知错误';
   },
 
   unlockSkill: function() {
@@ -402,7 +374,7 @@ Page({
   },
 
   onTryUseTap: function() {
-    wx.navigateTo({ url: '/pages/chat/chat?id=' + this.data.skill.id });
+    wx.navigateTo({ url: '/pages/preview/preview?id=' + this.data.skill.id });
   },
 
   onCopyCodex: function() {

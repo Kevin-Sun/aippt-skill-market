@@ -15,6 +15,7 @@
 .tier-features { margin-bottom: 24rpx; }
 .feature-item { display: block; font-size: 26rpx; color: #16a34a; padding: 4rpx 0; }
 .tier-cta { text-align: center; background: #2563eb; color: #fff; padding: 20rpx 0; border-radius: 12rpx; font-size: 32rpx; font-weight: 700; }
+.tier-cta-free { background: #e5e7eb; color: #6b7280; font-weight: 500; }
 
 .compare-table { padding: 32rpx; background: #fff; margin-top: 16rpx; }
 .table-title { display: block; font-size: 34rpx; font-weight: 700; color: #1a1a2e; margin-bottom: 24rpx; }
